@@ -313,6 +313,28 @@ def main():
             last = fund_data["periods"][-1] if fund_data["periods"] else "—"
             print(f"  {fund_data['label']}: תקופה אחרונה = {last}")
 
+    # ── דחיפה ל-GitHub (מעדכן את האתר אוטומטית) ────────────────
+    git_push()
+
+
+def git_push():
+    """מבצע git add + commit + push כדי לעדכן את GitHub Pages."""
+    import subprocess
+    repo_dir = Path(__file__).parent
+    date_str = datetime.now().strftime("%d/%m/%Y %H:%M")
+
+    cmds = [
+        ["git", "-C", str(repo_dir), "add", "data/pension_data.json"],
+        ["git", "-C", str(repo_dir), "commit", "-m", f"sync: עדכון נתונים — {date_str}"],
+        ["git", "-C", str(repo_dir), "push"],
+    ]
+    for cmd in cmds:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0 and "nothing to commit" not in result.stdout + result.stderr:
+            print(f"  git: {' '.join(cmd[3:])} — {result.stderr.strip() or result.stdout.strip()}")
+        else:
+            print(f"  git: {' '.join(cmd[3:])} — OK")
+
 
 if __name__ == "__main__":
     main()
