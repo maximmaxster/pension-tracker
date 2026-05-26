@@ -3,19 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>מעקב קרנות פנסיוניות — מקסים</title>
+  <title>מעקב קרנות פנסיוניות</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header>
+    <div class="header-grid-bg"></div>
+    <div class="header-glow-orb"></div>
     <div class="header-inner">
-      <h1>מעקב קרנות פנסיוניות</h1>
+      <div class="header-brand">
+        <div class="header-icon">
+          <svg width="38" height="34" viewBox="0 0 48 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="chartGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#4f7ef8"/>
+                <stop offset="100%" stop-color="#7c5cbf"/>
+              </linearGradient>
+            </defs>
+            <!-- baseline -->
+            <line x1="2" y1="36" x2="46" y2="36" stroke="#2e3350" stroke-width="1"/>
+            <!-- bars -->
+            <rect class="bar bar-1" x="4"  y="22" width="6" height="14" rx="1.5" fill="url(#chartGrad)" opacity="0.5"/>
+            <rect class="bar bar-2" x="13" y="14" width="6" height="22" rx="1.5" fill="url(#chartGrad)" opacity="0.65"/>
+            <rect class="bar bar-3" x="22" y="18" width="6" height="18" rx="1.5" fill="url(#chartGrad)" opacity="0.65"/>
+            <rect class="bar bar-4" x="31" y="8"  width="6" height="28" rx="1.5" fill="url(#chartGrad)" opacity="0.8"/>
+            <rect class="bar bar-5" x="40" y="2"  width="6" height="34" rx="1.5" fill="url(#chartGrad)"/>
+            <!-- trend line -->
+            <polyline class="trend-line" points="7,24 16,16 25,20 34,10 43,4"
+              stroke="url(#chartGrad)" stroke-width="2" fill="none"
+              stroke-linecap="round" stroke-linejoin="round"/>
+            <circle class="trend-dot" cx="43" cy="4" r="3" fill="#7c5cbf"/>
+          </svg>
+        </div>
+        <div class="header-titles">
+          <h1>מעקב קרנות פנסיוניות</h1>
+          <div class="header-tagline">ניתוח תשואות יומי &middot; data.gov.il</div>
+        </div>
+      </div>
       <div class="meta-bar">
         <span id="fetched-at">טוען...</span>
         <span class="sep">|</span>
         <span id="last-period">—</span>
       </div>
     </div>
+    <div class="header-glow-line"></div>
   </header>
 
   <nav class="tabs">
