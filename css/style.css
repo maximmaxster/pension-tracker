@@ -1,0 +1,305 @@
+/* ── Reset & Base ─────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:          #0f1117;
+  --surface:     #1a1d27;
+  --surface2:    #22263a;
+  --border:      #2e3350;
+  --accent:      #4f7ef8;
+  --accent2:     #7c5cbf;
+  --green:       #22c55e;
+  --red:         #ef4444;
+  --yellow:      #f59e0b;
+  --text:        #e8eaf0;
+  --text-muted:  #7b82a0;
+  --user-row-bg: rgba(79,126,248,0.10);
+  --user-row-border: #4f7ef8;
+  --radius:      10px;
+  --font:        'Segoe UI', 'Arial Hebrew', Arial, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+/* ── Header ─────────────────────────────────────── */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 18px 32px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+header h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: var(--text);
+}
+.meta-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.meta-bar .sep { opacity: .4; }
+.badge-live {
+  background: var(--green);
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+  letter-spacing: .5px;
+}
+.badge-stale {
+  background: var(--yellow);
+  color: #000;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 20px;
+}
+
+/* ── Tabs ────────────────────────────────────────── */
+.tabs {
+  background: var(--surface);
+  border-bottom: 2px solid var(--accent);
+  padding: 0 32px;
+  display: flex;
+  gap: 4px;
+}
+.tab {
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 16px 32px;
+  cursor: pointer;
+  transition: color .15s, border-color .15s;
+  margin-bottom: -2px;
+}
+.tab:hover { color: var(--text); }
+.tab.active {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+/* ── Main Layout ─────────────────────────────────── */
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 28px 24px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.loading {
+  text-align: center;
+  padding: 80px;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+/* ── Fund Card ───────────────────────────────────── */
+.fund-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.fund-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface2);
+  gap: 12px;
+}
+.fund-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.fund-title h2 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.fund-sub {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+.fund-header-stats {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.fund-header-stats .stat-val {
+  font-size: 1.6rem;
+}
+.stat-box {
+  text-align: center;
+}
+.stat-box .stat-val {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.stat-box .stat-lbl {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.section-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .3px;
+  color: var(--text);
+  padding: 16px 24px 10px;
+}
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0;
+}
+
+/* ── Table ───────────────────────────────────────── */
+.table-wrap {
+  overflow-x: auto;
+  padding: 0 0 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+thead th {
+  background: var(--surface2);
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 11px;
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+thead th:first-child { text-align: right; }
+tbody tr {
+  border-bottom: 1px solid rgba(46,51,80,.5);
+  transition: background .12s;
+}
+tbody tr:hover { background: var(--surface2); }
+tbody tr:last-child { border-bottom: none; }
+tbody td {
+  padding: 9px 14px;
+  text-align: center;
+  color: var(--text);
+}
+tbody td:first-child { text-align: right; }
+
+/* user's own track */
+tr.user-track {
+  background: var(--user-row-bg);
+}
+tr.user-track td:first-child {
+  border-right: 3px solid var(--user-row-border);
+  padding-right: 11px;
+}
+tr.user-track td:first-child::after {
+  content: " ✦";
+  color: var(--accent);
+  font-size: 10px;
+}
+
+/* yield coloring */
+.pos  { color: var(--green); font-weight: 600; }
+.neg  { color: var(--red);   font-weight: 600; }
+.zero { color: var(--text-muted); }
+.na   { color: var(--text-muted); font-size: 11px; }
+
+/* ── User Track Badge (בכותרת) ───────────────────── */
+.user-track-badge {
+  display: inline-block;
+  background: rgba(79,126,248,0.15);
+  border: 1px solid rgba(79,126,248,0.4);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+/* ── Fund Code Badge ─────────────────────────────── */
+.fund-code {
+  display: inline-block;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .3px;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+/* ── Period Badge ────────────────────────────────── */
+.period-badge {
+  display: inline-block;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 2px 7px;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin: 0 4px;
+}
+
+/* ── Error ───────────────────────────────────────── */
+.error-card {
+  background: rgba(239,68,68,.1);
+  border: 1px solid rgba(239,68,68,.3);
+  border-radius: var(--radius);
+  padding: 24px;
+  color: var(--red);
+  text-align: center;
+}
+
+/* ── Responsive ──────────────────────────────────── */
+@media (max-width: 700px) {
+  header { padding: 14px 16px; }
+  main   { padding: 20px 12px 40px; }
+  .fund-header { flex-direction: column; align-items: flex-start; }
+  .fund-header-stats { flex-wrap: wrap; gap: 16px; }
+}

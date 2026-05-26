@@ -1,0 +1,22 @@
+# Local-only scripts
+start_server.bat
+setup_scheduler.ps1
+data/start_server_hidden.ps1
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+data/fetch_log.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
