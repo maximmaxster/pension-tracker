@@ -15,8 +15,8 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 # ── קוד הקופות שלך ──────────────────────────────────────────────
 USER_FUNDS = {
     "menora_pension": {
-        "fund_id": "13887",
-        "name": "מנורה מבטחים פנסיה עוקב S&P500",
+        "fund_id": "2063",
+        "name": "מנורה מבטחים פנסיה מניות",
         "type": "pension",
         "label": "פנסיה — מנורה מבטחים",
         "visible_tracks": ["13887", "2009", "2063", "2183", "13350", "14278"],
