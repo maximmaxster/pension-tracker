@@ -190,6 +190,7 @@ def build_fund_data(user_fund: dict) -> dict:
         trailing[fid] = {
             "period":          str(row["REPORT_PERIOD"]),
             "ytd_yield":       _pct(row.get("YEAR_TO_DATE_YIELD")),
+            "trailing_1yr":    _calc_trailing_months(tracks_monthly.get(fid, {}), 12),
             "trailing_3yr":    _pct(row.get("YIELD_TRAILING_3_YRS")),
             "trailing_5yr":    _pct(row.get("YIELD_TRAILING_5_YRS")),
             "trailing_10yr":   _calc_10yr(combined_monthly.get(fid, {})),
@@ -218,6 +219,23 @@ def build_fund_data(user_fund: dict) -> dict:
         "trailing":       trailing,
         "visible_tracks": visible,          # None = הצג הכל
     }
+
+
+def _calc_trailing_months(monthly_data: dict, n: int) -> float | None:
+    """מחשב תשואה מצטברת ל-n חודשים אחרונים מתוך נתוני תשואה חודשית."""
+    if not monthly_data:
+        return None
+    periods = sorted(monthly_data.keys())
+    if len(periods) < n:
+        return None
+    last_n = periods[-n:]
+    cumulative = 1.0
+    for p in last_n:
+        r = monthly_data[p].get("monthly_yield")
+        if r is None:
+            return None
+        cumulative *= (1 + r / 100)
+    return round((cumulative - 1) * 100, 2)
 
 
 def _calc_10yr(monthly_data: dict) -> float | None:

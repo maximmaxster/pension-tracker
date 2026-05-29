@@ -98,9 +98,24 @@ function buildMonthlyTable(fundData) {
   </div>`;
 }
 
+// ── Calculate trailing N months from monthly data ──────────────────
+function calcTrailingMonths(tracksMonthly, fid, n) {
+  const monthly = tracksMonthly?.[fid] || {};
+  const periods = Object.keys(monthly).sort();
+  if (periods.length < n) return null;
+  const lastN = periods.slice(-n);
+  let cumulative = 1;
+  for (const p of lastN) {
+    const r = monthly[p]?.monthly_yield;
+    if (r === null || r === undefined) return null;
+    cumulative *= (1 + r / 100);
+  }
+  return Math.round((cumulative - 1) * 100 * 100) / 100;
+}
+
 // ── Build trailing table ────────────────────────────────────────────
 function buildTrailingTable(fundData) {
-  const { tracks_meta, trailing, fund_id: userFundId } = fundData;
+  const { tracks_meta, trailing, tracks_monthly, fund_id: userFundId } = fundData;
 
   const trackIds = getVisibleTrackIds(fundData);
 
@@ -108,11 +123,13 @@ function buildTrailingTable(fundData) {
     const isUser = fid === userFundId;
     const rowCls = isUser ? "user-track" : "";
     const t = trailing[fid] || {};
+    const trailing1yr = t.trailing_1yr ?? calcTrailingMonths(tracks_monthly, fid, 12);
 
     return `<tr class="${rowCls}">
       <td style="max-width:280px;overflow:hidden;text-overflow:ellipsis">
         <span class="fund-code">${esc(fid)}</span> ${esc(tracks_meta[fid])}
       </td>
+      ${pctCell(trailing1yr)}
       ${pctCell(t.trailing_3yr)}
       ${pctCell(t.trailing_5yr)}
       ${pctCell(t.trailing_10yr)}
@@ -123,6 +140,7 @@ function buildTrailingTable(fundData) {
     <table>
       <thead><tr>
         <th>מסלול</th>
+        <th>12 חודשים</th>
         <th>3 שנים</th>
         <th>5 שנים</th>
         <th>10 שנים</th>
