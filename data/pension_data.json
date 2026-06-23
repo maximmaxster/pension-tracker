@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-22T09:25:34.065717",
-  "gemelnet_last_modified": "2026-06-22T04:00:29.751423",
-  "pensyanet_last_modified": "2026-06-22T04:00:44.100102",
+  "fetched_at": "2026-06-23T10:03:00.446973",
+  "gemelnet_last_modified": "2026-06-23T04:00:18.231332",
+  "pensyanet_last_modified": "2026-06-23T04:00:54.576778",
   "funds": {
     "menora_pension": {
       "fund_id": "2063",
@@ -4325,16 +4325,4442 @@
       ]
     },
     "analista_hashtalmoat": {
-      "error": "HTTPSConnectionPool(host='data.gov.il', port=443): Read timed out. (read timeout=30)",
-      "label": "קרן השתלמות — אנליסט"
+      "fund_id": "963",
+      "label": "קרן השתלמות — אנליסט",
+      "managing_corp": "אנליסט קופות גמל בע\"מ",
+      "fund_class": "קרנות השתלמות",
+      "periods": [
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506",
+        "202507",
+        "202508",
+        "202509",
+        "202510",
+        "202511",
+        "202512",
+        "202601",
+        "202602",
+        "202603",
+        "202604",
+        "202605"
+      ],
+      "tracks_meta": {
+        "962": "אנליסט השתלמות כללי",
+        "963": "אנליסט השתלמות מניות",
+        "972": "אנליסט השתלמות אשראי ואג\"ח",
+        "973": "אנליסט השתלמות אג\"ח ממשלות",
+        "1535": "אנליסט השתלמות כספי (שקלי)",
+        "8129": "אנליסט קרן השתלמות אג\"ח עד 10% מניות",
+        "8679": "אנליסט קרן השתלמות - אשראי ואג\"ח עד 25% מניות",
+        "8779": "אנליסט קרן השתלמות משולב סחיר",
+        "13853": "אנליסט קרן השתלמות עוקב מדד S&P500",
+        "15311": "אנליסט מסלולית - קרן השתלמות עוקב מדדים - גמיש",
+        "15312": "אנליסט מסלולית - קרן השתלמות עוקב מדדי מניות"
+      },
+      "tracks_monthly": {
+        "962": {
+          "202401": {
+            "monthly_yield": 0.33,
+            "ytd_yield": 0.33,
+            "total_assets": 7201.17,
+            "management_fee": 0.61
+          },
+          "202402": {
+            "monthly_yield": 2.11,
+            "ytd_yield": 2.45,
+            "total_assets": 7696.26,
+            "management_fee": 0.61
+          },
+          "202403": {
+            "monthly_yield": 2.19,
+            "ytd_yield": 4.69,
+            "total_assets": 8263.78,
+            "management_fee": 0.61
+          },
+          "202404": {
+            "monthly_yield": -1.78,
+            "ytd_yield": 2.83,
+            "total_assets": 8483.3,
+            "management_fee": 0.61
+          },
+          "202405": {
+            "monthly_yield": 1.14,
+            "ytd_yield": 4.0,
+            "total_assets": 8961.24,
+            "management_fee": 0.61
+          },
+          "202406": {
+            "monthly_yield": 0.98,
+            "ytd_yield": 5.02,
+            "total_assets": 9293.4,
+            "management_fee": 0.61
+          },
+          "202407": {
+            "monthly_yield": 1.51,
+            "ytd_yield": 6.6,
+            "total_assets": 9599.26,
+            "management_fee": 0.61
+          },
+          "202408": {
+            "monthly_yield": 1.22,
+            "ytd_yield": 7.9,
+            "total_assets": 9842.53,
+            "management_fee": 0.61
+          },
+          "202409": {
+            "monthly_yield": 2.02,
+            "ytd_yield": 10.08,
+            "total_assets": 10130.65,
+            "management_fee": 0.61
+          },
+          "202410": {
+            "monthly_yield": 0.52,
+            "ytd_yield": 10.66,
+            "total_assets": 10244.03,
+            "management_fee": 0.61
+          },
+          "202411": {
+            "monthly_yield": 2.57,
+            "ytd_yield": 13.5,
+            "total_assets": 10569.44,
+            "management_fee": 0.61
+          },
+          "202412": {
+            "monthly_yield": 0.9,
+            "ytd_yield": 14.52,
+            "total_assets": 10884.69,
+            "management_fee": 0.61
+          },
+          "202501": {
+            "monthly_yield": 1.92,
+            "ytd_yield": 1.92,
+            "total_assets": 11399.66,
+            "management_fee": 0.61
+          },
+          "202502": {
+            "monthly_yield": 0.22,
+            "ytd_yield": 2.14,
+            "total_assets": 11876.59,
+            "management_fee": 0.61
+          },
+          "202503": {
+            "monthly_yield": -1.27,
+            "ytd_yield": 0.85,
+            "total_assets": 12284.27,
+            "management_fee": 0.61
+          },
+          "202504": {
+            "monthly_yield": 0.75,
+            "ytd_yield": 1.6,
+            "total_assets": 12886.91,
+            "management_fee": 0.61
+          },
+          "202505": {
+            "monthly_yield": 2.1,
+            "ytd_yield": 3.74,
+            "total_assets": 13701.74,
+            "management_fee": 0.61
+          },
+          "202506": {
+            "monthly_yield": 3.45,
+            "ytd_yield": 7.32,
+            "total_assets": 14664.12,
+            "management_fee": 0.61
+          },
+          "202507": {
+            "monthly_yield": 1.09,
+            "ytd_yield": 8.49,
+            "total_assets": 15402.48,
+            "management_fee": 0.61
+          },
+          "202508": {
+            "monthly_yield": 1.24,
+            "ytd_yield": 9.83,
+            "total_assets": 16135.16,
+            "management_fee": 0.61
+          },
+          "202509": {
+            "monthly_yield": 1.85,
+            "ytd_yield": 11.86,
+            "total_assets": 17076.2,
+            "management_fee": 0.61
+          },
+          "202510": {
+            "monthly_yield": 1.19,
+            "ytd_yield": 13.19,
+            "total_assets": 17866.68,
+            "management_fee": 0.61
+          },
+          "202511": {
+            "monthly_yield": 0.92,
+            "ytd_yield": 14.24,
+            "total_assets": 18601.5,
+            "management_fee": 0.61
+          },
+          "202512": {
+            "monthly_yield": 0.76,
+            "ytd_yield": 15.1,
+            "total_assets": 19456.81,
+            "management_fee": 0.61
+          },
+          "202601": {
+            "monthly_yield": 1.73,
+            "ytd_yield": 1.73,
+            "total_assets": 20347.75,
+            "management_fee": 0.62
+          },
+          "202602": {
+            "monthly_yield": 0.19,
+            "ytd_yield": 1.92,
+            "total_assets": 20889.02,
+            "management_fee": 0.62
+          },
+          "202603": {
+            "monthly_yield": -1.62,
+            "ytd_yield": 0.27,
+            "total_assets": 20744.96,
+            "management_fee": 0.62
+          },
+          "202604": {
+            "monthly_yield": 3.92,
+            "ytd_yield": 4.2,
+            "total_assets": 21617.49,
+            "management_fee": 0.62
+          },
+          "202605": {
+            "monthly_yield": 2.75,
+            "ytd_yield": 7.07,
+            "total_assets": 22189.92,
+            "management_fee": 0.62
+          }
+        },
+        "963": {
+          "202401": {
+            "monthly_yield": 0.89,
+            "ytd_yield": 0.89,
+            "total_assets": 5753.11,
+            "management_fee": 0.63
+          },
+          "202402": {
+            "monthly_yield": 4.71,
+            "ytd_yield": 5.64,
+            "total_assets": 6335.89,
+            "management_fee": 0.63
+          },
+          "202403": {
+            "monthly_yield": 3.7,
+            "ytd_yield": 9.55,
+            "total_assets": 6957.58,
+            "management_fee": 0.63
+          },
+          "202404": {
+            "monthly_yield": -3.48,
+            "ytd_yield": 5.74,
+            "total_assets": 7021.56,
+            "management_fee": 0.63
+          },
+          "202405": {
+            "monthly_yield": 2.93,
+            "ytd_yield": 8.84,
+            "total_assets": 7573.7,
+            "management_fee": 0.63
+          },
+          "202406": {
+            "monthly_yield": 2.79,
+            "ytd_yield": 11.87,
+            "total_assets": 8031.8,
+            "management_fee": 0.63
+          },
+          "202407": {
+            "monthly_yield": 1.27,
+            "ytd_yield": 13.29,
+            "total_assets": 8340.02,
+            "management_fee": 0.63
+          },
+          "202408": {
+            "monthly_yield": 0.78,
+            "ytd_yield": 14.18,
+            "total_assets": 8549.79,
+            "management_fee": 0.63
+          },
+          "202409": {
+            "monthly_yield": 3.27,
+            "ytd_yield": 17.91,
+            "total_assets": 8982.54,
+            "management_fee": 0.63
+          },
+          "202410": {
+            "monthly_yield": 0.29,
+            "ytd_yield": 18.25,
+            "total_assets": 9169.91,
+            "management_fee": 0.63
+          },
+          "202411": {
+            "monthly_yield": 4.12,
+            "ytd_yield": 23.13,
+            "total_assets": 9729.18,
+            "management_fee": 0.63
+          },
+          "202412": {
+            "monthly_yield": 0.26,
+            "ytd_yield": 23.45,
+            "total_assets": 10093.09,
+            "management_fee": 0.63
+          },
+          "202501": {
+            "monthly_yield": 3.08,
+            "ytd_yield": 3.08,
+            "total_assets": 10765.91,
+            "management_fee": 0.63
+          },
+          "202502": {
+            "monthly_yield": -1.63,
+            "ytd_yield": 1.4,
+            "total_assets": 10943.75,
+            "management_fee": 0.63
+          },
+          "202503": {
+            "monthly_yield": -3.04,
+            "ytd_yield": -1.68,
+            "total_assets": 10985.26,
+            "management_fee": 0.63
+          },
+          "202504": {
+            "monthly_yield": -0.06,
+            "ytd_yield": -1.74,
+            "total_assets": 11313.59,
+            "management_fee": 0.63
+          },
+          "202505": {
+            "monthly_yield": 5.19,
+            "ytd_yield": 3.36,
+            "total_assets": 12195.96,
+            "management_fee": 0.63
+          },
+          "202506": {
+            "monthly_yield": 5.26,
+            "ytd_yield": 8.79,
+            "total_assets": 13086,
+            "management_fee": 0.63
+          },
+          "202507": {
+            "monthly_yield": 2.11,
+            "ytd_yield": 11.09,
+            "total_assets": 13700.54,
+            "management_fee": 0.63
+          },
+          "202508": {
+            "monthly_yield": 0.97,
+            "ytd_yield": 12.17,
+            "total_assets": 14078.81,
+            "management_fee": 0.63
+          },
+          "202509": {
+            "monthly_yield": 3.49,
+            "ytd_yield": 16.08,
+            "total_assets": 14825.29,
+            "management_fee": 0.63
+          },
+          "202510": {
+            "monthly_yield": 2.07,
+            "ytd_yield": 18.49,
+            "total_assets": 15390.4,
+            "management_fee": 0.63
+          },
+          "202511": {
+            "monthly_yield": 0.88,
+            "ytd_yield": 19.53,
+            "total_assets": 15680.22,
+            "management_fee": 0.63
+          },
+          "202512": {
+            "monthly_yield": 1.01,
+            "ytd_yield": 20.74,
+            "total_assets": 15970.81,
+            "management_fee": 0.63
+          },
+          "202601": {
+            "monthly_yield": 3.31,
+            "ytd_yield": 3.31,
+            "total_assets": 16572.98,
+            "management_fee": 0.63
+          },
+          "202602": {
+            "monthly_yield": 0.29,
+            "ytd_yield": 3.61,
+            "total_assets": 16644.08,
+            "management_fee": 0.63
+          },
+          "202603": {
+            "monthly_yield": -4.16,
+            "ytd_yield": -0.7,
+            "total_assets": 15900.74,
+            "management_fee": 0.63
+          },
+          "202604": {
+            "monthly_yield": 8.82,
+            "ytd_yield": 8.06,
+            "total_assets": 17251.09,
+            "management_fee": 0.63
+          },
+          "202605": {
+            "monthly_yield": 4.07,
+            "ytd_yield": 12.46,
+            "total_assets": 17899.27,
+            "management_fee": 0.63
+          }
+        },
+        "972": {
+          "202401": {
+            "monthly_yield": 0.24,
+            "ytd_yield": 0.24,
+            "total_assets": 85.12,
+            "management_fee": 0.59
+          },
+          "202402": {
+            "monthly_yield": 0.26,
+            "ytd_yield": 0.5,
+            "total_assets": 84.6,
+            "management_fee": 0.59
+          },
+          "202403": {
+            "monthly_yield": 0.5,
+            "ytd_yield": 1.0,
+            "total_assets": 86,
+            "management_fee": 0.59
+          },
+          "202404": {
+            "monthly_yield": -0.26,
+            "ytd_yield": 0.74,
+            "total_assets": 88.81,
+            "management_fee": 0.59
+          },
+          "202405": {
+            "monthly_yield": 0.0,
+            "ytd_yield": 0.74,
+            "total_assets": 89.14,
+            "management_fee": 0.59
+          },
+          "202406": {
+            "monthly_yield": 0.25,
+            "ytd_yield": 0.99,
+            "total_assets": 90.22,
+            "management_fee": 0.59
+          },
+          "202407": {
+            "monthly_yield": 0.76,
+            "ytd_yield": 1.76,
+            "total_assets": 153.8,
+            "management_fee": 0.59
+          },
+          "202408": {
+            "monthly_yield": 0.83,
+            "ytd_yield": 2.6,
+            "total_assets": 157.2,
+            "management_fee": 0.59
+          },
+          "202409": {
+            "monthly_yield": 0.53,
+            "ytd_yield": 3.15,
+            "total_assets": 157.21,
+            "management_fee": 0.59
+          },
+          "202410": {
+            "monthly_yield": 0.2,
+            "ytd_yield": 3.35,
+            "total_assets": 156.85,
+            "management_fee": 0.59
+          },
+          "202411": {
+            "monthly_yield": 0.84,
+            "ytd_yield": 4.22,
+            "total_assets": 158.98,
+            "management_fee": 0.59
+          },
+          "202412": {
+            "monthly_yield": 0.6,
+            "ytd_yield": 4.85,
+            "total_assets": 161.41,
+            "management_fee": 0.59
+          },
+          "202501": {
+            "monthly_yield": 0.23,
+            "ytd_yield": 0.23,
+            "total_assets": 167.59,
+            "management_fee": 0.61
+          },
+          "202502": {
+            "monthly_yield": 0.66,
+            "ytd_yield": 0.89,
+            "total_assets": 177.48,
+            "management_fee": 0.61
+          },
+          "202503": {
+            "monthly_yield": -0.02,
+            "ytd_yield": 0.87,
+            "total_assets": 185.78,
+            "management_fee": 0.61
+          },
+          "202504": {
+            "monthly_yield": 0.73,
+            "ytd_yield": 1.61,
+            "total_assets": 196.71,
+            "management_fee": 0.61
+          },
+          "202505": {
+            "monthly_yield": -0.11,
+            "ytd_yield": 1.5,
+            "total_assets": 197.83,
+            "management_fee": 0.61
+          },
+          "202506": {
+            "monthly_yield": 1.24,
+            "ytd_yield": 2.75,
+            "total_assets": 195.03,
+            "management_fee": 0.61
+          },
+          "202507": {
+            "monthly_yield": 0.23,
+            "ytd_yield": 2.99,
+            "total_assets": 195.08,
+            "management_fee": 0.61
+          },
+          "202508": {
+            "monthly_yield": 0.76,
+            "ytd_yield": 3.77,
+            "total_assets": 201.73,
+            "management_fee": 0.61
+          },
+          "202509": {
+            "monthly_yield": 0.71,
+            "ytd_yield": 4.51,
+            "total_assets": 206.43,
+            "management_fee": 0.61
+          },
+          "202510": {
+            "monthly_yield": 0.81,
+            "ytd_yield": 5.36,
+            "total_assets": 209.87,
+            "management_fee": 0.61
+          },
+          "202511": {
+            "monthly_yield": 0.48,
+            "ytd_yield": 5.86,
+            "total_assets": 225.24,
+            "management_fee": 0.61
+          },
+          "202512": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 6.23,
+            "total_assets": 228.6,
+            "management_fee": 0.61
+          },
+          "202601": {
+            "monthly_yield": 0.65,
+            "ytd_yield": 0.65,
+            "total_assets": 235.56,
+            "management_fee": 0.61
+          },
+          "202602": {
+            "monthly_yield": 0.39,
+            "ytd_yield": 1.04,
+            "total_assets": 240.75,
+            "management_fee": 0.61
+          },
+          "202603": {
+            "monthly_yield": -0.48,
+            "ytd_yield": 0.56,
+            "total_assets": 245.29,
+            "management_fee": 0.61
+          },
+          "202604": {
+            "monthly_yield": 0.89,
+            "ytd_yield": 1.45,
+            "total_assets": 242.12,
+            "management_fee": 0.61
+          },
+          "202605": {
+            "monthly_yield": 1.16,
+            "ytd_yield": 2.63,
+            "total_assets": 240.8,
+            "management_fee": 0.61
+          }
+        },
+        "973": {
+          "202401": {
+            "monthly_yield": 0.04,
+            "ytd_yield": 0.04,
+            "total_assets": 40.56,
+            "management_fee": 0.56
+          },
+          "202402": {
+            "monthly_yield": 0.19,
+            "ytd_yield": 0.23,
+            "total_assets": 40.3,
+            "management_fee": 0.56
+          },
+          "202403": {
+            "monthly_yield": 0.14,
+            "ytd_yield": 0.37,
+            "total_assets": 38.89,
+            "management_fee": 0.56
+          },
+          "202404": {
+            "monthly_yield": -0.45,
+            "ytd_yield": -0.08,
+            "total_assets": 42.24,
+            "management_fee": 0.56
+          },
+          "202405": {
+            "monthly_yield": -0.12,
+            "ytd_yield": -0.2,
+            "total_assets": 40.62,
+            "management_fee": 0.56
+          },
+          "202406": {
+            "monthly_yield": 0.12,
+            "ytd_yield": -0.08,
+            "total_assets": 39.25,
+            "management_fee": 0.56
+          },
+          "202407": {
+            "monthly_yield": 0.82,
+            "ytd_yield": 0.74,
+            "total_assets": 39.66,
+            "management_fee": 0.56
+          },
+          "202408": {
+            "monthly_yield": 0.92,
+            "ytd_yield": 1.66,
+            "total_assets": 44.58,
+            "management_fee": 0.56
+          },
+          "202409": {
+            "monthly_yield": 0.46,
+            "ytd_yield": 2.13,
+            "total_assets": 47.34,
+            "management_fee": 0.56
+          },
+          "202410": {
+            "monthly_yield": 0.11,
+            "ytd_yield": 2.24,
+            "total_assets": 44.49,
+            "management_fee": 0.56
+          },
+          "202411": {
+            "monthly_yield": 0.95,
+            "ytd_yield": 3.22,
+            "total_assets": 42.76,
+            "management_fee": 0.56
+          },
+          "202412": {
+            "monthly_yield": 0.51,
+            "ytd_yield": 3.74,
+            "total_assets": 42.57,
+            "management_fee": 0.56
+          },
+          "202501": {
+            "monthly_yield": 0.27,
+            "ytd_yield": 0.27,
+            "total_assets": 40.73,
+            "management_fee": 0.56
+          },
+          "202502": {
+            "monthly_yield": 0.66,
+            "ytd_yield": 0.93,
+            "total_assets": 43.67,
+            "management_fee": 0.56
+          },
+          "202503": {
+            "monthly_yield": -0.2,
+            "ytd_yield": 0.73,
+            "total_assets": 46.61,
+            "management_fee": 0.56
+          },
+          "202504": {
+            "monthly_yield": 0.82,
+            "ytd_yield": 1.56,
+            "total_assets": 55.32,
+            "management_fee": 0.56
+          },
+          "202505": {
+            "monthly_yield": -0.17,
+            "ytd_yield": 1.38,
+            "total_assets": 50.29,
+            "management_fee": 0.56
+          },
+          "202506": {
+            "monthly_yield": 1.23,
+            "ytd_yield": 2.63,
+            "total_assets": 49.9,
+            "management_fee": 0.56
+          },
+          "202507": {
+            "monthly_yield": 0.09,
+            "ytd_yield": 2.72,
+            "total_assets": 44.46,
+            "management_fee": 0.56
+          },
+          "202508": {
+            "monthly_yield": 0.83,
+            "ytd_yield": 3.58,
+            "total_assets": 45.54,
+            "management_fee": 0.56
+          },
+          "202509": {
+            "monthly_yield": 0.74,
+            "ytd_yield": 4.34,
+            "total_assets": 46.16,
+            "management_fee": 0.56
+          },
+          "202510": {
+            "monthly_yield": 0.89,
+            "ytd_yield": 5.27,
+            "total_assets": 47.25,
+            "management_fee": 0.56
+          },
+          "202511": {
+            "monthly_yield": 0.38,
+            "ytd_yield": 5.67,
+            "total_assets": 53.75,
+            "management_fee": 0.56
+          },
+          "202512": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 6.0,
+            "total_assets": 56.55,
+            "management_fee": 0.56
+          },
+          "202601": {
+            "monthly_yield": 0.77,
+            "ytd_yield": 0.77,
+            "total_assets": 59.28,
+            "management_fee": 0.58
+          },
+          "202602": {
+            "monthly_yield": 0.41,
+            "ytd_yield": 1.18,
+            "total_assets": 66.45,
+            "management_fee": 0.58
+          },
+          "202603": {
+            "monthly_yield": -0.53,
+            "ytd_yield": 0.65,
+            "total_assets": 69.85,
+            "management_fee": 0.58
+          },
+          "202604": {
+            "monthly_yield": 0.74,
+            "ytd_yield": 1.39,
+            "total_assets": 64.6,
+            "management_fee": 0.58
+          },
+          "202605": {
+            "monthly_yield": 1.21,
+            "ytd_yield": 2.62,
+            "total_assets": 66.03,
+            "management_fee": 0.58
+          }
+        },
+        "1535": {
+          "202401": {
+            "monthly_yield": 0.38,
+            "ytd_yield": 0.38,
+            "total_assets": 92.46,
+            "management_fee": 0.56
+          },
+          "202402": {
+            "monthly_yield": 0.34,
+            "ytd_yield": 0.72,
+            "total_assets": 93.11,
+            "management_fee": 0.56
+          },
+          "202403": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 1.03,
+            "total_assets": 87.73,
+            "management_fee": 0.56
+          },
+          "202404": {
+            "monthly_yield": 0.27,
+            "ytd_yield": 1.31,
+            "total_assets": 97.48,
+            "management_fee": 0.56
+          },
+          "202405": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 1.62,
+            "total_assets": 93.49,
+            "management_fee": 0.56
+          },
+          "202406": {
+            "monthly_yield": 0.41,
+            "ytd_yield": 2.04,
+            "total_assets": 97.31,
+            "management_fee": 0.56
+          },
+          "202407": {
+            "monthly_yield": 0.4,
+            "ytd_yield": 2.45,
+            "total_assets": 100.25,
+            "management_fee": 0.56
+          },
+          "202408": {
+            "monthly_yield": 0.33,
+            "ytd_yield": 2.78,
+            "total_assets": 114.39,
+            "management_fee": 0.56
+          },
+          "202409": {
+            "monthly_yield": 0.34,
+            "ytd_yield": 3.13,
+            "total_assets": 109.56,
+            "management_fee": 0.56
+          },
+          "202410": {
+            "monthly_yield": 0.34,
+            "ytd_yield": 3.48,
+            "total_assets": 109.3,
+            "management_fee": 0.56
+          },
+          "202411": {
+            "monthly_yield": 0.32,
+            "ytd_yield": 3.81,
+            "total_assets": 105.02,
+            "management_fee": 0.56
+          },
+          "202412": {
+            "monthly_yield": 0.44,
+            "ytd_yield": 4.27,
+            "total_assets": 99.29,
+            "management_fee": 0.56
+          },
+          "202501": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 0.35,
+            "total_assets": 90.04,
+            "management_fee": 0.57
+          },
+          "202502": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 0.66,
+            "total_assets": 95.97,
+            "management_fee": 0.57
+          },
+          "202503": {
+            "monthly_yield": 0.38,
+            "ytd_yield": 1.04,
+            "total_assets": 107.37,
+            "management_fee": 0.57
+          },
+          "202504": {
+            "monthly_yield": 0.36,
+            "ytd_yield": 1.41,
+            "total_assets": 114.95,
+            "management_fee": 0.57
+          },
+          "202505": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 1.72,
+            "total_assets": 109.86,
+            "management_fee": 0.57
+          },
+          "202506": {
+            "monthly_yield": 0.42,
+            "ytd_yield": 2.15,
+            "total_assets": 107.48,
+            "management_fee": 0.57
+          },
+          "202507": {
+            "monthly_yield": 0.33,
+            "ytd_yield": 2.49,
+            "total_assets": 91.91,
+            "management_fee": 0.57
+          },
+          "202508": {
+            "monthly_yield": 0.38,
+            "ytd_yield": 2.88,
+            "total_assets": 92.23,
+            "management_fee": 0.57
+          },
+          "202509": {
+            "monthly_yield": 0.39,
+            "ytd_yield": 3.28,
+            "total_assets": 92.37,
+            "management_fee": 0.57
+          },
+          "202510": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 3.64,
+            "total_assets": 88.15,
+            "management_fee": 0.57
+          },
+          "202511": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 4.0,
+            "total_assets": 98.62,
+            "management_fee": 0.57
+          },
+          "202512": {
+            "monthly_yield": 0.37,
+            "ytd_yield": 4.39,
+            "total_assets": 102.22,
+            "management_fee": 0.57
+          },
+          "202601": {
+            "monthly_yield": 0.39,
+            "ytd_yield": 0.39,
+            "total_assets": 112.32,
+            "management_fee": 0.58
+          },
+          "202602": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 0.7,
+            "total_assets": 124.67,
+            "management_fee": 0.58
+          },
+          "202603": {
+            "monthly_yield": 0.22,
+            "ytd_yield": 0.92,
+            "total_assets": 133.09,
+            "management_fee": 0.58
+          },
+          "202604": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 1.28,
+            "total_assets": 122.14,
+            "management_fee": 0.58
+          },
+          "202605": {
+            "monthly_yield": 0.41,
+            "ytd_yield": 1.69,
+            "total_assets": 109.4,
+            "management_fee": 0.58
+          }
+        },
+        "8129": {
+          "202401": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 0.28,
+            "total_assets": 56.66,
+            "management_fee": 0.6
+          },
+          "202402": {
+            "monthly_yield": 0.57,
+            "ytd_yield": 0.85,
+            "total_assets": 56.97,
+            "management_fee": 0.6
+          },
+          "202403": {
+            "monthly_yield": 0.84,
+            "ytd_yield": 1.7,
+            "total_assets": 57.36,
+            "management_fee": 0.6
+          },
+          "202404": {
+            "monthly_yield": -0.54,
+            "ytd_yield": 1.15,
+            "total_assets": 58.85,
+            "management_fee": 0.6
+          },
+          "202405": {
+            "monthly_yield": 0.22,
+            "ytd_yield": 1.37,
+            "total_assets": 58.47,
+            "management_fee": 0.6
+          },
+          "202406": {
+            "monthly_yield": 0.43,
+            "ytd_yield": 1.81,
+            "total_assets": 59.31,
+            "management_fee": 0.6
+          }
+        },
+        "8679": {
+          "202401": {
+            "monthly_yield": 0.26,
+            "ytd_yield": 0.26,
+            "total_assets": 261.13,
+            "management_fee": 0.43
+          },
+          "202402": {
+            "monthly_yield": 1.03,
+            "ytd_yield": 1.29,
+            "total_assets": 267.22,
+            "management_fee": 0.43
+          },
+          "202403": {
+            "monthly_yield": 1.24,
+            "ytd_yield": 2.55,
+            "total_assets": 276.7,
+            "management_fee": 0.43
+          },
+          "202404": {
+            "monthly_yield": -0.83,
+            "ytd_yield": 1.7,
+            "total_assets": 282.51,
+            "management_fee": 0.43
+          },
+          "202405": {
+            "monthly_yield": 0.47,
+            "ytd_yield": 2.18,
+            "total_assets": 288.22,
+            "management_fee": 0.43
+          },
+          "202406": {
+            "monthly_yield": 0.67,
+            "ytd_yield": 2.86,
+            "total_assets": 290.62,
+            "management_fee": 0.43
+          },
+          "202407": {
+            "monthly_yield": 0.92,
+            "ytd_yield": 3.81,
+            "total_assets": 297.05,
+            "management_fee": 0.43
+          },
+          "202408": {
+            "monthly_yield": 0.78,
+            "ytd_yield": 4.62,
+            "total_assets": 304.84,
+            "management_fee": 0.43
+          },
+          "202409": {
+            "monthly_yield": 1.18,
+            "ytd_yield": 5.85,
+            "total_assets": 310.53,
+            "management_fee": 0.43
+          },
+          "202410": {
+            "monthly_yield": 0.27,
+            "ytd_yield": 6.14,
+            "total_assets": 312.59,
+            "management_fee": 0.43
+          },
+          "202411": {
+            "monthly_yield": 1.46,
+            "ytd_yield": 7.69,
+            "total_assets": 320.23,
+            "management_fee": 0.43
+          },
+          "202412": {
+            "monthly_yield": 0.8,
+            "ytd_yield": 8.55,
+            "total_assets": 318.86,
+            "management_fee": 0.43
+          },
+          "202501": {
+            "monthly_yield": 0.94,
+            "ytd_yield": 0.94,
+            "total_assets": 322.4,
+            "management_fee": 0.45
+          },
+          "202502": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 1.22,
+            "total_assets": 332.11,
+            "management_fee": 0.45
+          },
+          "202503": {
+            "monthly_yield": -0.68,
+            "ytd_yield": 0.53,
+            "total_assets": 344.75,
+            "management_fee": 0.45
+          },
+          "202504": {
+            "monthly_yield": 0.85,
+            "ytd_yield": 1.39,
+            "total_assets": 358.3,
+            "management_fee": 0.45
+          },
+          "202505": {
+            "monthly_yield": 1.14,
+            "ytd_yield": 2.54,
+            "total_assets": 358.79,
+            "management_fee": 0.45
+          },
+          "202506": {
+            "monthly_yield": 2.51,
+            "ytd_yield": 5.12,
+            "total_assets": 370.91,
+            "management_fee": 0.45
+          },
+          "202507": {
+            "monthly_yield": 0.7,
+            "ytd_yield": 5.85,
+            "total_assets": 373.59,
+            "management_fee": 0.45
+          },
+          "202508": {
+            "monthly_yield": 0.74,
+            "ytd_yield": 6.64,
+            "total_assets": 386.07,
+            "management_fee": 0.45
+          },
+          "202509": {
+            "monthly_yield": 1.15,
+            "ytd_yield": 7.86,
+            "total_assets": 399.93,
+            "management_fee": 0.45
+          },
+          "202510": {
+            "monthly_yield": 1.09,
+            "ytd_yield": 9.04,
+            "total_assets": 415.3,
+            "management_fee": 0.45
+          },
+          "202511": {
+            "monthly_yield": 0.44,
+            "ytd_yield": 9.52,
+            "total_assets": 429.86,
+            "management_fee": 0.45
+          },
+          "202512": {
+            "monthly_yield": 0.48,
+            "ytd_yield": 10.05,
+            "total_assets": 456,
+            "management_fee": 0.45
+          },
+          "202601": {
+            "monthly_yield": 1.19,
+            "ytd_yield": 1.19,
+            "total_assets": 477.26,
+            "management_fee": 0.5
+          },
+          "202602": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 1.47,
+            "total_assets": 498,
+            "management_fee": 0.5
+          },
+          "202603": {
+            "monthly_yield": -0.95,
+            "ytd_yield": 0.51,
+            "total_assets": 506.43,
+            "management_fee": 0.5
+          },
+          "202604": {
+            "monthly_yield": 2.05,
+            "ytd_yield": 2.57,
+            "total_assets": 520.64,
+            "management_fee": 0.5
+          },
+          "202605": {
+            "monthly_yield": 1.56,
+            "ytd_yield": 4.17,
+            "total_assets": 530.4,
+            "management_fee": 0.5
+          }
+        },
+        "8779": {
+          "202401": {
+            "monthly_yield": 0.88,
+            "ytd_yield": 0.88,
+            "total_assets": 1061.79,
+            "management_fee": 0.59
+          },
+          "202402": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 1.16,
+            "total_assets": 1122.67,
+            "management_fee": 0.59
+          },
+          "202403": {
+            "monthly_yield": 4.29,
+            "ytd_yield": 5.5,
+            "total_assets": 1238.98,
+            "management_fee": 0.59
+          },
+          "202404": {
+            "monthly_yield": -1.11,
+            "ytd_yield": 4.33,
+            "total_assets": 1264.82,
+            "management_fee": 0.59
+          },
+          "202405": {
+            "monthly_yield": 1.85,
+            "ytd_yield": 6.26,
+            "total_assets": 1328.2,
+            "management_fee": 0.59
+          },
+          "202406": {
+            "monthly_yield": 3.31,
+            "ytd_yield": 9.78,
+            "total_assets": 1416.65,
+            "management_fee": 0.59
+          },
+          "202407": {
+            "monthly_yield": 1.65,
+            "ytd_yield": 11.59,
+            "total_assets": 1464.63,
+            "management_fee": 0.59
+          },
+          "202408": {
+            "monthly_yield": -1.28,
+            "ytd_yield": 10.16,
+            "total_assets": 1480.85,
+            "management_fee": 0.59
+          },
+          "202409": {
+            "monthly_yield": 3.11,
+            "ytd_yield": 13.59,
+            "total_assets": 1552.53,
+            "management_fee": 0.59
+          },
+          "202410": {
+            "monthly_yield": -1.32,
+            "ytd_yield": 12.09,
+            "total_assets": 1557.28,
+            "management_fee": 0.59
+          },
+          "202411": {
+            "monthly_yield": 0.51,
+            "ytd_yield": 12.66,
+            "total_assets": 1570.5,
+            "management_fee": 0.59
+          },
+          "202412": {
+            "monthly_yield": -0.89,
+            "ytd_yield": 11.66,
+            "total_assets": 1522.03,
+            "management_fee": 0.59
+          },
+          "202501": {
+            "monthly_yield": 0.13,
+            "ytd_yield": 0.13,
+            "total_assets": 1479.13,
+            "management_fee": 0.62
+          },
+          "202502": {
+            "monthly_yield": -1.4,
+            "ytd_yield": -1.27,
+            "total_assets": 1404.66,
+            "management_fee": 0.62
+          },
+          "202503": {
+            "monthly_yield": 3.13,
+            "ytd_yield": 1.82,
+            "total_assets": 1401.11,
+            "management_fee": 0.62
+          },
+          "202504": {
+            "monthly_yield": -1.62,
+            "ytd_yield": 0.17,
+            "total_assets": 1368.44,
+            "management_fee": 0.62
+          },
+          "202505": {
+            "monthly_yield": -0.97,
+            "ytd_yield": -0.8,
+            "total_assets": 1341.63,
+            "management_fee": 0.62
+          },
+          "202506": {
+            "monthly_yield": -1.08,
+            "ytd_yield": -1.87,
+            "total_assets": 1290.02,
+            "management_fee": 0.62
+          },
+          "202507": {
+            "monthly_yield": 1.18,
+            "ytd_yield": -0.72,
+            "total_assets": 1229.7,
+            "management_fee": 0.62
+          },
+          "202508": {
+            "monthly_yield": -0.09,
+            "ytd_yield": -0.81,
+            "total_assets": 1158.75,
+            "management_fee": 0.62
+          },
+          "202509": {
+            "monthly_yield": 0.97,
+            "ytd_yield": 0.16,
+            "total_assets": 1112.96,
+            "management_fee": 0.62
+          },
+          "202510": {
+            "monthly_yield": -0.33,
+            "ytd_yield": -0.17,
+            "total_assets": 1072.22,
+            "management_fee": 0.62
+          },
+          "202511": {
+            "monthly_yield": 0.62,
+            "ytd_yield": 0.45,
+            "total_assets": 1010.26,
+            "management_fee": 0.62
+          },
+          "202512": {
+            "monthly_yield": -2.04,
+            "ytd_yield": -1.6,
+            "total_assets": 913.98,
+            "management_fee": 0.62
+          },
+          "202601": {
+            "monthly_yield": -2.41,
+            "ytd_yield": -2.41,
+            "total_assets": 826.24,
+            "management_fee": 0.62
+          },
+          "202602": {
+            "monthly_yield": 1.27,
+            "ytd_yield": -1.17,
+            "total_assets": 768.62,
+            "management_fee": 0.62
+          },
+          "202603": {
+            "monthly_yield": -2.13,
+            "ytd_yield": -3.28,
+            "total_assets": 703.52,
+            "management_fee": 0.62
+          },
+          "202604": {
+            "monthly_yield": -1.92,
+            "ytd_yield": -5.13,
+            "total_assets": 664.73,
+            "management_fee": 0.62
+          },
+          "202605": {
+            "monthly_yield": -2.2,
+            "ytd_yield": -7.22,
+            "total_assets": 620.95,
+            "management_fee": 0.62
+          }
+        },
+        "13853": {
+          "202401": {
+            "monthly_yield": 2.48,
+            "ytd_yield": 2.48,
+            "total_assets": 745.36,
+            "management_fee": 0.61
+          },
+          "202402": {
+            "monthly_yield": 2.87,
+            "ytd_yield": 5.42,
+            "total_assets": 845.77,
+            "management_fee": 0.61
+          },
+          "202403": {
+            "monthly_yield": 6.26,
+            "ytd_yield": 12.02,
+            "total_assets": 991.05,
+            "management_fee": 0.61
+          },
+          "202404": {
+            "monthly_yield": -1.72,
+            "ytd_yield": 10.09,
+            "total_assets": 1029.11,
+            "management_fee": 0.61
+          },
+          "202405": {
+            "monthly_yield": 2.58,
+            "ytd_yield": 12.93,
+            "total_assets": 1151.95,
+            "management_fee": 0.61
+          },
+          "202406": {
+            "monthly_yield": 5.63,
+            "ytd_yield": 19.29,
+            "total_assets": 1337.37,
+            "management_fee": 0.61
+          },
+          "202407": {
+            "monthly_yield": 1.07,
+            "ytd_yield": 20.57,
+            "total_assets": 1445.7,
+            "management_fee": 0.61
+          },
+          "202408": {
+            "monthly_yield": -0.84,
+            "ytd_yield": 19.56,
+            "total_assets": 1473.65,
+            "management_fee": 0.61
+          },
+          "202409": {
+            "monthly_yield": 3.76,
+            "ytd_yield": 24.05,
+            "total_assets": 1599.38,
+            "management_fee": 0.61
+          },
+          "202410": {
+            "monthly_yield": -0.16,
+            "ytd_yield": 23.85,
+            "total_assets": 1644.44,
+            "management_fee": 0.61
+          },
+          "202411": {
+            "monthly_yield": 3.13,
+            "ytd_yield": 27.73,
+            "total_assets": 1756.21,
+            "management_fee": 0.61
+          },
+          "202412": {
+            "monthly_yield": -1.69,
+            "ytd_yield": 25.57,
+            "total_assets": 1795.95,
+            "management_fee": 0.61
+          },
+          "202501": {
+            "monthly_yield": 1.05,
+            "ytd_yield": 1.05,
+            "total_assets": 1848.12,
+            "management_fee": 0.62
+          },
+          "202502": {
+            "monthly_yield": -3.15,
+            "ytd_yield": -2.13,
+            "total_assets": 1801.34,
+            "management_fee": 0.62
+          },
+          "202503": {
+            "monthly_yield": -1.68,
+            "ytd_yield": -3.78,
+            "total_assets": 1754.51,
+            "management_fee": 0.62
+          },
+          "202504": {
+            "monthly_yield": -2.73,
+            "ytd_yield": -6.4,
+            "total_assets": 1719.81,
+            "management_fee": 0.62
+          },
+          "202505": {
+            "monthly_yield": 3.38,
+            "ytd_yield": -3.24,
+            "total_assets": 1804.2,
+            "management_fee": 0.62
+          },
+          "202506": {
+            "monthly_yield": 0.78,
+            "ytd_yield": -2.49,
+            "total_assets": 1816.13,
+            "management_fee": 0.62
+          },
+          "202507": {
+            "monthly_yield": 3.5,
+            "ytd_yield": 0.93,
+            "total_assets": 1856.86,
+            "management_fee": 0.62
+          },
+          "202508": {
+            "monthly_yield": -0.28,
+            "ytd_yield": 0.64,
+            "total_assets": 1837.61,
+            "management_fee": 0.62
+          },
+          "202509": {
+            "monthly_yield": 2.51,
+            "ytd_yield": 3.17,
+            "total_assets": 1874.86,
+            "management_fee": 0.62
+          },
+          "202510": {
+            "monthly_yield": 1.05,
+            "ytd_yield": 4.25,
+            "total_assets": 1861.07,
+            "management_fee": 0.62
+          },
+          "202511": {
+            "monthly_yield": 0.21,
+            "ytd_yield": 4.47,
+            "total_assets": 1826.17,
+            "management_fee": 0.62
+          },
+          "202512": {
+            "monthly_yield": -1.84,
+            "ytd_yield": 2.55,
+            "total_assets": 1735.07,
+            "management_fee": 0.62
+          },
+          "202601": {
+            "monthly_yield": -1.86,
+            "ytd_yield": -1.86,
+            "total_assets": 1633.18,
+            "management_fee": 0.62
+          },
+          "202602": {
+            "monthly_yield": 0.33,
+            "ytd_yield": -1.54,
+            "total_assets": 1561.38,
+            "management_fee": 0.62
+          },
+          "202603": {
+            "monthly_yield": -4.66,
+            "ytd_yield": -6.12,
+            "total_assets": 1427.83,
+            "management_fee": 0.62
+          },
+          "202604": {
+            "monthly_yield": 3.23,
+            "ytd_yield": -3.09,
+            "total_assets": 1452.43,
+            "management_fee": 0.62
+          },
+          "202605": {
+            "monthly_yield": 0.61,
+            "ytd_yield": -2.5,
+            "total_assets": 1419.89,
+            "management_fee": 0.62
+          }
+        },
+        "15311": {
+          "202406": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 0,
+            "management_fee": null
+          },
+          "202407": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 7.22,
+            "management_fee": null
+          },
+          "202408": {
+            "monthly_yield": 4.4,
+            "ytd_yield": null,
+            "total_assets": 17.2,
+            "management_fee": null
+          },
+          "202409": {
+            "monthly_yield": 1.96,
+            "ytd_yield": null,
+            "total_assets": 21.2,
+            "management_fee": null
+          },
+          "202410": {
+            "monthly_yield": 5.19,
+            "ytd_yield": null,
+            "total_assets": 28.66,
+            "management_fee": null
+          },
+          "202411": {
+            "monthly_yield": 5.33,
+            "ytd_yield": null,
+            "total_assets": 42.91,
+            "management_fee": null
+          },
+          "202412": {
+            "monthly_yield": 5.33,
+            "ytd_yield": null,
+            "total_assets": 73.3,
+            "management_fee": null
+          },
+          "202501": {
+            "monthly_yield": 2.94,
+            "ytd_yield": 2.94,
+            "total_assets": 126.36,
+            "management_fee": null
+          },
+          "202502": {
+            "monthly_yield": 1.46,
+            "ytd_yield": 4.44,
+            "total_assets": 188.95,
+            "management_fee": null
+          },
+          "202503": {
+            "monthly_yield": -5.92,
+            "ytd_yield": -1.74,
+            "total_assets": 235.12,
+            "management_fee": null
+          },
+          "202504": {
+            "monthly_yield": 4.91,
+            "ytd_yield": 3.08,
+            "total_assets": 277.24,
+            "management_fee": null
+          },
+          "202505": {
+            "monthly_yield": 5.82,
+            "ytd_yield": 9.08,
+            "total_assets": 321.53,
+            "management_fee": null
+          },
+          "202506": {
+            "monthly_yield": 12.49,
+            "ytd_yield": 22.71,
+            "total_assets": 421.91,
+            "management_fee": null
+          },
+          "202507": {
+            "monthly_yield": 1.65,
+            "ytd_yield": 24.73,
+            "total_assets": 527.89,
+            "management_fee": null
+          },
+          "202508": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 25.08,
+            "total_assets": 581,
+            "management_fee": null
+          },
+          "202509": {
+            "monthly_yield": 4.06,
+            "ytd_yield": 30.16,
+            "total_assets": 662.1,
+            "management_fee": null
+          },
+          "202510": {
+            "monthly_yield": 3.81,
+            "ytd_yield": 35.12,
+            "total_assets": 751.45,
+            "management_fee": null
+          },
+          "202511": {
+            "monthly_yield": 3.07,
+            "ytd_yield": 39.27,
+            "total_assets": 868.99,
+            "management_fee": null
+          },
+          "202512": {
+            "monthly_yield": 4.54,
+            "ytd_yield": 45.59,
+            "total_assets": 1064.98,
+            "management_fee": null
+          },
+          "202601": {
+            "monthly_yield": 6.98,
+            "ytd_yield": 6.98,
+            "total_assets": 1300.27,
+            "management_fee": 0.61
+          },
+          "202602": {
+            "monthly_yield": 0.2,
+            "ytd_yield": 7.19,
+            "total_assets": 1452.17,
+            "management_fee": 0.61
+          },
+          "202603": {
+            "monthly_yield": -2.98,
+            "ytd_yield": 4.0,
+            "total_assets": 1528.78,
+            "management_fee": 0.61
+          },
+          "202604": {
+            "monthly_yield": 8.78,
+            "ytd_yield": 13.13,
+            "total_assets": 1704.14,
+            "management_fee": 0.61
+          },
+          "202605": {
+            "monthly_yield": 2.43,
+            "ytd_yield": 15.88,
+            "total_assets": 1796.35,
+            "management_fee": 0.61
+          }
+        },
+        "15312": {
+          "202406": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 0,
+            "management_fee": null
+          },
+          "202407": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 27.58,
+            "management_fee": null
+          },
+          "202408": {
+            "monthly_yield": -2.44,
+            "ytd_yield": null,
+            "total_assets": 50.29,
+            "management_fee": null
+          },
+          "202409": {
+            "monthly_yield": 4.16,
+            "ytd_yield": null,
+            "total_assets": 73.34,
+            "management_fee": null
+          },
+          "202410": {
+            "monthly_yield": -0.66,
+            "ytd_yield": null,
+            "total_assets": 86.99,
+            "management_fee": null
+          },
+          "202411": {
+            "monthly_yield": 1.39,
+            "ytd_yield": null,
+            "total_assets": 103.93,
+            "management_fee": null
+          },
+          "202412": {
+            "monthly_yield": 1.04,
+            "ytd_yield": null,
+            "total_assets": 124.95,
+            "management_fee": null
+          },
+          "202501": {
+            "monthly_yield": -0.06,
+            "ytd_yield": -0.06,
+            "total_assets": 144.94,
+            "management_fee": null
+          },
+          "202502": {
+            "monthly_yield": -3.83,
+            "ytd_yield": -3.89,
+            "total_assets": 153.82,
+            "management_fee": null
+          },
+          "202503": {
+            "monthly_yield": -3.76,
+            "ytd_yield": -7.5,
+            "total_assets": 168.42,
+            "management_fee": null
+          },
+          "202504": {
+            "monthly_yield": -1.34,
+            "ytd_yield": -8.74,
+            "total_assets": 175.94,
+            "management_fee": null
+          },
+          "202505": {
+            "monthly_yield": 6.56,
+            "ytd_yield": -2.75,
+            "total_assets": 199.54,
+            "management_fee": null
+          },
+          "202506": {
+            "monthly_yield": 3.76,
+            "ytd_yield": 0.9,
+            "total_assets": 220.31,
+            "management_fee": null
+          },
+          "202507": {
+            "monthly_yield": 3.26,
+            "ytd_yield": 4.19,
+            "total_assets": 239.54,
+            "management_fee": null
+          },
+          "202508": {
+            "monthly_yield": -1.05,
+            "ytd_yield": 3.1,
+            "total_assets": 249.81,
+            "management_fee": null
+          },
+          "202509": {
+            "monthly_yield": 5.66,
+            "ytd_yield": 8.93,
+            "total_assets": 270.05,
+            "management_fee": null
+          },
+          "202510": {
+            "monthly_yield": 3.72,
+            "ytd_yield": 12.99,
+            "total_assets": 288.34,
+            "management_fee": null
+          },
+          "202511": {
+            "monthly_yield": -2.19,
+            "ytd_yield": 10.51,
+            "total_assets": 281.26,
+            "management_fee": null
+          },
+          "202512": {
+            "monthly_yield": -1.44,
+            "ytd_yield": 8.92,
+            "total_assets": 283.94,
+            "management_fee": null
+          },
+          "202601": {
+            "monthly_yield": 0.84,
+            "ytd_yield": 0.84,
+            "total_assets": 287.71,
+            "management_fee": 0.62
+          },
+          "202602": {
+            "monthly_yield": -1.88,
+            "ytd_yield": -1.06,
+            "total_assets": 282.45,
+            "management_fee": 0.62
+          },
+          "202603": {
+            "monthly_yield": -4.99,
+            "ytd_yield": -5.99,
+            "total_assets": 268.29,
+            "management_fee": 0.62
+          },
+          "202604": {
+            "monthly_yield": 10.93,
+            "ytd_yield": 4.28,
+            "total_assets": 301.01,
+            "management_fee": 0.62
+          },
+          "202605": {
+            "monthly_yield": 7.77,
+            "ytd_yield": 12.38,
+            "total_assets": 323.51,
+            "management_fee": 0.62
+          }
+        }
+      },
+      "trailing": {
+        "962": {
+          "period": "202605",
+          "ytd_yield": 7.07,
+          "trailing_1yr": 18.8,
+          "trailing_3yr": 51.42,
+          "trailing_5yr": 54.72,
+          "trailing_10yr": 118.74,
+          "avg_annual_3yr": 14.83,
+          "avg_annual_5yr": 9.12,
+          "sharpe_ratio": 1.3,
+          "management_fee": 0.62,
+          "stock_exposure": 48.3
+        },
+        "963": {
+          "period": "202605",
+          "ytd_yield": 12.46,
+          "trailing_1yr": 31.36,
+          "trailing_3yr": 87.75,
+          "trailing_5yr": 90.31,
+          "trailing_10yr": 271.45,
+          "avg_annual_3yr": 23.37,
+          "avg_annual_5yr": 13.73,
+          "sharpe_ratio": 1.16,
+          "management_fee": 0.63,
+          "stock_exposure": 99.5
+        },
+        "972": {
+          "period": "202605",
+          "ytd_yield": 2.63,
+          "trailing_1yr": 7.42,
+          "trailing_3yr": 17.82,
+          "trailing_5yr": 15.12,
+          "trailing_10yr": 31.42,
+          "avg_annual_3yr": 5.62,
+          "avg_annual_5yr": 2.86,
+          "sharpe_ratio": 0.17,
+          "management_fee": 0.61,
+          "stock_exposure": 0.0
+        },
+        "973": {
+          "period": "202605",
+          "ytd_yield": 2.62,
+          "trailing_1yr": 7.29,
+          "trailing_3yr": 15.33,
+          "trailing_5yr": 11.24,
+          "trailing_10yr": 20.87,
+          "avg_annual_3yr": 4.87,
+          "avg_annual_5yr": 2.15,
+          "sharpe_ratio": -0.09,
+          "management_fee": 0.58,
+          "stock_exposure": 0.0
+        },
+        "1535": {
+          "period": "202605",
+          "ytd_yield": 1.69,
+          "trailing_1yr": 4.35,
+          "trailing_3yr": 13.87,
+          "trailing_5yr": 15.61,
+          "trailing_10yr": 17.09,
+          "avg_annual_3yr": 4.42,
+          "avg_annual_5yr": 2.94,
+          "sharpe_ratio": -0.4,
+          "management_fee": 0.58,
+          "stock_exposure": 0.0
+        },
+        "8129": {
+          "period": "202406",
+          "ytd_yield": 1.81,
+          "trailing_1yr": null,
+          "trailing_3yr": 3.37,
+          "trailing_5yr": 10.91,
+          "trailing_10yr": 22.28,
+          "avg_annual_3yr": 1.11,
+          "avg_annual_5yr": 2.09,
+          "sharpe_ratio": 0.04,
+          "management_fee": 0.6,
+          "stock_exposure": 9.2
+        },
+        "8679": {
+          "period": "202605",
+          "ytd_yield": 4.17,
+          "trailing_1yr": 11.79,
+          "trailing_3yr": 29.69,
+          "trailing_5yr": 28.09,
+          "trailing_10yr": 56.93,
+          "avg_annual_3yr": 9.05,
+          "avg_annual_5yr": 5.08,
+          "sharpe_ratio": 0.85,
+          "management_fee": 0.5,
+          "stock_exposure": 22.3
+        },
+        "8779": {
+          "period": "202605",
+          "ytd_yield": -7.22,
+          "trailing_1yr": -7.97,
+          "trailing_3yr": 7.4,
+          "trailing_5yr": 17.26,
+          "trailing_10yr": 46.87,
+          "avg_annual_3yr": 2.41,
+          "avg_annual_5yr": 3.24,
+          "sharpe_ratio": -0.26,
+          "management_fee": 0.62,
+          "stock_exposure": 46.3
+        },
+        "13853": {
+          "period": "202605",
+          "ytd_yield": -2.5,
+          "trailing_1yr": 3.33,
+          "trailing_3yr": 40.57,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 12.02,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.62,
+          "stock_exposure": 100.4
+        },
+        "15311": {
+          "period": "202605",
+          "ytd_yield": 15.88,
+          "trailing_1yr": 54.66,
+          "trailing_3yr": null,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": null,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.61,
+          "stock_exposure": 100.0
+        },
+        "15312": {
+          "period": "202605",
+          "ytd_yield": 12.38,
+          "trailing_1yr": 25.88,
+          "trailing_3yr": null,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": null,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.62,
+          "stock_exposure": 99.3
+        }
+      },
+      "visible_tracks": [
+        "962",
+        "963",
+        "13853",
+        "15311",
+        "15312"
+      ]
     },
     "ami_gemel": {
-      "error": "HTTPSConnectionPool(host='data.gov.il', port=443): Read timed out. (read timeout=30)",
-      "label": "קופת גמל — עמ\"י"
+      "fund_id": "14079",
+      "label": "קופת גמל — עמ\"י",
+      "managing_corp": "עמ\"י - חברה לניהול קופות גמל ענפיות בע\"מ",
+      "fund_class": "קופת גמל להשקעה",
+      "periods": [
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506",
+        "202507",
+        "202508",
+        "202509",
+        "202510",
+        "202511",
+        "202512",
+        "202601",
+        "202602",
+        "202603",
+        "202604",
+        "202605"
+      ],
+      "tracks_meta": {
+        "14077": "עמ\"י קופת גמל להשקעה- מסלול כללי",
+        "14078": "עמ\"י קופת גמל להשקעה מסלול אשראי ואג\"ח עד 25% מניות",
+        "14079": "עמ\"י קופת גמל להשקעה מסלול מניות",
+        "15394": "עמ\"י קופת גמל להשקעה מסלול עוקב מדד s&p 500"
+      },
+      "tracks_monthly": {
+        "14077": {
+          "202401": {
+            "monthly_yield": 0.6,
+            "ytd_yield": 0.6,
+            "total_assets": 7.23,
+            "management_fee": 0.39
+          },
+          "202402": {
+            "monthly_yield": 2.22,
+            "ytd_yield": 2.83,
+            "total_assets": 7.77,
+            "management_fee": 0.39
+          },
+          "202403": {
+            "monthly_yield": 2.0,
+            "ytd_yield": 4.89,
+            "total_assets": 8.61,
+            "management_fee": 0.39
+          },
+          "202404": {
+            "monthly_yield": -1.75,
+            "ytd_yield": 3.05,
+            "total_assets": 9.17,
+            "management_fee": 0.39
+          },
+          "202405": {
+            "monthly_yield": 1.0,
+            "ytd_yield": 4.08,
+            "total_assets": 9.68,
+            "management_fee": 0.39
+          },
+          "202406": {
+            "monthly_yield": 1.4,
+            "ytd_yield": 5.54,
+            "total_assets": 9.91,
+            "management_fee": 0.39
+          },
+          "202407": {
+            "monthly_yield": 0.94,
+            "ytd_yield": 6.53,
+            "total_assets": 10.49,
+            "management_fee": 0.39
+          },
+          "202408": {
+            "monthly_yield": 1.14,
+            "ytd_yield": 7.75,
+            "total_assets": 11.41,
+            "management_fee": 0.39
+          },
+          "202409": {
+            "monthly_yield": 1.59,
+            "ytd_yield": 9.46,
+            "total_assets": 11.74,
+            "management_fee": 0.39
+          },
+          "202410": {
+            "monthly_yield": 0.61,
+            "ytd_yield": 10.13,
+            "total_assets": 12.18,
+            "management_fee": 0.39
+          },
+          "202411": {
+            "monthly_yield": 2.2,
+            "ytd_yield": 12.55,
+            "total_assets": 12.74,
+            "management_fee": 0.39
+          },
+          "202412": {
+            "monthly_yield": 0.79,
+            "ytd_yield": 13.44,
+            "total_assets": 13.97,
+            "management_fee": 0.39
+          },
+          "202501": {
+            "monthly_yield": 1.11,
+            "ytd_yield": 1.11,
+            "total_assets": 14.96,
+            "management_fee": 0.41
+          },
+          "202502": {
+            "monthly_yield": -0.26,
+            "ytd_yield": 0.85,
+            "total_assets": 15.86,
+            "management_fee": 0.41
+          },
+          "202503": {
+            "monthly_yield": -1.78,
+            "ytd_yield": -0.95,
+            "total_assets": 16.36,
+            "management_fee": 0.41
+          },
+          "202504": {
+            "monthly_yield": 0.97,
+            "ytd_yield": 0.01,
+            "total_assets": 17.28,
+            "management_fee": 0.41
+          },
+          "202505": {
+            "monthly_yield": 2.34,
+            "ytd_yield": 2.35,
+            "total_assets": 17.84,
+            "management_fee": 0.41
+          },
+          "202506": {
+            "monthly_yield": 3.5,
+            "ytd_yield": 5.94,
+            "total_assets": 19.13,
+            "management_fee": 0.41
+          },
+          "202507": {
+            "monthly_yield": 1.08,
+            "ytd_yield": 7.08,
+            "total_assets": 19.49,
+            "management_fee": 0.41
+          },
+          "202508": {
+            "monthly_yield": 0.65,
+            "ytd_yield": 7.78,
+            "total_assets": 20.52,
+            "management_fee": 0.41
+          },
+          "202509": {
+            "monthly_yield": 2.02,
+            "ytd_yield": 9.95,
+            "total_assets": 21.43,
+            "management_fee": 0.41
+          },
+          "202510": {
+            "monthly_yield": 1.5,
+            "ytd_yield": 11.6,
+            "total_assets": 22.71,
+            "management_fee": 0.41
+          },
+          "202511": {
+            "monthly_yield": 0.64,
+            "ytd_yield": 12.32,
+            "total_assets": 23,
+            "management_fee": 0.41
+          },
+          "202512": {
+            "monthly_yield": 1.07,
+            "ytd_yield": 13.52,
+            "total_assets": 25.56,
+            "management_fee": 0.41
+          },
+          "202601": {
+            "monthly_yield": 1.99,
+            "ytd_yield": 1.99,
+            "total_assets": 28.28,
+            "management_fee": 0.39
+          },
+          "202602": {
+            "monthly_yield": 0.57,
+            "ytd_yield": 2.57,
+            "total_assets": 29.29,
+            "management_fee": 0.39
+          },
+          "202603": {
+            "monthly_yield": -2.54,
+            "ytd_yield": -0.03,
+            "total_assets": 30.12,
+            "management_fee": 0.39
+          },
+          "202604": {
+            "monthly_yield": 4.07,
+            "ytd_yield": 4.03,
+            "total_assets": 31.66,
+            "management_fee": 0.39
+          },
+          "202605": {
+            "monthly_yield": 2.01,
+            "ytd_yield": 6.13,
+            "total_assets": 32.97,
+            "management_fee": 0.39
+          }
+        },
+        "14078": {
+          "202401": {
+            "monthly_yield": 0.29,
+            "ytd_yield": 0.29,
+            "total_assets": 1.1,
+            "management_fee": 0.4
+          },
+          "202402": {
+            "monthly_yield": 1.05,
+            "ytd_yield": 1.34,
+            "total_assets": 0.95,
+            "management_fee": 0.4
+          },
+          "202403": {
+            "monthly_yield": 0.96,
+            "ytd_yield": 2.32,
+            "total_assets": 0.94,
+            "management_fee": 0.4
+          },
+          "202404": {
+            "monthly_yield": -0.79,
+            "ytd_yield": 1.51,
+            "total_assets": 0.93,
+            "management_fee": 0.4
+          },
+          "202405": {
+            "monthly_yield": 0.23,
+            "ytd_yield": 1.74,
+            "total_assets": 1.02,
+            "management_fee": 0.4
+          },
+          "202406": {
+            "monthly_yield": 0.63,
+            "ytd_yield": 2.38,
+            "total_assets": 1.15,
+            "management_fee": 0.4
+          },
+          "202407": {
+            "monthly_yield": 0.78,
+            "ytd_yield": 3.18,
+            "total_assets": 1.22,
+            "management_fee": 0.4
+          },
+          "202408": {
+            "monthly_yield": 0.93,
+            "ytd_yield": 4.14,
+            "total_assets": 1.21,
+            "management_fee": 0.4
+          },
+          "202409": {
+            "monthly_yield": 0.99,
+            "ytd_yield": 5.17,
+            "total_assets": 1.22,
+            "management_fee": 0.4
+          },
+          "202410": {
+            "monthly_yield": 0.45,
+            "ytd_yield": 5.64,
+            "total_assets": 1.35,
+            "management_fee": 0.4
+          },
+          "202411": {
+            "monthly_yield": 1.59,
+            "ytd_yield": 7.32,
+            "total_assets": 1.36,
+            "management_fee": 0.4
+          },
+          "202412": {
+            "monthly_yield": 0.77,
+            "ytd_yield": 8.15,
+            "total_assets": 1.44,
+            "management_fee": 0.4
+          },
+          "202501": {
+            "monthly_yield": 0.47,
+            "ytd_yield": 0.47,
+            "total_assets": 1.68,
+            "management_fee": 0.41
+          },
+          "202502": {
+            "monthly_yield": 0.36,
+            "ytd_yield": 0.83,
+            "total_assets": 1.78,
+            "management_fee": 0.41
+          },
+          "202503": {
+            "monthly_yield": -1.26,
+            "ytd_yield": -0.44,
+            "total_assets": 1.98,
+            "management_fee": 0.41
+          },
+          "202504": {
+            "monthly_yield": 0.6,
+            "ytd_yield": 0.16,
+            "total_assets": 2.1,
+            "management_fee": 0.41
+          },
+          "202505": {
+            "monthly_yield": 1.18,
+            "ytd_yield": 1.34,
+            "total_assets": 2.47,
+            "management_fee": 0.41
+          },
+          "202506": {
+            "monthly_yield": 2.18,
+            "ytd_yield": 3.55,
+            "total_assets": 2.08,
+            "management_fee": 0.41
+          },
+          "202507": {
+            "monthly_yield": 0.86,
+            "ytd_yield": 4.44,
+            "total_assets": 2.07,
+            "management_fee": 0.41
+          },
+          "202508": {
+            "monthly_yield": 0.54,
+            "ytd_yield": 5.0,
+            "total_assets": 2.29,
+            "management_fee": 0.41
+          },
+          "202509": {
+            "monthly_yield": 1.18,
+            "ytd_yield": 6.24,
+            "total_assets": 2.34,
+            "management_fee": 0.41
+          },
+          "202510": {
+            "monthly_yield": 1.19,
+            "ytd_yield": 7.51,
+            "total_assets": 2.43,
+            "management_fee": 0.41
+          },
+          "202511": {
+            "monthly_yield": 0.42,
+            "ytd_yield": 7.96,
+            "total_assets": 2.41,
+            "management_fee": 0.41
+          },
+          "202512": {
+            "monthly_yield": 0.61,
+            "ytd_yield": 8.62,
+            "total_assets": 3.13,
+            "management_fee": 0.41
+          },
+          "202601": {
+            "monthly_yield": 0.86,
+            "ytd_yield": 0.86,
+            "total_assets": 3.84,
+            "management_fee": 0.39
+          },
+          "202602": {
+            "monthly_yield": 0.16,
+            "ytd_yield": 1.02,
+            "total_assets": 3.95,
+            "management_fee": 0.39
+          },
+          "202603": {
+            "monthly_yield": -1.48,
+            "ytd_yield": -0.47,
+            "total_assets": 4.08,
+            "management_fee": 0.39
+          },
+          "202604": {
+            "monthly_yield": 2.17,
+            "ytd_yield": 1.69,
+            "total_assets": 4.15,
+            "management_fee": 0.39
+          },
+          "202605": {
+            "monthly_yield": 1.4,
+            "ytd_yield": 3.11,
+            "total_assets": 4.24,
+            "management_fee": 0.39
+          }
+        },
+        "14079": {
+          "202401": {
+            "monthly_yield": 0.93,
+            "ytd_yield": 0.93,
+            "total_assets": 1.25,
+            "management_fee": 0.37
+          },
+          "202402": {
+            "monthly_yield": 4.05,
+            "ytd_yield": 5.02,
+            "total_assets": 1.2,
+            "management_fee": 0.37
+          },
+          "202403": {
+            "monthly_yield": 3.89,
+            "ytd_yield": 9.1,
+            "total_assets": 1.29,
+            "management_fee": 0.37
+          },
+          "202404": {
+            "monthly_yield": -2.31,
+            "ytd_yield": 6.58,
+            "total_assets": 1.79,
+            "management_fee": 0.37
+          },
+          "202405": {
+            "monthly_yield": 1.8,
+            "ytd_yield": 8.5,
+            "total_assets": 2.25,
+            "management_fee": 0.37
+          },
+          "202406": {
+            "monthly_yield": 1.64,
+            "ytd_yield": 10.28,
+            "total_assets": 2.64,
+            "management_fee": 0.37
+          },
+          "202407": {
+            "monthly_yield": 1.47,
+            "ytd_yield": 11.9,
+            "total_assets": 3.42,
+            "management_fee": 0.37
+          },
+          "202408": {
+            "monthly_yield": 1.22,
+            "ytd_yield": 13.27,
+            "total_assets": 3.59,
+            "management_fee": 0.37
+          },
+          "202409": {
+            "monthly_yield": 2.47,
+            "ytd_yield": 16.06,
+            "total_assets": 3.81,
+            "management_fee": 0.37
+          },
+          "202410": {
+            "monthly_yield": 1.25,
+            "ytd_yield": 17.52,
+            "total_assets": 3.87,
+            "management_fee": 0.37
+          },
+          "202411": {
+            "monthly_yield": 3.66,
+            "ytd_yield": 21.82,
+            "total_assets": 4.09,
+            "management_fee": 0.37
+          },
+          "202412": {
+            "monthly_yield": 0.95,
+            "ytd_yield": 22.97,
+            "total_assets": 4.6,
+            "management_fee": 0.37
+          },
+          "202501": {
+            "monthly_yield": 2.16,
+            "ytd_yield": 2.16,
+            "total_assets": 5.69,
+            "management_fee": 0.41
+          },
+          "202502": {
+            "monthly_yield": -0.44,
+            "ytd_yield": 1.71,
+            "total_assets": 6.2,
+            "management_fee": 0.41
+          },
+          "202503": {
+            "monthly_yield": -4.32,
+            "ytd_yield": -2.68,
+            "total_assets": 6.5,
+            "management_fee": 0.41
+          },
+          "202504": {
+            "monthly_yield": 0.86,
+            "ytd_yield": -1.85,
+            "total_assets": 6.9,
+            "management_fee": 0.41
+          },
+          "202505": {
+            "monthly_yield": 5.41,
+            "ytd_yield": 3.46,
+            "total_assets": 7.34,
+            "management_fee": 0.41
+          },
+          "202506": {
+            "monthly_yield": 5.82,
+            "ytd_yield": 9.49,
+            "total_assets": 7.71,
+            "management_fee": 0.41
+          },
+          "202507": {
+            "monthly_yield": 2.47,
+            "ytd_yield": 12.19,
+            "total_assets": 8.14,
+            "management_fee": 0.41
+          },
+          "202508": {
+            "monthly_yield": 0.55,
+            "ytd_yield": 12.81,
+            "total_assets": 8.69,
+            "management_fee": 0.41
+          },
+          "202509": {
+            "monthly_yield": 3.27,
+            "ytd_yield": 16.5,
+            "total_assets": 9.51,
+            "management_fee": 0.41
+          },
+          "202510": {
+            "monthly_yield": 2.39,
+            "ytd_yield": 19.28,
+            "total_assets": 10.1,
+            "management_fee": 0.41
+          },
+          "202511": {
+            "monthly_yield": 1.39,
+            "ytd_yield": 20.94,
+            "total_assets": 11.15,
+            "management_fee": 0.41
+          },
+          "202512": {
+            "monthly_yield": 2.0,
+            "ytd_yield": 23.36,
+            "total_assets": 12.72,
+            "management_fee": 0.41
+          },
+          "202601": {
+            "monthly_yield": 3.86,
+            "ytd_yield": 3.86,
+            "total_assets": 14.77,
+            "management_fee": 0.39
+          },
+          "202602": {
+            "monthly_yield": 1.2,
+            "ytd_yield": 5.11,
+            "total_assets": 15.17,
+            "management_fee": 0.39
+          },
+          "202603": {
+            "monthly_yield": -4.65,
+            "ytd_yield": 0.22,
+            "total_assets": 14.19,
+            "management_fee": 0.39
+          },
+          "202604": {
+            "monthly_yield": 7.36,
+            "ytd_yield": 7.59,
+            "total_assets": 16.37,
+            "management_fee": 0.39
+          },
+          "202605": {
+            "monthly_yield": 2.75,
+            "ytd_yield": 10.55,
+            "total_assets": 17.45,
+            "management_fee": 0.39
+          }
+        },
+        "15394": {
+          "202407": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 0,
+            "management_fee": null
+          },
+          "202408": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 0.54,
+            "management_fee": null
+          },
+          "202409": {
+            "monthly_yield": 3.4,
+            "ytd_yield": null,
+            "total_assets": 1.07,
+            "management_fee": null
+          },
+          "202410": {
+            "monthly_yield": 0.47,
+            "ytd_yield": null,
+            "total_assets": 1.27,
+            "management_fee": null
+          },
+          "202411": {
+            "monthly_yield": 2.69,
+            "ytd_yield": null,
+            "total_assets": 3,
+            "management_fee": null
+          },
+          "202412": {
+            "monthly_yield": -1.59,
+            "ytd_yield": null,
+            "total_assets": 3.94,
+            "management_fee": null
+          },
+          "202501": {
+            "monthly_yield": 0.62,
+            "ytd_yield": 0.62,
+            "total_assets": 4.62,
+            "management_fee": null
+          },
+          "202502": {
+            "monthly_yield": -2.26,
+            "ytd_yield": -1.65,
+            "total_assets": 5.14,
+            "management_fee": null
+          },
+          "202503": {
+            "monthly_yield": -2.92,
+            "ytd_yield": -4.53,
+            "total_assets": 5.21,
+            "management_fee": null
+          },
+          "202504": {
+            "monthly_yield": -2.69,
+            "ytd_yield": -7.09,
+            "total_assets": 5.13,
+            "management_fee": null
+          },
+          "202505": {
+            "monthly_yield": 3.81,
+            "ytd_yield": -3.55,
+            "total_assets": 5.48,
+            "management_fee": null
+          },
+          "202506": {
+            "monthly_yield": 0.61,
+            "ytd_yield": -2.97,
+            "total_assets": 5.51,
+            "management_fee": null
+          },
+          "202507": {
+            "monthly_yield": 4.18,
+            "ytd_yield": 1.09,
+            "total_assets": 6.17,
+            "management_fee": null
+          },
+          "202508": {
+            "monthly_yield": -0.68,
+            "ytd_yield": 0.4,
+            "total_assets": 6.07,
+            "management_fee": null
+          },
+          "202509": {
+            "monthly_yield": 2.07,
+            "ytd_yield": 2.48,
+            "total_assets": 6.67,
+            "management_fee": null
+          },
+          "202510": {
+            "monthly_yield": 1.53,
+            "ytd_yield": 4.05,
+            "total_assets": 6.69,
+            "management_fee": null
+          },
+          "202511": {
+            "monthly_yield": -0.09,
+            "ytd_yield": 3.96,
+            "total_assets": 6.95,
+            "management_fee": null
+          },
+          "202512": {
+            "monthly_yield": -1.51,
+            "ytd_yield": 2.39,
+            "total_assets": 6.99,
+            "management_fee": null
+          },
+          "202601": {
+            "monthly_yield": -2.29,
+            "ytd_yield": -2.29,
+            "total_assets": 6.63,
+            "management_fee": 0.39
+          },
+          "202602": {
+            "monthly_yield": 0.8,
+            "ytd_yield": -1.51,
+            "total_assets": 6.5,
+            "management_fee": 0.39
+          },
+          "202603": {
+            "monthly_yield": -5.38,
+            "ytd_yield": -6.81,
+            "total_assets": 5.9,
+            "management_fee": 0.39
+          },
+          "202604": {
+            "monthly_yield": 3.24,
+            "ytd_yield": -3.79,
+            "total_assets": 6.06,
+            "management_fee": 0.39
+          },
+          "202605": {
+            "monthly_yield": 0.93,
+            "ytd_yield": -2.89,
+            "total_assets": 5.98,
+            "management_fee": 0.39
+          }
+        }
+      },
+      "trailing": {
+        "14077": {
+          "period": "202605",
+          "ytd_yield": 6.13,
+          "trailing_1yr": 17.7,
+          "trailing_3yr": 46.28,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 13.52,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.39,
+          "stock_exposure": 50.2
+        },
+        "14078": {
+          "period": "202605",
+          "ytd_yield": 3.11,
+          "trailing_1yr": 10.51,
+          "trailing_3yr": 26.11,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 8.04,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.39,
+          "stock_exposure": 23.1
+        },
+        "14079": {
+          "period": "202605",
+          "ytd_yield": 10.55,
+          "trailing_1yr": 31.81,
+          "trailing_3yr": 84.66,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 22.68,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.39,
+          "stock_exposure": 96.3
+        },
+        "15394": {
+          "period": "202605",
+          "ytd_yield": -2.89,
+          "trailing_1yr": 3.09,
+          "trailing_3yr": null,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": null,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.39,
+          "stock_exposure": 99.3
+        }
+      },
+      "visible_tracks": null
     },
     "analista_gemel": {
-      "error": "HTTPSConnectionPool(host='data.gov.il', port=443): Read timed out. (read timeout=30)",
-      "label": "גמל להשקעה — אנליסט"
+      "fund_id": "7843",
+      "label": "גמל להשקעה — אנליסט",
+      "managing_corp": "אנליסט קופות גמל בע\"מ",
+      "fund_class": "קופת גמל להשקעה",
+      "periods": [
+        "202401",
+        "202402",
+        "202403",
+        "202404",
+        "202405",
+        "202406",
+        "202407",
+        "202408",
+        "202409",
+        "202410",
+        "202411",
+        "202412",
+        "202501",
+        "202502",
+        "202503",
+        "202504",
+        "202505",
+        "202506",
+        "202507",
+        "202508",
+        "202509",
+        "202510",
+        "202511",
+        "202512",
+        "202601",
+        "202602",
+        "202603",
+        "202604",
+        "202605"
+      ],
+      "tracks_meta": {
+        "7834": "אנליסט מסלולית - קופת גמל להשקעה כללי",
+        "7836": "אנליסט מסלולית - קופת גמל להשקעה מניות",
+        "7837": "אנליסט מסלולית - קופת גמל להשקעה אשראי ואג\"ח",
+        "7839": "אנליסט מסלולית - קופת גמל להשקעה כספי (שקלי)",
+        "7842": "אנליסט מסלולית - קופת גמל להשקעה משולב סחיר",
+        "7843": "אנליסט מסלולית - קופת גמל להשקעה עוקב מדדים - גמיש",
+        "7986": "אנליסט מסלולית - קופת גמל להשקעה אשראי ואג\"ח עד 25% מניות",
+        "13854": "אנליסט מסלולית - קופת גמל להשקעה עוקב מדד S&P500",
+        "15309": "אנליסט מסלולית - קופת גמל להשקעה עוקב מדדי מניות"
+      },
+      "tracks_monthly": {
+        "7834": {
+          "202401": {
+            "monthly_yield": 0.33,
+            "ytd_yield": 0.33,
+            "total_assets": 1541.83,
+            "management_fee": 0.64
+          },
+          "202402": {
+            "monthly_yield": 2.22,
+            "ytd_yield": 2.56,
+            "total_assets": 1644.37,
+            "management_fee": 0.64
+          },
+          "202403": {
+            "monthly_yield": 2.16,
+            "ytd_yield": 4.77,
+            "total_assets": 1770.01,
+            "management_fee": 0.64
+          },
+          "202404": {
+            "monthly_yield": -1.81,
+            "ytd_yield": 2.88,
+            "total_assets": 1812.56,
+            "management_fee": 0.64
+          },
+          "202405": {
+            "monthly_yield": 1.23,
+            "ytd_yield": 4.14,
+            "total_assets": 1907.46,
+            "management_fee": 0.64
+          },
+          "202406": {
+            "monthly_yield": 1.31,
+            "ytd_yield": 5.51,
+            "total_assets": 1981.93,
+            "management_fee": 0.64
+          },
+          "202407": {
+            "monthly_yield": 1.14,
+            "ytd_yield": 6.71,
+            "total_assets": 2035.57,
+            "management_fee": 0.64
+          },
+          "202408": {
+            "monthly_yield": 0.84,
+            "ytd_yield": 7.6,
+            "total_assets": 2086.36,
+            "management_fee": 0.64
+          },
+          "202409": {
+            "monthly_yield": 1.87,
+            "ytd_yield": 9.62,
+            "total_assets": 2154.24,
+            "management_fee": 0.64
+          },
+          "202410": {
+            "monthly_yield": 0.42,
+            "ytd_yield": 10.08,
+            "total_assets": 2185.4,
+            "management_fee": 0.64
+          },
+          "202411": {
+            "monthly_yield": 2.32,
+            "ytd_yield": 12.63,
+            "total_assets": 2266.63,
+            "management_fee": 0.64
+          },
+          "202412": {
+            "monthly_yield": 0.79,
+            "ytd_yield": 13.52,
+            "total_assets": 2449.05,
+            "management_fee": 0.64
+          },
+          "202501": {
+            "monthly_yield": 1.6,
+            "ytd_yield": 1.6,
+            "total_assets": 2627.58,
+            "management_fee": 0.63
+          },
+          "202502": {
+            "monthly_yield": -0.16,
+            "ytd_yield": 1.44,
+            "total_assets": 2735.13,
+            "management_fee": 0.63
+          },
+          "202503": {
+            "monthly_yield": -1.26,
+            "ytd_yield": 0.16,
+            "total_assets": 2803.99,
+            "management_fee": 0.63
+          },
+          "202504": {
+            "monthly_yield": 0.58,
+            "ytd_yield": 0.74,
+            "total_assets": 2896.26,
+            "management_fee": 0.63
+          },
+          "202505": {
+            "monthly_yield": 2.22,
+            "ytd_yield": 2.98,
+            "total_assets": 3018.42,
+            "management_fee": 0.63
+          },
+          "202506": {
+            "monthly_yield": 3.51,
+            "ytd_yield": 6.59,
+            "total_assets": 3183.1,
+            "management_fee": 0.63
+          },
+          "202507": {
+            "monthly_yield": 1.11,
+            "ytd_yield": 7.77,
+            "total_assets": 3279.96,
+            "management_fee": 0.63
+          },
+          "202508": {
+            "monthly_yield": 0.84,
+            "ytd_yield": 8.68,
+            "total_assets": 3365.69,
+            "management_fee": 0.63
+          },
+          "202509": {
+            "monthly_yield": 2.05,
+            "ytd_yield": 10.91,
+            "total_assets": 3482.05,
+            "management_fee": 0.63
+          },
+          "202510": {
+            "monthly_yield": 1.41,
+            "ytd_yield": 12.47,
+            "total_assets": 3560.76,
+            "management_fee": 0.63
+          },
+          "202511": {
+            "monthly_yield": 0.78,
+            "ytd_yield": 13.35,
+            "total_assets": 3641.52,
+            "management_fee": 0.63
+          },
+          "202512": {
+            "monthly_yield": 0.84,
+            "ytd_yield": 14.3,
+            "total_assets": 3814.34,
+            "management_fee": 0.63
+          },
+          "202601": {
+            "monthly_yield": 2.03,
+            "ytd_yield": 2.03,
+            "total_assets": 3977.32,
+            "management_fee": 0.62
+          },
+          "202602": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 2.39,
+            "total_assets": 4034.2,
+            "management_fee": 0.62
+          },
+          "202603": {
+            "monthly_yield": -2.01,
+            "ytd_yield": 0.33,
+            "total_assets": 3967.88,
+            "management_fee": 0.62
+          },
+          "202604": {
+            "monthly_yield": 4.4,
+            "ytd_yield": 4.74,
+            "total_assets": 4146.57,
+            "management_fee": 0.62
+          },
+          "202605": {
+            "monthly_yield": 2.53,
+            "ytd_yield": 7.39,
+            "total_assets": 4242.99,
+            "management_fee": 0.62
+          }
+        },
+        "7836": {
+          "202401": {
+            "monthly_yield": 0.82,
+            "ytd_yield": 0.82,
+            "total_assets": 2401.99,
+            "management_fee": 0.65
+          },
+          "202402": {
+            "monthly_yield": 4.79,
+            "ytd_yield": 5.65,
+            "total_assets": 2601.55,
+            "management_fee": 0.65
+          },
+          "202403": {
+            "monthly_yield": 3.68,
+            "ytd_yield": 9.54,
+            "total_assets": 2804.33,
+            "management_fee": 0.65
+          },
+          "202404": {
+            "monthly_yield": -3.48,
+            "ytd_yield": 5.73,
+            "total_assets": 2800.63,
+            "management_fee": 0.65
+          },
+          "202405": {
+            "monthly_yield": 2.93,
+            "ytd_yield": 8.82,
+            "total_assets": 2978.25,
+            "management_fee": 0.65
+          },
+          "202406": {
+            "monthly_yield": 2.66,
+            "ytd_yield": 11.72,
+            "total_assets": 3097.4,
+            "management_fee": 0.65
+          },
+          "202407": {
+            "monthly_yield": 1.3,
+            "ytd_yield": 13.17,
+            "total_assets": 3163.75,
+            "management_fee": 0.65
+          },
+          "202408": {
+            "monthly_yield": 0.87,
+            "ytd_yield": 14.15,
+            "total_assets": 3208.22,
+            "management_fee": 0.65
+          },
+          "202409": {
+            "monthly_yield": 3.29,
+            "ytd_yield": 17.91,
+            "total_assets": 3355.27,
+            "management_fee": 0.65
+          },
+          "202410": {
+            "monthly_yield": 0.39,
+            "ytd_yield": 18.37,
+            "total_assets": 3412.73,
+            "management_fee": 0.65
+          },
+          "202411": {
+            "monthly_yield": 4.15,
+            "ytd_yield": 23.28,
+            "total_assets": 3610.36,
+            "management_fee": 0.65
+          },
+          "202412": {
+            "monthly_yield": 0.44,
+            "ytd_yield": 23.82,
+            "total_assets": 3879.19,
+            "management_fee": 0.65
+          },
+          "202501": {
+            "monthly_yield": 3.11,
+            "ytd_yield": 3.11,
+            "total_assets": 4191.82,
+            "management_fee": 0.63
+          },
+          "202502": {
+            "monthly_yield": -1.62,
+            "ytd_yield": 1.44,
+            "total_assets": 4248.45,
+            "management_fee": 0.63
+          },
+          "202503": {
+            "monthly_yield": -3.19,
+            "ytd_yield": -1.8,
+            "total_assets": 4212.8,
+            "management_fee": 0.63
+          },
+          "202504": {
+            "monthly_yield": -0.05,
+            "ytd_yield": -1.85,
+            "total_assets": 4281.05,
+            "management_fee": 0.63
+          },
+          "202505": {
+            "monthly_yield": 5.2,
+            "ytd_yield": 3.26,
+            "total_assets": 4584.1,
+            "management_fee": 0.63
+          },
+          "202506": {
+            "monthly_yield": 5.38,
+            "ytd_yield": 8.81,
+            "total_assets": 4900.55,
+            "management_fee": 0.63
+          },
+          "202507": {
+            "monthly_yield": 2.07,
+            "ytd_yield": 11.07,
+            "total_assets": 5103.69,
+            "management_fee": 0.63
+          },
+          "202508": {
+            "monthly_yield": 0.95,
+            "ytd_yield": 12.12,
+            "total_assets": 5226.87,
+            "management_fee": 0.63
+          },
+          "202509": {
+            "monthly_yield": 3.48,
+            "ytd_yield": 16.02,
+            "total_assets": 5491.14,
+            "management_fee": 0.63
+          },
+          "202510": {
+            "monthly_yield": 2.09,
+            "ytd_yield": 18.45,
+            "total_assets": 5675.78,
+            "management_fee": 0.63
+          },
+          "202511": {
+            "monthly_yield": 0.9,
+            "ytd_yield": 19.51,
+            "total_assets": 5776.41,
+            "management_fee": 0.63
+          },
+          "202512": {
+            "monthly_yield": 0.99,
+            "ytd_yield": 20.7,
+            "total_assets": 5946.47,
+            "management_fee": 0.63
+          },
+          "202601": {
+            "monthly_yield": 3.32,
+            "ytd_yield": 3.32,
+            "total_assets": 6187.69,
+            "management_fee": 0.61
+          },
+          "202602": {
+            "monthly_yield": 0.23,
+            "ytd_yield": 3.56,
+            "total_assets": 6188.21,
+            "management_fee": 0.61
+          },
+          "202603": {
+            "monthly_yield": -4.17,
+            "ytd_yield": -0.76,
+            "total_assets": 5879.24,
+            "management_fee": 0.61
+          },
+          "202604": {
+            "monthly_yield": 8.81,
+            "ytd_yield": 7.98,
+            "total_assets": 6368.38,
+            "management_fee": 0.61
+          },
+          "202605": {
+            "monthly_yield": 4.08,
+            "ytd_yield": 12.39,
+            "total_assets": 6594.18,
+            "management_fee": 0.61
+          }
+        },
+        "7837": {
+          "202401": {
+            "monthly_yield": 0.16,
+            "ytd_yield": 0.16,
+            "total_assets": 29.82,
+            "management_fee": 0.65
+          },
+          "202402": {
+            "monthly_yield": 0.32,
+            "ytd_yield": 0.48,
+            "total_assets": 30.33,
+            "management_fee": 0.65
+          },
+          "202403": {
+            "monthly_yield": 0.37,
+            "ytd_yield": 0.85,
+            "total_assets": 32.37,
+            "management_fee": 0.65
+          },
+          "202404": {
+            "monthly_yield": -0.24,
+            "ytd_yield": 0.61,
+            "total_assets": 35.71,
+            "management_fee": 0.65
+          },
+          "202405": {
+            "monthly_yield": -0.09,
+            "ytd_yield": 0.52,
+            "total_assets": 34.56,
+            "management_fee": 0.65
+          },
+          "202406": {
+            "monthly_yield": 0.19,
+            "ytd_yield": 0.71,
+            "total_assets": 35.04,
+            "management_fee": 0.65
+          },
+          "202407": {
+            "monthly_yield": 0.71,
+            "ytd_yield": 1.43,
+            "total_assets": 35.96,
+            "management_fee": 0.65
+          },
+          "202408": {
+            "monthly_yield": 0.99,
+            "ytd_yield": 2.43,
+            "total_assets": 41.05,
+            "management_fee": 0.65
+          },
+          "202409": {
+            "monthly_yield": 0.36,
+            "ytd_yield": 2.8,
+            "total_assets": 39.21,
+            "management_fee": 0.65
+          },
+          "202410": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 3.16,
+            "total_assets": 40.46,
+            "management_fee": 0.65
+          },
+          "202411": {
+            "monthly_yield": 0.97,
+            "ytd_yield": 4.16,
+            "total_assets": 39.27,
+            "management_fee": 0.65
+          },
+          "202412": {
+            "monthly_yield": 0.73,
+            "ytd_yield": 4.92,
+            "total_assets": 39.92,
+            "management_fee": 0.65
+          },
+          "202501": {
+            "monthly_yield": 0.24,
+            "ytd_yield": 0.24,
+            "total_assets": 42.84,
+            "management_fee": 0.62
+          },
+          "202502": {
+            "monthly_yield": 0.72,
+            "ytd_yield": 0.96,
+            "total_assets": 47.6,
+            "management_fee": 0.62
+          },
+          "202503": {
+            "monthly_yield": -0.05,
+            "ytd_yield": 0.91,
+            "total_assets": 54.03,
+            "management_fee": 0.62
+          },
+          "202504": {
+            "monthly_yield": 0.69,
+            "ytd_yield": 1.61,
+            "total_assets": 61.96,
+            "management_fee": 0.62
+          },
+          "202505": {
+            "monthly_yield": -0.14,
+            "ytd_yield": 1.47,
+            "total_assets": 59.48,
+            "management_fee": 0.62
+          },
+          "202506": {
+            "monthly_yield": 1.29,
+            "ytd_yield": 2.77,
+            "total_assets": 59.21,
+            "management_fee": 0.62
+          },
+          "202507": {
+            "monthly_yield": 0.23,
+            "ytd_yield": 3.01,
+            "total_assets": 60.23,
+            "management_fee": 0.62
+          },
+          "202508": {
+            "monthly_yield": 0.79,
+            "ytd_yield": 3.82,
+            "total_assets": 61.47,
+            "management_fee": 0.62
+          },
+          "202509": {
+            "monthly_yield": 0.7,
+            "ytd_yield": 4.55,
+            "total_assets": 62.51,
+            "management_fee": 0.62
+          },
+          "202510": {
+            "monthly_yield": 0.88,
+            "ytd_yield": 5.47,
+            "total_assets": 66.1,
+            "management_fee": 0.62
+          },
+          "202511": {
+            "monthly_yield": 0.41,
+            "ytd_yield": 5.9,
+            "total_assets": 71.57,
+            "management_fee": 0.62
+          },
+          "202512": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 6.27,
+            "total_assets": 77.97,
+            "management_fee": 0.62
+          },
+          "202601": {
+            "monthly_yield": 0.65,
+            "ytd_yield": 0.65,
+            "total_assets": 87.88,
+            "management_fee": 0.61
+          },
+          "202602": {
+            "monthly_yield": 0.25,
+            "ytd_yield": 0.9,
+            "total_assets": 95.29,
+            "management_fee": 0.61
+          },
+          "202603": {
+            "monthly_yield": -0.57,
+            "ytd_yield": 0.33,
+            "total_assets": 98.32,
+            "management_fee": 0.61
+          },
+          "202604": {
+            "monthly_yield": 0.97,
+            "ytd_yield": 1.3,
+            "total_assets": 94.45,
+            "management_fee": 0.61
+          },
+          "202605": {
+            "monthly_yield": 1.3,
+            "ytd_yield": 2.62,
+            "total_assets": 97.06,
+            "management_fee": 0.61
+          }
+        },
+        "7839": {
+          "202401": {
+            "monthly_yield": 0.38,
+            "ytd_yield": 0.38,
+            "total_assets": 30.82,
+            "management_fee": 0.59
+          },
+          "202402": {
+            "monthly_yield": 0.34,
+            "ytd_yield": 0.72,
+            "total_assets": 30.67,
+            "management_fee": 0.59
+          },
+          "202403": {
+            "monthly_yield": 0.32,
+            "ytd_yield": 1.04,
+            "total_assets": 30.9,
+            "management_fee": 0.59
+          },
+          "202404": {
+            "monthly_yield": 0.27,
+            "ytd_yield": 1.32,
+            "total_assets": 31.8,
+            "management_fee": 0.59
+          },
+          "202405": {
+            "monthly_yield": 0.3,
+            "ytd_yield": 1.62,
+            "total_assets": 29.91,
+            "management_fee": 0.59
+          },
+          "202406": {
+            "monthly_yield": 0.42,
+            "ytd_yield": 2.05,
+            "total_assets": 33.47,
+            "management_fee": 0.59
+          },
+          "202407": {
+            "monthly_yield": 0.41,
+            "ytd_yield": 2.47,
+            "total_assets": 36.86,
+            "management_fee": 0.59
+          },
+          "202408": {
+            "monthly_yield": 0.34,
+            "ytd_yield": 2.81,
+            "total_assets": 42.8,
+            "management_fee": 0.59
+          },
+          "202409": {
+            "monthly_yield": 0.34,
+            "ytd_yield": 3.16,
+            "total_assets": 40.32,
+            "management_fee": 0.59
+          },
+          "202410": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 3.52,
+            "total_assets": 40.28,
+            "management_fee": 0.59
+          },
+          "202411": {
+            "monthly_yield": 0.32,
+            "ytd_yield": 3.86,
+            "total_assets": 40.65,
+            "management_fee": 0.59
+          },
+          "202412": {
+            "monthly_yield": 0.44,
+            "ytd_yield": 4.31,
+            "total_assets": 37.36,
+            "management_fee": 0.59
+          },
+          "202501": {
+            "monthly_yield": 0.36,
+            "ytd_yield": 0.36,
+            "total_assets": 37.55,
+            "management_fee": 0.57
+          },
+          "202502": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 0.67,
+            "total_assets": 37.61,
+            "management_fee": 0.57
+          },
+          "202503": {
+            "monthly_yield": 0.38,
+            "ytd_yield": 1.05,
+            "total_assets": 47.85,
+            "management_fee": 0.57
+          },
+          "202504": {
+            "monthly_yield": 0.37,
+            "ytd_yield": 1.43,
+            "total_assets": 49.09,
+            "management_fee": 0.57
+          },
+          "202505": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 1.74,
+            "total_assets": 44.33,
+            "management_fee": 0.57
+          },
+          "202506": {
+            "monthly_yield": 0.42,
+            "ytd_yield": 2.17,
+            "total_assets": 42.33,
+            "management_fee": 0.57
+          },
+          "202507": {
+            "monthly_yield": 0.34,
+            "ytd_yield": 2.52,
+            "total_assets": 37.54,
+            "management_fee": 0.57
+          },
+          "202508": {
+            "monthly_yield": 0.38,
+            "ytd_yield": 2.91,
+            "total_assets": 38.12,
+            "management_fee": 0.57
+          },
+          "202509": {
+            "monthly_yield": 0.39,
+            "ytd_yield": 3.31,
+            "total_assets": 38.23,
+            "management_fee": 0.57
+          },
+          "202510": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 3.67,
+            "total_assets": 38.66,
+            "management_fee": 0.57
+          },
+          "202511": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 4.03,
+            "total_assets": 42.12,
+            "management_fee": 0.57
+          },
+          "202512": {
+            "monthly_yield": 0.37,
+            "ytd_yield": 4.42,
+            "total_assets": 46.76,
+            "management_fee": 0.57
+          },
+          "202601": {
+            "monthly_yield": 0.39,
+            "ytd_yield": 0.39,
+            "total_assets": 51.05,
+            "management_fee": 0.58
+          },
+          "202602": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 0.7,
+            "total_assets": 54.87,
+            "management_fee": 0.58
+          },
+          "202603": {
+            "monthly_yield": 0.23,
+            "ytd_yield": 0.93,
+            "total_assets": 58.4,
+            "management_fee": 0.58
+          },
+          "202604": {
+            "monthly_yield": 0.35,
+            "ytd_yield": 1.29,
+            "total_assets": 53.98,
+            "management_fee": 0.58
+          },
+          "202605": {
+            "monthly_yield": 0.41,
+            "ytd_yield": 1.7,
+            "total_assets": 50.86,
+            "management_fee": 0.58
+          }
+        },
+        "7842": {
+          "202401": {
+            "monthly_yield": 0.84,
+            "ytd_yield": 0.84,
+            "total_assets": 300.41,
+            "management_fee": 0.63
+          },
+          "202402": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 1.15,
+            "total_assets": 317.03,
+            "management_fee": 0.63
+          },
+          "202403": {
+            "monthly_yield": 4.34,
+            "ytd_yield": 5.54,
+            "total_assets": 338.82,
+            "management_fee": 0.63
+          },
+          "202404": {
+            "monthly_yield": -1.15,
+            "ytd_yield": 4.33,
+            "total_assets": 341.39,
+            "management_fee": 0.63
+          },
+          "202405": {
+            "monthly_yield": 1.87,
+            "ytd_yield": 6.28,
+            "total_assets": 355.16,
+            "management_fee": 0.63
+          },
+          "202406": {
+            "monthly_yield": 3.34,
+            "ytd_yield": 9.83,
+            "total_assets": 377.36,
+            "management_fee": 0.63
+          },
+          "202407": {
+            "monthly_yield": 1.67,
+            "ytd_yield": 11.66,
+            "total_assets": 385.38,
+            "management_fee": 0.63
+          },
+          "202408": {
+            "monthly_yield": -1.27,
+            "ytd_yield": 10.25,
+            "total_assets": 388.11,
+            "management_fee": 0.63
+          },
+          "202409": {
+            "monthly_yield": 3.14,
+            "ytd_yield": 13.71,
+            "total_assets": 402.92,
+            "management_fee": 0.63
+          },
+          "202410": {
+            "monthly_yield": -1.36,
+            "ytd_yield": 12.16,
+            "total_assets": 401.82,
+            "management_fee": 0.63
+          },
+          "202411": {
+            "monthly_yield": 0.53,
+            "ytd_yield": 12.76,
+            "total_assets": 405.3,
+            "management_fee": 0.63
+          },
+          "202412": {
+            "monthly_yield": -0.9,
+            "ytd_yield": 11.74,
+            "total_assets": 388.45,
+            "management_fee": 0.63
+          },
+          "202501": {
+            "monthly_yield": 0.07,
+            "ytd_yield": 0.07,
+            "total_assets": 381.57,
+            "management_fee": 0.62
+          },
+          "202502": {
+            "monthly_yield": -1.47,
+            "ytd_yield": -1.4,
+            "total_assets": 367.21,
+            "management_fee": 0.62
+          },
+          "202503": {
+            "monthly_yield": 3.14,
+            "ytd_yield": 1.69,
+            "total_assets": 366.84,
+            "management_fee": 0.62
+          },
+          "202504": {
+            "monthly_yield": -1.62,
+            "ytd_yield": 0.05,
+            "total_assets": 357.8,
+            "management_fee": 0.62
+          },
+          "202505": {
+            "monthly_yield": -0.97,
+            "ytd_yield": -0.92,
+            "total_assets": 352.94,
+            "management_fee": 0.62
+          },
+          "202506": {
+            "monthly_yield": -1.05,
+            "ytd_yield": -1.96,
+            "total_assets": 340.78,
+            "management_fee": 0.62
+          },
+          "202507": {
+            "monthly_yield": 1.16,
+            "ytd_yield": -0.83,
+            "total_assets": 320.02,
+            "management_fee": 0.62
+          },
+          "202508": {
+            "monthly_yield": -0.04,
+            "ytd_yield": -0.87,
+            "total_assets": 304.31,
+            "management_fee": 0.62
+          },
+          "202509": {
+            "monthly_yield": 0.99,
+            "ytd_yield": 0.12,
+            "total_assets": 292.49,
+            "management_fee": 0.62
+          },
+          "202510": {
+            "monthly_yield": -0.33,
+            "ytd_yield": -0.21,
+            "total_assets": 276.67,
+            "management_fee": 0.62
+          },
+          "202511": {
+            "monthly_yield": 0.62,
+            "ytd_yield": 0.4,
+            "total_assets": 260.81,
+            "management_fee": 0.62
+          },
+          "202512": {
+            "monthly_yield": -2.06,
+            "ytd_yield": -1.66,
+            "total_assets": 234.69,
+            "management_fee": 0.62
+          },
+          "202601": {
+            "monthly_yield": -2.32,
+            "ytd_yield": -2.32,
+            "total_assets": 210.74,
+            "management_fee": 0.61
+          },
+          "202602": {
+            "monthly_yield": 1.18,
+            "ytd_yield": -1.17,
+            "total_assets": 199.76,
+            "management_fee": 0.61
+          },
+          "202603": {
+            "monthly_yield": -2.18,
+            "ytd_yield": -3.32,
+            "total_assets": 182.54,
+            "management_fee": 0.61
+          },
+          "202604": {
+            "monthly_yield": -1.9,
+            "ytd_yield": -5.16,
+            "total_assets": 169.62,
+            "management_fee": 0.61
+          },
+          "202605": {
+            "monthly_yield": -2.12,
+            "ytd_yield": -7.17,
+            "total_assets": 156.85,
+            "management_fee": 0.61
+          }
+        },
+        "7843": {
+          "202401": {
+            "monthly_yield": 0.36,
+            "ytd_yield": 0.36,
+            "total_assets": 10.35,
+            "management_fee": 0.66
+          },
+          "202402": {
+            "monthly_yield": 1.97,
+            "ytd_yield": 2.34,
+            "total_assets": 12.19,
+            "management_fee": 0.66
+          },
+          "202403": {
+            "monthly_yield": 2.26,
+            "ytd_yield": 4.65,
+            "total_assets": 14.16,
+            "management_fee": 0.66
+          },
+          "202404": {
+            "monthly_yield": -1.01,
+            "ytd_yield": 3.59,
+            "total_assets": 14.91,
+            "management_fee": 0.66
+          },
+          "202405": {
+            "monthly_yield": 0.83,
+            "ytd_yield": 4.45,
+            "total_assets": 15.88,
+            "management_fee": 0.66
+          },
+          "202406": {
+            "monthly_yield": 1.13,
+            "ytd_yield": 5.63,
+            "total_assets": 17.79,
+            "management_fee": 0.66
+          },
+          "202407": {
+            "monthly_yield": -2.07,
+            "ytd_yield": 3.45,
+            "total_assets": 21.55,
+            "management_fee": 0.66
+          },
+          "202408": {
+            "monthly_yield": 4.38,
+            "ytd_yield": 7.98,
+            "total_assets": 25.23,
+            "management_fee": 0.66
+          },
+          "202409": {
+            "monthly_yield": 1.93,
+            "ytd_yield": 10.06,
+            "total_assets": 28.7,
+            "management_fee": 0.66
+          },
+          "202410": {
+            "monthly_yield": 5.26,
+            "ytd_yield": 15.85,
+            "total_assets": 32.84,
+            "management_fee": 0.66
+          },
+          "202411": {
+            "monthly_yield": 5.38,
+            "ytd_yield": 22.08,
+            "total_assets": 39.73,
+            "management_fee": 0.66
+          },
+          "202412": {
+            "monthly_yield": 5.3,
+            "ytd_yield": 28.55,
+            "total_assets": 64.12,
+            "management_fee": 0.66
+          },
+          "202501": {
+            "monthly_yield": 3.0,
+            "ytd_yield": 3.0,
+            "total_assets": 95.27,
+            "management_fee": 0.64
+          },
+          "202502": {
+            "monthly_yield": 1.51,
+            "ytd_yield": 4.56,
+            "total_assets": 128.58,
+            "management_fee": 0.64
+          },
+          "202503": {
+            "monthly_yield": -5.95,
+            "ytd_yield": -1.67,
+            "total_assets": 156.37,
+            "management_fee": 0.64
+          },
+          "202504": {
+            "monthly_yield": 4.95,
+            "ytd_yield": 3.2,
+            "total_assets": 182.56,
+            "management_fee": 0.64
+          },
+          "202505": {
+            "monthly_yield": 5.81,
+            "ytd_yield": 9.2,
+            "total_assets": 208.52,
+            "management_fee": 0.64
+          },
+          "202506": {
+            "monthly_yield": 12.52,
+            "ytd_yield": 22.87,
+            "total_assets": 270.29,
+            "management_fee": 0.64
+          },
+          "202507": {
+            "monthly_yield": 1.63,
+            "ytd_yield": 24.87,
+            "total_assets": 340.99,
+            "management_fee": 0.64
+          },
+          "202508": {
+            "monthly_yield": 0.26,
+            "ytd_yield": 25.2,
+            "total_assets": 378.43,
+            "management_fee": 0.64
+          },
+          "202509": {
+            "monthly_yield": 4.07,
+            "ytd_yield": 30.29,
+            "total_assets": 427.09,
+            "management_fee": 0.64
+          },
+          "202510": {
+            "monthly_yield": 3.82,
+            "ytd_yield": 35.27,
+            "total_assets": 483.47,
+            "management_fee": 0.64
+          },
+          "202511": {
+            "monthly_yield": 3.07,
+            "ytd_yield": 39.42,
+            "total_assets": 557.7,
+            "management_fee": 0.64
+          },
+          "202512": {
+            "monthly_yield": 4.53,
+            "ytd_yield": 45.74,
+            "total_assets": 705.9,
+            "management_fee": 0.64
+          },
+          "202601": {
+            "monthly_yield": 6.97,
+            "ytd_yield": 6.97,
+            "total_assets": 878.63,
+            "management_fee": 0.61
+          },
+          "202602": {
+            "monthly_yield": 0.19,
+            "ytd_yield": 7.17,
+            "total_assets": 971.51,
+            "management_fee": 0.61
+          },
+          "202603": {
+            "monthly_yield": -2.98,
+            "ytd_yield": 3.98,
+            "total_assets": 1007.4,
+            "management_fee": 0.61
+          },
+          "202604": {
+            "monthly_yield": 8.8,
+            "ytd_yield": 13.13,
+            "total_assets": 1123.24,
+            "management_fee": 0.61
+          },
+          "202605": {
+            "monthly_yield": 2.45,
+            "ytd_yield": 15.9,
+            "total_assets": 1194.4,
+            "management_fee": 0.61
+          }
+        },
+        "7986": {
+          "202401": {
+            "monthly_yield": 0.26,
+            "ytd_yield": 0.26,
+            "total_assets": 79.87,
+            "management_fee": 0.64
+          },
+          "202402": {
+            "monthly_yield": 1.04,
+            "ytd_yield": 1.3,
+            "total_assets": 83.38,
+            "management_fee": 0.64
+          },
+          "202403": {
+            "monthly_yield": 1.24,
+            "ytd_yield": 2.56,
+            "total_assets": 86.62,
+            "management_fee": 0.64
+          },
+          "202404": {
+            "monthly_yield": -0.78,
+            "ytd_yield": 1.76,
+            "total_assets": 89.87,
+            "management_fee": 0.64
+          },
+          "202405": {
+            "monthly_yield": 0.42,
+            "ytd_yield": 2.19,
+            "total_assets": 92.12,
+            "management_fee": 0.64
+          },
+          "202406": {
+            "monthly_yield": 0.68,
+            "ytd_yield": 2.88,
+            "total_assets": 93.42,
+            "management_fee": 0.64
+          },
+          "202407": {
+            "monthly_yield": 0.91,
+            "ytd_yield": 3.82,
+            "total_assets": 97.71,
+            "management_fee": 0.64
+          },
+          "202408": {
+            "monthly_yield": 0.74,
+            "ytd_yield": 4.59,
+            "total_assets": 101.95,
+            "management_fee": 0.64
+          },
+          "202409": {
+            "monthly_yield": 1.15,
+            "ytd_yield": 5.79,
+            "total_assets": 103.76,
+            "management_fee": 0.64
+          },
+          "202410": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 6.08,
+            "total_assets": 102.95,
+            "management_fee": 0.64
+          },
+          "202411": {
+            "monthly_yield": 1.44,
+            "ytd_yield": 7.61,
+            "total_assets": 105.52,
+            "management_fee": 0.64
+          },
+          "202412": {
+            "monthly_yield": 0.71,
+            "ytd_yield": 8.38,
+            "total_assets": 112.94,
+            "management_fee": 0.64
+          },
+          "202501": {
+            "monthly_yield": 0.93,
+            "ytd_yield": 0.93,
+            "total_assets": 116.95,
+            "management_fee": 0.63
+          },
+          "202502": {
+            "monthly_yield": 0.31,
+            "ytd_yield": 1.24,
+            "total_assets": 122.85,
+            "management_fee": 0.63
+          },
+          "202503": {
+            "monthly_yield": -0.71,
+            "ytd_yield": 0.52,
+            "total_assets": 128.41,
+            "management_fee": 0.63
+          },
+          "202504": {
+            "monthly_yield": 0.87,
+            "ytd_yield": 1.4,
+            "total_assets": 135.31,
+            "management_fee": 0.63
+          },
+          "202505": {
+            "monthly_yield": 1.16,
+            "ytd_yield": 2.57,
+            "total_assets": 138.58,
+            "management_fee": 0.63
+          },
+          "202506": {
+            "monthly_yield": 2.52,
+            "ytd_yield": 5.16,
+            "total_assets": 142.26,
+            "management_fee": 0.63
+          },
+          "202507": {
+            "monthly_yield": 0.75,
+            "ytd_yield": 5.95,
+            "total_assets": 144.29,
+            "management_fee": 0.63
+          },
+          "202508": {
+            "monthly_yield": 0.74,
+            "ytd_yield": 6.73,
+            "total_assets": 145.58,
+            "management_fee": 0.63
+          },
+          "202509": {
+            "monthly_yield": 1.19,
+            "ytd_yield": 8.0,
+            "total_assets": 148.99,
+            "management_fee": 0.63
+          },
+          "202510": {
+            "monthly_yield": 1.12,
+            "ytd_yield": 9.21,
+            "total_assets": 151.66,
+            "management_fee": 0.63
+          },
+          "202511": {
+            "monthly_yield": 0.52,
+            "ytd_yield": 9.78,
+            "total_assets": 160.58,
+            "management_fee": 0.63
+          },
+          "202512": {
+            "monthly_yield": 0.57,
+            "ytd_yield": 10.41,
+            "total_assets": 169.6,
+            "management_fee": 0.63
+          },
+          "202601": {
+            "monthly_yield": 1.35,
+            "ytd_yield": 1.35,
+            "total_assets": 182.81,
+            "management_fee": 0.61
+          },
+          "202602": {
+            "monthly_yield": 0.44,
+            "ytd_yield": 1.8,
+            "total_assets": 195.74,
+            "management_fee": 0.61
+          },
+          "202603": {
+            "monthly_yield": -0.99,
+            "ytd_yield": 0.79,
+            "total_assets": 197.85,
+            "management_fee": 0.61
+          },
+          "202604": {
+            "monthly_yield": 2.17,
+            "ytd_yield": 2.98,
+            "total_assets": 202.73,
+            "management_fee": 0.61
+          },
+          "202605": {
+            "monthly_yield": 1.51,
+            "ytd_yield": 4.53,
+            "total_assets": 206.65,
+            "management_fee": 0.61
+          }
+        },
+        "13854": {
+          "202401": {
+            "monthly_yield": 2.47,
+            "ytd_yield": 2.47,
+            "total_assets": 520.45,
+            "management_fee": 0.59
+          },
+          "202402": {
+            "monthly_yield": 2.86,
+            "ytd_yield": 5.4,
+            "total_assets": 590.5,
+            "management_fee": 0.59
+          },
+          "202403": {
+            "monthly_yield": 6.27,
+            "ytd_yield": 12.01,
+            "total_assets": 690.65,
+            "management_fee": 0.59
+          },
+          "202404": {
+            "monthly_yield": -1.72,
+            "ytd_yield": 10.08,
+            "total_assets": 720.55,
+            "management_fee": 0.59
+          },
+          "202405": {
+            "monthly_yield": 2.57,
+            "ytd_yield": 12.91,
+            "total_assets": 804.24,
+            "management_fee": 0.59
+          },
+          "202406": {
+            "monthly_yield": 5.66,
+            "ytd_yield": 19.3,
+            "total_assets": 921.31,
+            "management_fee": 0.59
+          },
+          "202407": {
+            "monthly_yield": 1.07,
+            "ytd_yield": 20.58,
+            "total_assets": 997.39,
+            "management_fee": 0.59
+          },
+          "202408": {
+            "monthly_yield": -0.82,
+            "ytd_yield": 19.59,
+            "total_assets": 1013.53,
+            "management_fee": 0.59
+          },
+          "202409": {
+            "monthly_yield": 3.75,
+            "ytd_yield": 24.08,
+            "total_assets": 1100.98,
+            "management_fee": 0.59
+          },
+          "202410": {
+            "monthly_yield": -0.16,
+            "ytd_yield": 23.88,
+            "total_assets": 1137.52,
+            "management_fee": 0.59
+          },
+          "202411": {
+            "monthly_yield": 3.13,
+            "ytd_yield": 27.75,
+            "total_assets": 1225.68,
+            "management_fee": 0.59
+          },
+          "202412": {
+            "monthly_yield": -1.7,
+            "ytd_yield": 25.58,
+            "total_assets": 1287.9,
+            "management_fee": 0.59
+          },
+          "202501": {
+            "monthly_yield": 1.04,
+            "ytd_yield": 1.04,
+            "total_assets": 1353.28,
+            "management_fee": 0.58
+          },
+          "202502": {
+            "monthly_yield": -3.13,
+            "ytd_yield": -2.12,
+            "total_assets": 1318.13,
+            "management_fee": 0.58
+          },
+          "202503": {
+            "monthly_yield": -1.68,
+            "ytd_yield": -3.77,
+            "total_assets": 1276.63,
+            "management_fee": 0.58
+          },
+          "202504": {
+            "monthly_yield": -2.71,
+            "ytd_yield": -6.37,
+            "total_assets": 1253.65,
+            "management_fee": 0.58
+          },
+          "202505": {
+            "monthly_yield": 3.38,
+            "ytd_yield": -3.21,
+            "total_assets": 1314.59,
+            "management_fee": 0.58
+          },
+          "202506": {
+            "monthly_yield": 0.77,
+            "ytd_yield": -2.46,
+            "total_assets": 1319.71,
+            "management_fee": 0.58
+          },
+          "202507": {
+            "monthly_yield": 3.51,
+            "ytd_yield": 0.96,
+            "total_assets": 1330.79,
+            "management_fee": 0.58
+          },
+          "202508": {
+            "monthly_yield": -0.29,
+            "ytd_yield": 0.67,
+            "total_assets": 1313.16,
+            "management_fee": 0.58
+          },
+          "202509": {
+            "monthly_yield": 2.52,
+            "ytd_yield": 3.2,
+            "total_assets": 1334.21,
+            "management_fee": 0.58
+          },
+          "202510": {
+            "monthly_yield": 1.05,
+            "ytd_yield": 4.29,
+            "total_assets": 1315.05,
+            "management_fee": 0.58
+          },
+          "202511": {
+            "monthly_yield": 0.21,
+            "ytd_yield": 4.51,
+            "total_assets": 1282.7,
+            "management_fee": 0.58
+          },
+          "202512": {
+            "monthly_yield": -1.84,
+            "ytd_yield": 2.58,
+            "total_assets": 1218.4,
+            "management_fee": 0.58
+          },
+          "202601": {
+            "monthly_yield": -1.86,
+            "ytd_yield": -1.86,
+            "total_assets": 1141.49,
+            "management_fee": 0.56
+          },
+          "202602": {
+            "monthly_yield": 0.33,
+            "ytd_yield": -1.54,
+            "total_assets": 1087.37,
+            "management_fee": 0.56
+          },
+          "202603": {
+            "monthly_yield": -4.66,
+            "ytd_yield": -6.12,
+            "total_assets": 994.31,
+            "management_fee": 0.56
+          },
+          "202604": {
+            "monthly_yield": 3.24,
+            "ytd_yield": -3.08,
+            "total_assets": 1012.35,
+            "management_fee": 0.56
+          },
+          "202605": {
+            "monthly_yield": 0.61,
+            "ytd_yield": -2.49,
+            "total_assets": 993.66,
+            "management_fee": 0.56
+          }
+        },
+        "15309": {
+          "202406": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 0,
+            "management_fee": null
+          },
+          "202407": {
+            "monthly_yield": null,
+            "ytd_yield": null,
+            "total_assets": 11.62,
+            "management_fee": null
+          },
+          "202408": {
+            "monthly_yield": -2.32,
+            "ytd_yield": null,
+            "total_assets": 19.44,
+            "management_fee": null
+          },
+          "202409": {
+            "monthly_yield": 4.03,
+            "ytd_yield": null,
+            "total_assets": 31.28,
+            "management_fee": null
+          },
+          "202410": {
+            "monthly_yield": -0.6,
+            "ytd_yield": null,
+            "total_assets": 38.15,
+            "management_fee": null
+          },
+          "202411": {
+            "monthly_yield": 1.39,
+            "ytd_yield": null,
+            "total_assets": 46.86,
+            "management_fee": null
+          },
+          "202412": {
+            "monthly_yield": 1.16,
+            "ytd_yield": null,
+            "total_assets": 57.98,
+            "management_fee": null
+          },
+          "202501": {
+            "monthly_yield": -0.05,
+            "ytd_yield": -0.05,
+            "total_assets": 70.75,
+            "management_fee": null
+          },
+          "202502": {
+            "monthly_yield": -3.67,
+            "ytd_yield": -3.72,
+            "total_assets": 76.77,
+            "management_fee": null
+          },
+          "202503": {
+            "monthly_yield": -4.06,
+            "ytd_yield": -7.63,
+            "total_assets": 79.46,
+            "management_fee": null
+          },
+          "202504": {
+            "monthly_yield": -1.39,
+            "ytd_yield": -8.91,
+            "total_assets": 83.3,
+            "management_fee": null
+          },
+          "202505": {
+            "monthly_yield": 6.66,
+            "ytd_yield": -2.84,
+            "total_assets": 94.84,
+            "management_fee": null
+          },
+          "202506": {
+            "monthly_yield": 3.75,
+            "ytd_yield": 0.8,
+            "total_assets": 103.75,
+            "management_fee": null
+          },
+          "202507": {
+            "monthly_yield": 3.35,
+            "ytd_yield": 4.18,
+            "total_assets": 116.38,
+            "management_fee": null
+          },
+          "202508": {
+            "monthly_yield": -1.11,
+            "ytd_yield": 3.02,
+            "total_assets": 116.75,
+            "management_fee": null
+          },
+          "202509": {
+            "monthly_yield": 5.64,
+            "ytd_yield": 8.83,
+            "total_assets": 127.61,
+            "management_fee": null
+          },
+          "202510": {
+            "monthly_yield": 3.73,
+            "ytd_yield": 12.89,
+            "total_assets": 136.48,
+            "management_fee": null
+          },
+          "202511": {
+            "monthly_yield": -2.23,
+            "ytd_yield": 10.37,
+            "total_assets": 139.14,
+            "management_fee": null
+          },
+          "202512": {
+            "monthly_yield": -1.39,
+            "ytd_yield": 8.84,
+            "total_assets": 143.13,
+            "management_fee": null
+          },
+          "202601": {
+            "monthly_yield": 0.87,
+            "ytd_yield": 0.87,
+            "total_assets": 144.87,
+            "management_fee": 0.6
+          },
+          "202602": {
+            "monthly_yield": -2.34,
+            "ytd_yield": -1.49,
+            "total_assets": 140.98,
+            "management_fee": 0.6
+          },
+          "202603": {
+            "monthly_yield": -5.03,
+            "ytd_yield": -6.45,
+            "total_assets": 134.78,
+            "management_fee": 0.6
+          },
+          "202604": {
+            "monthly_yield": 11.12,
+            "ytd_yield": 3.96,
+            "total_assets": 152.16,
+            "management_fee": 0.6
+          },
+          "202605": {
+            "monthly_yield": 8.15,
+            "ytd_yield": 12.43,
+            "total_assets": 165.91,
+            "management_fee": 0.6
+          }
+        }
+      },
+      "trailing": {
+        "7834": {
+          "period": "202605",
+          "ytd_yield": 7.39,
+          "trailing_1yr": 19.2,
+          "trailing_3yr": 49.24,
+          "trailing_5yr": 52.49,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 14.28,
+          "avg_annual_5yr": 8.8,
+          "sharpe_ratio": 1.21,
+          "management_fee": 0.62,
+          "stock_exposure": 51.8
+        },
+        "7836": {
+          "period": "202605",
+          "ytd_yield": 12.39,
+          "trailing_1yr": 31.37,
+          "trailing_3yr": 87.86,
+          "trailing_5yr": 89.43,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 23.39,
+          "avg_annual_5yr": 13.63,
+          "sharpe_ratio": 1.14,
+          "management_fee": 0.61,
+          "stock_exposure": 99.6
+        },
+        "7837": {
+          "period": "202605",
+          "ytd_yield": 2.62,
+          "trailing_1yr": 7.48,
+          "trailing_3yr": 17.6,
+          "trailing_5yr": 14.46,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 5.55,
+          "avg_annual_5yr": 2.74,
+          "sharpe_ratio": 0.14,
+          "management_fee": 0.61,
+          "stock_exposure": 1.2
+        },
+        "7839": {
+          "period": "202605",
+          "ytd_yield": 1.7,
+          "trailing_1yr": 4.38,
+          "trailing_3yr": 13.97,
+          "trailing_5yr": 15.79,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 4.46,
+          "avg_annual_5yr": 2.98,
+          "sharpe_ratio": -0.29,
+          "management_fee": 0.58,
+          "stock_exposure": 0.0
+        },
+        "7842": {
+          "period": "202605",
+          "ytd_yield": -7.17,
+          "trailing_1yr": -7.86,
+          "trailing_3yr": 7.56,
+          "trailing_5yr": 16.83,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 2.46,
+          "avg_annual_5yr": 3.16,
+          "sharpe_ratio": -0.27,
+          "management_fee": 0.61,
+          "stock_exposure": 46.2
+        },
+        "7843": {
+          "period": "202605",
+          "ytd_yield": 15.9,
+          "trailing_1yr": 54.68,
+          "trailing_3yr": 131.6,
+          "trailing_5yr": 131.88,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 32.31,
+          "avg_annual_5yr": 18.32,
+          "sharpe_ratio": 1.72,
+          "management_fee": 0.61,
+          "stock_exposure": 99.6
+        },
+        "7986": {
+          "period": "202605",
+          "ytd_yield": 4.53,
+          "trailing_1yr": 12.51,
+          "trailing_3yr": 30.53,
+          "trailing_5yr": 28.3,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 9.29,
+          "avg_annual_5yr": 5.11,
+          "sharpe_ratio": 0.87,
+          "management_fee": 0.61,
+          "stock_exposure": 22.4
+        },
+        "13854": {
+          "period": "202605",
+          "ytd_yield": -2.49,
+          "trailing_1yr": 3.34,
+          "trailing_3yr": 40.57,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": 12.02,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.56,
+          "stock_exposure": 100.3
+        },
+        "15309": {
+          "period": "202605",
+          "ytd_yield": 12.43,
+          "trailing_1yr": 25.95,
+          "trailing_3yr": null,
+          "trailing_5yr": null,
+          "trailing_10yr": null,
+          "avg_annual_3yr": null,
+          "avg_annual_5yr": null,
+          "sharpe_ratio": null,
+          "management_fee": 0.6,
+          "stock_exposure": 99.0
+        }
+      },
+      "visible_tracks": [
+        "7843",
+        "7836",
+        "7834"
+      ]
     }
   }
 }
