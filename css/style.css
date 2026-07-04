@@ -418,8 +418,55 @@ tr.user-track td:first-child::after {
 
 /* ── Responsive ──────────────────────────────────── */
 @media (max-width: 700px) {
-  header { padding: 14px 16px; }
-  main   { padding: 20px 12px 40px; }
-  .fund-header { flex-direction: column; align-items: flex-start; }
-  .fund-header-stats { flex-wrap: wrap; gap: 16px; }
+  /* Header */
+  header { padding: 12px 14px 10px; }
+  .header-inner { flex-wrap: wrap; gap: 8px; }
+  .header-brand { gap: 10px; }
+  .header-icon { width: 40px; height: 40px; border-radius: 10px; }
+  .header-icon svg { width: 28px; height: 26px; }
+  header h1 { font-size: 1.15rem; }
+  .header-tagline { display: none; }
+  .meta-bar { font-size: 11px; padding: 5px 9px; gap: 6px; }
+
+  /* Tabs */
+  .tabs { padding: 0 8px; gap: 0; overflow-x: auto; scrollbar-width: none; }
+  .tabs::-webkit-scrollbar { display: none; }
+  .tab { font-size: 13px; padding: 12px 14px; white-space: nowrap; flex-shrink: 0; }
+
+  /* Main */
+  main { padding: 14px 10px 40px; gap: 28px; }
+
+  /* Fund card header */
+  .fund-header { flex-direction: column; align-items: flex-start; padding: 14px 14px; gap: 10px; }
+  .fund-header-stats { flex-wrap: wrap; gap: 14px; }
+  .fund-title h2 { font-size: 0.97rem; }
+  .fund-sub { font-size: 11px; }
+  .stat-box .stat-val { font-size: 1.1rem; }
+  .section-label { padding: 12px 14px 8px; font-size: 12px; }
+
+  /* Tables — sticky first column + compact */
+  .table-wrap { padding-bottom: 4px; }
+  table { font-size: 12px; }
+  thead th { font-size: 10px; padding: 7px 9px; }
+  tbody td { padding: 7px 9px; }
+
+  /* נעצרים שם עמודת המסלול */
+  tbody td:first-child,
+  thead th:first-child {
+    position: sticky;
+    right: 0;
+    background: var(--surface);
+    z-index: 1;
+    max-width: 130px;
+    min-width: 90px;
+  }
+  thead th:first-child { background: var(--surface2); }
+  tbody tr:hover td:first-child { background: var(--surface2); }
+  tr.user-track td:first-child { background: rgba(79,126,248,0.12); }
+
+  /* fund-code badge — מוסתר במובייל */
+  .fund-code { display: none; }
+
+  /* user-track-badge — מוסתר אם ארוך */
+  .user-track-badge { font-size: 11px; padding: 1px 7px; }
 }
