@@ -1,3 +1,7 @@
+# Credentials
+pension.env
+.env
+
 # Local-only scripts
 start_server.bat
 setup_scheduler.ps1

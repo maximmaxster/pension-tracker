@@ -334,6 +334,13 @@ def main():
     # ── דחיפה ל-GitHub (מעדכן את האתר אוטומטית) ────────────────
     git_push()
 
+    # ── הודעת Telegram אם יש תקופה חדשה ────────────────────────
+    try:
+        from notify import notify_if_new
+        notify_if_new(OUTPUT_FILE)
+    except Exception as e:
+        print(f"notify error: {e}")
+
 
 def git_push():
     """מבצע git add + commit + push כדי לעדכן את GitHub Pages."""
