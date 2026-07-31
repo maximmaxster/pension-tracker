@@ -19,6 +19,32 @@
   --font:        'Segoe UI', 'Arial Hebrew', Arial, sans-serif;
 }
 
+/* ── Light mode ─────────────────────────────────── */
+body.light {
+  --bg:          #f0f2f8;
+  --surface:     #ffffff;
+  --surface2:    #e8ecf5;
+  --border:      #cdd3e8;
+  --text:        #1a1d27;
+  --text-muted:  #6b7290;
+  --user-row-bg: rgba(79,126,248,0.08);
+}
+body.light header h1 {
+  background: linear-gradient(90deg, #1a1d27 60%, #4f7ef8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body.light .meta-bar {
+  background: rgba(0,0,0,0.04);
+  border-color: rgba(0,0,0,0.08);
+}
+body.light .header-grid-bg {
+  background-image:
+    linear-gradient(rgba(79,126,248,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(79,126,248,0.04) 1px, transparent 1px);
+}
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -26,6 +52,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
   min-height: 100vh;
+  transition: background .2s, color .2s;
 }
 
 /* ── Header / Banner ─────────────────────────────── */
@@ -160,6 +187,20 @@ header h1 {
   white-space: nowrap;
 }
 .meta-bar .sep { opacity: .3; }
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: 14px;
+  padding: 0 2px;
+  line-height: 1;
+  transition: color .15s, transform .2s;
+}
+.theme-toggle:hover { color: var(--text); transform: rotate(20deg); }
+body:not(.light) .theme-icon-light { display: none; }
+body.light        .theme-icon-dark  { display: none; }
 
 /* קו glow בתחתית */
 .header-glow-line {
@@ -361,6 +402,24 @@ tr.user-track td:first-child::after {
 .neg  { color: var(--red);   font-weight: 600; }
 .zero { color: var(--text-muted); }
 .na   { color: var(--text-muted); font-size: 11px; }
+
+/* ── Last month column highlight ─────────────────── */
+thead th.last-col {
+  color: var(--text);
+  background: rgba(79,126,248,0.10);
+  border-left: 2px solid rgba(79,126,248,0.35);
+}
+tbody td.last-col {
+  background: rgba(79,126,248,0.05);
+  border-left: 2px solid rgba(79,126,248,0.20);
+  font-weight: 700;
+}
+tr.user-track td.last-col {
+  background: rgba(79,126,248,0.14);
+}
+tbody tr:hover td.last-col {
+  background: rgba(79,126,248,0.12);
+}
 
 /* ── User Track Badge (בכותרת) ───────────────────── */
 .user-track-badge {

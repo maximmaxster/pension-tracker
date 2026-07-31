@@ -24,11 +24,12 @@ function periodLabel(p) {
   return `${HEBREW_MONTHS[m] || m} ${y}`;
 }
 
-function pctCell(val) {
-  if (val === null || val === undefined) return `<td class="na">—</td>`;
+function pctCell(val, extra = "") {
+  const e = extra ? ` ${extra}` : "";
+  if (val === null || val === undefined) return `<td class="na${e}">—</td>`;
   const cls = val > 0 ? "pos" : val < 0 ? "neg" : "zero";
   const sign = val > 0 ? "+" : "";
-  return `<td class="${cls}">${sign}${val.toFixed(2)}%</td>`;
+  return `<td class="${cls}${e}">${sign}${val.toFixed(2)}%</td>`;
 }
 
 function textCell(v) {
@@ -66,16 +67,20 @@ function buildMonthlyTable(fundData) {
 
   const trackIds = getVisibleTrackIds(fundData);
 
-  const monthHeaders = yearPeriods.map(p => `<th>${esc(periodLabel(p))}</th>`).join("") + `<th>סה"כ</th>`;
+  const lastPeriodIdx = yearPeriods.length - 1;
+  const monthHeaders = yearPeriods.map((p, i) =>
+    `<th${i === lastPeriodIdx ? ' class="last-col"' : ''}>${esc(periodLabel(p))}</th>`
+  ).join("") + `<th>סה"כ</th>`;
 
   const rows = trackIds.map(fid => {
     const isUser = fid === userFundId;
     const rowCls = isUser ? "user-track" : "";
     const monthly = tracks_monthly[fid] || {};
 
-    const cells = yearPeriods.map(p => {
+    const cells = yearPeriods.map((p, i) => {
       const d = monthly[p];
-      return d ? pctCell(d.monthly_yield) : `<td class="na">—</td>`;
+      const extra = i === lastPeriodIdx ? "last-col" : "";
+      return d ? pctCell(d.monthly_yield, extra) : `<td class="na${extra ? ' ' + extra : ''}">—</td>`;
     }).join("");
 
     const latestPeriod = yearPeriods.slice().reverse().find(p => {
@@ -237,6 +242,15 @@ function showTab(key) {
   app.innerHTML = buildFundCard(key, fd);
 }
 
+// ── Theme toggle ────────────────────────────────────────────────────
+function initTheme() {
+  if (localStorage.getItem("theme") === "light") document.body.classList.add("light");
+  document.getElementById("theme-toggle")?.addEventListener("click", () => {
+    const isLight = document.body.classList.toggle("light");
+    localStorage.setItem("theme", isLight ? "light" : "dark");
+  });
+}
+
 // ── Main ────────────────────────────────────────────────────────────
 async function main() {
   const app = document.getElementById("app");
@@ -275,6 +289,8 @@ async function main() {
   if (latestPeriod) {
     document.getElementById("last-period").textContent = `נתונים עד: ${periodLabel(latestPeriod)}`;
   }
+
+  initTheme();
 
   // Wire up tab buttons
   document.querySelectorAll(".tab").forEach(btn => {
