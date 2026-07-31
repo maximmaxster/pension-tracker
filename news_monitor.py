@@ -7,6 +7,7 @@ import json
 import os
 import sys
 import hashlib
+import html
 import requests
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -37,13 +38,15 @@ FIRECRAWL_KEY    = os.getenv("FIRECRAWL_API_KEY", "")
 
 # ── חיפושים ──────────────────────────────────────────────────────────
 QUERIES = [
-    ('קרן פנסיה site:calcalist.co.il',   "calcalist.co.il"),
-    ('קרן השתלמות site:calcalist.co.il',  "calcalist.co.il"),
-    ('קופת גמל site:calcalist.co.il',     "calcalist.co.il"),
-    ('דמי ניהול פנסיה site:themarker.com',"themarker.com"),
-    ('קרן פנסיה site:globes.co.il',       "globes.co.il"),
-    ('השתלמות גמל site:bizportal.co.il',  "bizportal.co.il"),
-    ('תשואה פנסיה site:themarker.com',    "themarker.com"),
+    ('קרן פנסיה site:calcalist.co.il',     "calcalist.co.il"),
+    ('קרן השתלמות site:calcalist.co.il',   "calcalist.co.il"),
+    ('קרן פנסיה site:globes.co.il',        "globes.co.il"),
+    ('גמל השתלמות site:globes.co.il',      "globes.co.il"),
+    ('פנסיה השתלמות site:funder.co.il',    "funder.co.il"),
+    ('קרן פנסיה site:bizportal.co.il',     "bizportal.co.il"),
+    ('גמל השתלמות site:bizportal.co.il',   "bizportal.co.il"),
+    ('פנסיה דמי ניהול site:ynet.co.il',    "ynet.co.il"),
+    ('קרן פנסיה תשואה site:mako.co.il',    "mako.co.il"),
 ]
 
 # ── Firecrawl search ─────────────────────────────────────────────────
@@ -97,8 +100,8 @@ def send_telegram(text: str):
     try:
         requests.post(
             f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-            data={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML",
-                  "disable_web_page_preview": "false"},
+            json={"chat_id": TELEGRAM_CHAT_ID, "text": text, "parse_mode": "HTML",
+                  "disable_web_page_preview": True},
             timeout=15,
         )
     except Exception as e:
@@ -106,15 +109,16 @@ def send_telegram(text: str):
 
 # ── סינון כתבות רלוונטיות ────────────────────────────────────────────
 KEYWORDS = ["פנסיה", "השתלמות", "גמל", "דמי ניהול", "תשואה", "קרן", "חיסכון"]
-TAG_PAGES = ["tags", "tag", "topic"]  # דפי תגיות — לא כתבות
+TAG_SEGMENTS = ["/tags/", "/tag/", "/topic/", "/Tagit/", "/list/tags", "/subjects/"]
 
 def is_relevant(item: dict) -> bool:
     url   = item.get("url", "")
     title = item.get("title", "")
-    # דפי תגיות — לא רלוונטי
-    if any(t in url for t in TAG_PAGES):
+    if any(seg in url for seg in TAG_SEGMENTS):
         return False
-    # חייב לפחות מילת מפתח אחת בכותרת
+    # סינון עמודות מחשבון/השוואה — לא כתבות
+    if any(x in url for x in ["supermarker.", "mivzakon.", "calculat"]):
+        return False
     return any(kw in title for kw in KEYWORDS)
 
 # ── Main ─────────────────────────────────────────────────────────────
@@ -173,7 +177,7 @@ def main():
         src   = a["source"]
         url   = a["url"]
 
-        lines.append(f'• <a href="{url}"><b>{title}</b></a>')
+        lines.append(f'• <a href="{url}"><b>{html.escape(title)}</b></a>')
         lines.append(f'  <i>{src}</i>')
         if desc:
             lines.append(f'  {desc}')
