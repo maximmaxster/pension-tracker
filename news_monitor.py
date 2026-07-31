@@ -58,7 +58,7 @@ def firecrawl_search(query: str, limit: int = 5) -> list[dict]:
         r = requests.post(
             "https://api.firecrawl.dev/v1/search",
             headers={"Authorization": f"Bearer {FIRECRAWL_KEY}"},
-            json={"query": query, "limit": limit, "lang": "he"},
+            json={"query": query, "limit": limit, "lang": "he", "tbs": "qdr:w"},
             timeout=20,
         )
         r.raise_for_status()
@@ -164,9 +164,10 @@ def main():
         print("✅ אין כתבות חדשות")
         return
 
-    # שלח לטלגרם — עד MAX_ARTICLES_PER_RUN כתבות
     to_send = unique[:MAX_ARTICLES_PER_RUN]
-    print(f"📨 שולח {len(to_send)} כתבות חדשות...")
+    print(f"📨 שולח {len(to_send)} כתבות חדשות:")
+    for a in to_send:
+        print(f"  • {a['source']} | {a['title'][:60]}")
 
     date_str = datetime.now().strftime("%d/%m/%Y")
     lines = [f"📰 <b>חדשות פנסיה — {date_str}</b>", ""]
