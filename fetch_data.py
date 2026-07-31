@@ -348,6 +348,12 @@ def git_push():
     repo_dir = Path(__file__).parent
     date_str = datetime.now().strftime("%d/%m/%Y %H:%M")
 
+    # pull תחילה כדי למנוע conflicts
+    subprocess.run(
+        ["git", "-C", str(repo_dir), "pull", "--rebase", "-X", "theirs", "origin", "main"],
+        capture_output=True, text=True
+    )
+
     cmds = [
         ["git", "-C", str(repo_dir), "add", "data/pension_data.json"],
         ["git", "-C", str(repo_dir), "commit", "-m", f"sync: עדכון נתונים — {date_str}"],
