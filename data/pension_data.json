@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-11T06:00:01.670756",
-  "gemelnet_last_modified": "2026-09-10T04:00:17.290497",
-  "pensyanet_last_modified": "2026-09-10T04:00:34.047502",
+  "fetched_at": "2026-09-12T06:00:01.952438",
+  "gemelnet_last_modified": "2026-09-11T04:00:17.471682",
+  "pensyanet_last_modified": "2026-09-11T04:00:35.264429",
   "funds": {
     "menora_pension": {
       "fund_id": "2063",
@@ -7455,7 +7455,7 @@
       "visible_tracks": null
     },
     "analista_gemel": {
-      "error": "404 Client Error: Not Found for url: https://data.gov.il/api/3/action/datastore_search?resource_id=a30dcbea-a1d2-482c-ae29-8f781f5025fb&filters=%7B%22FUND_ID%22%3A+%227843%22%7D&limit=1&offset=9",
+      "error": "404 Client Error: Not Found for url: https://data.gov.il/api/3/action/datastore_search?resource_id=a30dcbea-a1d2-482c-ae29-8f781f5025fb&filters=%7B%22FUND_ID%22%3A+%227843%22%7D&limit=1&offset=0",
       "label": "גמל להשקעה — אנליסט"
     }
   }
