@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-09-27T06:00:01.740654",
-  "gemelnet_last_modified": "2026-09-26T04:00:20.743809",
-  "pensyanet_last_modified": "2026-09-26T04:00:40.498441",
+  "fetched_at": "2026-09-28T06:00:02.144860",
+  "gemelnet_last_modified": "2026-09-27T04:00:19.882041",
+  "pensyanet_last_modified": "2026-09-27T04:00:36.629734",
   "funds": {
     "menora_pension": {
       "fund_id": "2063",
@@ -6807,7 +6807,7 @@
       ]
     },
     "ami_gemel": {
-      "error": "403 Client Error: Forbidden for url: https://data.gov.il/api/3/action/datastore_search?resource_id=a30dcbea-a1d2-482c-ae29-8f781f5025fb&filters=%7B%22FUND_ID%22%3A+%2214079%22%7D&limit=1&offset=11",
+      "error": "403 Client Error: Forbidden for url: https://data.gov.il/api/3/action/datastore_search?resource_id=a30dcbea-a1d2-482c-ae29-8f781f5025fb&filters=%7B%22FUND_ID%22%3A+%2214079%22%7D&limit=1&offset=24",
       "label": "קופת גמל — עמ\"י"
     },
     "analista_gemel": {
