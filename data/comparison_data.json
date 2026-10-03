@@ -1,9 +1,8 @@
 {
-  "fetched_at": "2026-10-02T23:48:36.394326",
+  "fetched_at": "2026-10-02T23:50:22.848033",
   "period": "202608",
   "by_class": {
-    "6d47d6b5-cb08-488b-b333-f1e717b1e1bd|קרנות חדשות": {
-      "resource_id": "6d47d6b5-cb08-488b-b333-f1e717b1e1bd",
+    "קרנות חדשות": {
       "fund_class": "קרנות חדשות",
       "period": "202608",
       "categories": {
@@ -385,18 +384,6 @@
         ],
         "other": [
           {
-            "fund_id": "13909",
-            "name": "מור פנסיה מקיפה - מסלול לבני 50 ומטה",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": 10.67,
-            "trailing_3yr": 55.05,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 15.74,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.19,
-            "total_assets": 7497.86
-          },
-          {
             "fund_id": "14261",
             "name": "מיטב פנסיה מקיפה קיימות",
             "corp": "מיטב גמל ופנסיה בע\"מ",
@@ -421,54 +408,6 @@
             "total_assets": 2573.46
           },
           {
-            "fund_id": "9654",
-            "name": "כלל פנסיה לבני 50 ומטה",
-            "corp": "כלל פנסיה וגמל בע\"מ",
-            "ytd": 9.5,
-            "trailing_3yr": 51.39,
-            "trailing_5yr": 62.67,
-            "avg_ann_3yr": 14.82,
-            "avg_ann_5yr": 10.22,
-            "mgmt_fee": 0.14,
-            "total_assets": 42394.27
-          },
-          {
-            "fund_id": "13910",
-            "name": "מור פנסיה מקיפה - מסלול לבני 50 עד 60",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": 9.39,
-            "trailing_3yr": 48.01,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 13.96,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.19,
-            "total_assets": 3592.43
-          },
-          {
-            "fund_id": "9655",
-            "name": "כלל פנסיה לבני 50-60",
-            "corp": "כלל פנסיה וגמל בע\"מ",
-            "ytd": 8.86,
-            "trailing_3yr": 46.09,
-            "trailing_5yr": 56.28,
-            "avg_ann_3yr": 13.47,
-            "avg_ann_5yr": 9.34,
-            "mgmt_fee": 0.14,
-            "total_assets": 22249.72
-          },
-          {
-            "fund_id": "9823",
-            "name": "הראל פנסיה - גילאי 50 ומטה",
-            "corp": "הראל פנסיה וגמל בע\"מ",
-            "ytd": 8.83,
-            "trailing_3yr": 45.21,
-            "trailing_5yr": 56.4,
-            "avg_ann_3yr": 13.24,
-            "avg_ann_5yr": 9.36,
-            "mgmt_fee": 0.16,
-            "total_assets": 43687.81
-          },
-          {
             "fund_id": "14043",
             "name": "מסלול בסיסי למקבלי קצבה",
             "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
@@ -481,18 +420,6 @@
             "total_assets": 25.11
           },
           {
-            "fund_id": "15661",
-            "name": "מנורה מבטחים פנסיה עוקב מדדים למקבלי קצבה",
-            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
-            "ytd": 8.58,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.15,
-            "total_assets": 273.55
-          },
-          {
             "fund_id": "14232",
             "name": "כלל פנסיה משולב סחיר",
             "corp": "כלל פנסיה וגמל בע\"מ",
@@ -503,42 +430,6 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.14,
             "total_assets": 875.88
-          },
-          {
-            "fund_id": "2184",
-            "name": "מנורה מבטחים פנסיה - מסלול לבני 50 ומטה",
-            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
-            "ytd": 8.44,
-            "trailing_3yr": 50.28,
-            "trailing_5yr": 64.33,
-            "avg_ann_3yr": 14.54,
-            "avg_ann_5yr": 10.44,
-            "mgmt_fee": 0.15,
-            "total_assets": 66103.1
-          },
-          {
-            "fund_id": "2155",
-            "name": "מיטב פנסיה מקיפה לבני 50 ומטה",
-            "corp": "מיטב גמל ופנסיה בע\"מ",
-            "ytd": 8.33,
-            "trailing_3yr": 50.36,
-            "trailing_5yr": 61.78,
-            "avg_ann_3yr": 14.56,
-            "avg_ann_5yr": 10.1,
-            "mgmt_fee": 0.11,
-            "total_assets": 31916.84
-          },
-          {
-            "fund_id": "8801",
-            "name": "מגדל מקפת אישית לבני 50 ומטה",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": 8.15,
-            "trailing_3yr": 47.66,
-            "trailing_5yr": 58.83,
-            "avg_ann_3yr": 13.87,
-            "avg_ann_5yr": 9.69,
-            "mgmt_fee": 0.14,
-            "total_assets": 40502.84
           },
           {
             "fund_id": "14339",
@@ -563,18 +454,6 @@
             "avg_ann_5yr": 9.12,
             "mgmt_fee": 0.16,
             "total_assets": 5037.73
-          },
-          {
-            "fund_id": "9757",
-            "name": "אלטשולר שחם פנסיה מקיפה מסלול לבני 50 ומטה",
-            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
-            "ytd": 7.83,
-            "trailing_3yr": 47.06,
-            "trailing_5yr": 50.56,
-            "avg_ann_3yr": 13.72,
-            "avg_ann_5yr": 8.53,
-            "mgmt_fee": 0.15,
-            "total_assets": 17668.59
           },
           {
             "fund_id": "14333",
@@ -613,42 +492,6 @@
             "total_assets": 231.16
           },
           {
-            "fund_id": "9827",
-            "name": "הראל פנסיה - גילאי 50 עד 60",
-            "corp": "הראל פנסיה וגמל בע\"מ",
-            "ytd": 7.64,
-            "trailing_3yr": 39.74,
-            "trailing_5yr": 50.62,
-            "avg_ann_3yr": 11.8,
-            "avg_ann_5yr": 8.54,
-            "mgmt_fee": 0.16,
-            "total_assets": 15565.4
-          },
-          {
-            "fund_id": "14037",
-            "name": "אינפיניטי מקיפה  מסלול לבני 50 ומטה",
-            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
-            "ytd": 7.62,
-            "trailing_3yr": 48.38,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 14.06,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.18,
-            "total_assets": 1276.1
-          },
-          {
-            "fund_id": "2015",
-            "name": "מנורה מבטחים פנסיה - מסלול לבני 50-60",
-            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
-            "ytd": 7.53,
-            "trailing_3yr": 43.5,
-            "trailing_5yr": 56.79,
-            "avg_ann_3yr": 12.79,
-            "avg_ann_5yr": 9.41,
-            "mgmt_fee": 0.15,
-            "total_assets": 37586.32
-          },
-          {
             "fund_id": "14348",
             "name": "מנורה מבטחים פנסיה קיימות",
             "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
@@ -659,42 +502,6 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.15,
             "total_assets": 19.45
-          },
-          {
-            "fund_id": "9967",
-            "name": "מיטב פנסיה מקיפה לבני 50 עד 60",
-            "corp": "מיטב גמל ופנסיה בע\"מ",
-            "ytd": 7.51,
-            "trailing_3yr": 45.23,
-            "trailing_5yr": 57.67,
-            "avg_ann_3yr": 13.24,
-            "avg_ann_5yr": 9.53,
-            "mgmt_fee": 0.11,
-            "total_assets": 14400.59
-          },
-          {
-            "fund_id": "9974",
-            "name": "הפניקס פנסיה מקיפה  - מסלול לבני 50 ומטה",
-            "corp": "הפניקס פנסיה וגמל בע\"מ",
-            "ytd": 7.48,
-            "trailing_3yr": 50.92,
-            "trailing_5yr": 65.37,
-            "avg_ann_3yr": 14.7,
-            "avg_ann_5yr": 10.58,
-            "mgmt_fee": 0.14,
-            "total_assets": 60213.19
-          },
-          {
-            "fund_id": "14038",
-            "name": "אינפיניטי מקיפה מסלול לבני 50 עד 60",
-            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
-            "ytd": 7.44,
-            "trailing_3yr": 43.37,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 12.76,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.18,
-            "total_assets": 322.3
           },
           {
             "fund_id": "2004",
@@ -709,18 +516,6 @@
             "total_assets": 1068.44
           },
           {
-            "fund_id": "8802",
-            "name": "מגדל מקפת אישית לבני 50 עד 60",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": 7.11,
-            "trailing_3yr": 42.21,
-            "trailing_5yr": 52.7,
-            "avg_ann_3yr": 12.45,
-            "avg_ann_5yr": 8.83,
-            "mgmt_fee": 0.14,
-            "total_assets": 18507.66
-          },
-          {
             "fund_id": "14285",
             "name": "הפניקס פנסיה מקיפה  משולב סחיר",
             "corp": "הפניקס פנסיה וגמל בע\"מ",
@@ -731,42 +526,6 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.14,
             "total_assets": 107.43
-          },
-          {
-            "fund_id": "9975",
-            "name": "הפניקס פנסיה מקיפה - מסלול לבני 50 עד 60",
-            "corp": "הפניקס פנסיה וגמל בע\"מ",
-            "ytd": 7.04,
-            "trailing_3yr": 46.49,
-            "trailing_5yr": 58.53,
-            "avg_ann_3yr": 13.57,
-            "avg_ann_5yr": 9.65,
-            "mgmt_fee": 0.14,
-            "total_assets": 16912.91
-          },
-          {
-            "fund_id": "13911",
-            "name": "מור פנסיה מקיפה - מסלול לבני 60 ומעלה",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": 7.04,
-            "trailing_3yr": 34.93,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 10.5,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.19,
-            "total_assets": 1264.24
-          },
-          {
-            "fund_id": "9758",
-            "name": "אלטשולר שחם פנסיה מקיפה מסלול לבני 50-60",
-            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
-            "ytd": 6.91,
-            "trailing_3yr": 42.57,
-            "trailing_5yr": 47.28,
-            "avg_ann_3yr": 12.55,
-            "avg_ann_5yr": 8.05,
-            "mgmt_fee": 0.15,
-            "total_assets": 5080.65
           },
           {
             "fund_id": "9984",
@@ -793,18 +552,6 @@
             "total_assets": 1447.97
           },
           {
-            "fund_id": "9656",
-            "name": "כלל פנסיה לבני 60 ומעלה",
-            "corp": "כלל פנסיה וגמל בע\"מ",
-            "ytd": 6.87,
-            "trailing_3yr": 33.97,
-            "trailing_5yr": 43.01,
-            "avg_ann_3yr": 10.24,
-            "avg_ann_5yr": 7.42,
-            "mgmt_fee": 0.14,
-            "total_assets": 8772.79
-          },
-          {
             "fund_id": "2112",
             "name": "מגדל מקפת אישית הלכה",
             "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
@@ -827,18 +574,6 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.16,
             "total_assets": 185.42
-          },
-          {
-            "fund_id": "12147",
-            "name": "מגדל מקפת אישית עוקב מדדים למקבלי קצבה",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": 6.62,
-            "trailing_3yr": 40.46,
-            "trailing_5yr": 58.2,
-            "avg_ann_3yr": 11.99,
-            "avg_ann_5yr": 9.61,
-            "mgmt_fee": 0.14,
-            "total_assets": 352.1
           },
           {
             "fund_id": "14302",
@@ -865,18 +600,6 @@
             "total_assets": 275.04
           },
           {
-            "fund_id": "15666",
-            "name": "מיטב פנסיה מקיפה עוקב מדדים למקבלי קצבה",
-            "corp": "מיטב גמל ופנסיה בע\"מ",
-            "ytd": 6.52,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.11,
-            "total_assets": 169.01
-          },
-          {
             "fund_id": "2182",
             "name": "מנורה מבטחים פנסיה - מסלול הלכה",
             "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
@@ -901,18 +624,6 @@
             "total_assets": 131.66
           },
           {
-            "fund_id": "2013",
-            "name": "מנורה מבטחים פנסיה - מסלול לבני 60 ומעלה",
-            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
-            "ytd": 6.28,
-            "trailing_3yr": 32.51,
-            "trailing_5yr": 44.12,
-            "avg_ann_3yr": 9.84,
-            "avg_ann_5yr": 7.58,
-            "mgmt_fee": 0.15,
-            "total_assets": 19030.31
-          },
-          {
             "fund_id": "12177",
             "name": "כלל פנסיה מסלול בסיסי למקבלי קצבה",
             "corp": "כלל פנסיה וגמל בע\"מ",
@@ -923,18 +634,6 @@
             "avg_ann_5yr": 8.05,
             "mgmt_fee": 0.14,
             "total_assets": 12885.76
-          },
-          {
-            "fund_id": "9968",
-            "name": "מיטב פנסיה מקיפה לבני 60 ומעלה",
-            "corp": "מיטב גמל ופנסיה בע\"מ",
-            "ytd": 5.88,
-            "trailing_3yr": 34.67,
-            "trailing_5yr": 43.9,
-            "avg_ann_3yr": 10.43,
-            "avg_ann_5yr": 7.55,
-            "mgmt_fee": 0.11,
-            "total_assets": 6772.39
           },
           {
             "fund_id": "14042",
@@ -949,66 +648,6 @@
             "total_assets": 77.32
           },
           {
-            "fund_id": "9829",
-            "name": "הראל פנסיה - גילאי 60 ומעלה",
-            "corp": "הראל פנסיה וגמל בע\"מ",
-            "ytd": 5.82,
-            "trailing_3yr": 29.93,
-            "trailing_5yr": 37.1,
-            "avg_ann_3yr": 9.12,
-            "avg_ann_5yr": 6.51,
-            "mgmt_fee": 0.16,
-            "total_assets": 6883.83
-          },
-          {
-            "fund_id": "14039",
-            "name": "אינפיניטי מקיפה מסלול לבני 60 ומעלה",
-            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
-            "ytd": 5.7,
-            "trailing_3yr": 33.98,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 10.24,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.18,
-            "total_assets": 228.22
-          },
-          {
-            "fund_id": "14054",
-            "name": "אינפיניטי מקיפה עוקב מדד S1;P 500",
-            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
-            "ytd": 5.65,
-            "trailing_3yr": 34.99,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 10.52,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.18,
-            "total_assets": 73.88
-          },
-          {
-            "fund_id": "13347",
-            "name": "כלל פנסיה עוקב מדד s1;p 500",
-            "corp": "כלל פנסיה וגמל בע\"מ",
-            "ytd": 5.54,
-            "trailing_3yr": 34.29,
-            "trailing_5yr": 62.05,
-            "avg_ann_3yr": 10.33,
-            "avg_ann_5yr": 10.14,
-            "mgmt_fee": 0.14,
-            "total_assets": 16952.37
-          },
-          {
-            "fund_id": "13887",
-            "name": "מנורה מבטחים פנסיה עוקב מדד S1;P500",
-            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
-            "ytd": 5.54,
-            "trailing_3yr": 34.49,
-            "trailing_5yr": null,
-            "avg_ann_3yr": 10.38,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.15,
-            "total_assets": 16919.08
-          },
-          {
             "fund_id": "12155",
             "name": "מנורה מבטחים פנסיה בסיסי למקבלי קצבה",
             "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
@@ -1019,18 +658,6 @@
             "avg_ann_5yr": 8.23,
             "mgmt_fee": 0.15,
             "total_assets": 34082.2
-          },
-          {
-            "fund_id": "8803",
-            "name": "מגדל מקפת אישית לבני 60 ומעלה",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": 5.52,
-            "trailing_3yr": 31.42,
-            "trailing_5yr": 39.37,
-            "avg_ann_3yr": 9.54,
-            "avg_ann_5yr": 6.86,
-            "mgmt_fee": 0.14,
-            "total_assets": 8447.52
           },
           {
             "fund_id": "12146",
@@ -1069,30 +696,6 @@
             "total_assets": 16618.21
           },
           {
-            "fund_id": "13260",
-            "name": "מיטב פנסיה מקיפה עוקב מדד S1;P500",
-            "corp": "מיטב גמל ופנסיה בע\"מ",
-            "ytd": 5.47,
-            "trailing_3yr": 35.02,
-            "trailing_5yr": 63.77,
-            "avg_ann_3yr": 10.53,
-            "avg_ann_5yr": 10.37,
-            "mgmt_fee": 0.11,
-            "total_assets": 8990.21
-          },
-          {
-            "fund_id": "13572",
-            "name": "מגדל מקפת אישית עוקב מדד S1;P500",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": 5.46,
-            "trailing_3yr": 34.93,
-            "trailing_5yr": 63.42,
-            "avg_ann_3yr": 10.5,
-            "avg_ann_5yr": 10.32,
-            "mgmt_fee": 0.14,
-            "total_assets": 22215.69
-          },
-          {
             "fund_id": "12157",
             "name": "מיטב פנסיה מקיפה בסיסי למקבלי קצבה",
             "corp": "מיטב גמל ופנסיה בע\"מ",
@@ -1103,54 +706,6 @@
             "avg_ann_5yr": 8.01,
             "mgmt_fee": 0.11,
             "total_assets": 5187.87
-          },
-          {
-            "fund_id": "13415",
-            "name": "הראל פנסיה עוקב מדד s1;p 500",
-            "corp": "הראל פנסיה וגמל בע\"מ",
-            "ytd": 5.41,
-            "trailing_3yr": 34.1,
-            "trailing_5yr": 63.18,
-            "avg_ann_3yr": 10.27,
-            "avg_ann_5yr": 10.29,
-            "mgmt_fee": 0.16,
-            "total_assets": 32348.97
-          },
-          {
-            "fund_id": "15266",
-            "name": "מור פנסיה מקיפה  עוקבי מדדים עוקב מדד s1;p 500",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": 5.36,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.19,
-            "total_assets": 546.17
-          },
-          {
-            "fund_id": "13335",
-            "name": "הפניקס פנסיה מקיפה עוקב מדד S1;P500",
-            "corp": "הפניקס פנסיה וגמל בע\"מ",
-            "ytd": 5.35,
-            "trailing_3yr": 34.25,
-            "trailing_5yr": 63.61,
-            "avg_ann_3yr": 10.32,
-            "avg_ann_5yr": 10.35,
-            "mgmt_fee": 0.14,
-            "total_assets": 20375.16
-          },
-          {
-            "fund_id": "9976",
-            "name": "הפניקס פנסיה מקיפה - מסלול לבני 60 ומעלה",
-            "corp": "הפניקס פנסיה וגמל בע\"מ",
-            "ytd": 5.31,
-            "trailing_3yr": 33.39,
-            "trailing_5yr": 41.88,
-            "avg_ann_3yr": 10.08,
-            "avg_ann_5yr": 7.25,
-            "mgmt_fee": 0.14,
-            "total_assets": 7076.62
           },
           {
             "fund_id": "12028",
@@ -1189,18 +744,6 @@
             "total_assets": 14544.37
           },
           {
-            "fund_id": "14850",
-            "name": "אלטשולר שחם פנסיה מקיפה עוקב מדד S1;P500",
-            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
-            "ytd": 5.07,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.15,
-            "total_assets": 2069.57
-          },
-          {
             "fund_id": "12119",
             "name": "הפניקס פנסיה מקיפה - מסלול בסיסי למקבלי קצבה",
             "corp": "הפניקס פנסיה וגמל בע\"מ",
@@ -1211,18 +754,6 @@
             "avg_ann_5yr": 7.98,
             "mgmt_fee": 0.14,
             "total_assets": 16573.13
-          },
-          {
-            "fund_id": "9759",
-            "name": "אלטשולר שחם פנסיה מקיפה מסלול לבני 60 ומעלה",
-            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
-            "ytd": 4.81,
-            "trailing_3yr": 28.46,
-            "trailing_5yr": 35.38,
-            "avg_ann_3yr": 8.71,
-            "avg_ann_5yr": 6.25,
-            "mgmt_fee": 0.15,
-            "total_assets": 2484.97
           },
           {
             "fund_id": "12138",
@@ -1247,18 +778,6 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.15,
             "total_assets": 24.91
-          },
-          {
-            "fund_id": "15267",
-            "name": "מור פנסיה מקיפה עוקבי מדדים עוקב מדדים - למקבלי קצבה",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": 4.51,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.19,
-            "total_assets": 27.49
           },
           {
             "fund_id": "14200",
@@ -1525,30 +1044,6 @@
             "total_assets": 62.56
           },
           {
-            "fund_id": "15813",
-            "name": "כלל פנסיה עוקב מדדים למקבלי קצבה",
-            "corp": "כלל פנסיה וגמל בע\"מ",
-            "ytd": null,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.14,
-            "total_assets": 25.47
-          },
-          {
-            "fund_id": "15840",
-            "name": "אלטשולר שחם פנסיה מקיפה עוקב מדדים למקבלי קצבה",
-            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
-            "ytd": null,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": null,
-            "total_assets": 12.42
-          },
-          {
             "fund_id": "15892",
             "name": "מור פנסיה מקיפה הלכה",
             "corp": "מור גמל ופנסיה בע\"מ",
@@ -1559,6 +1054,332 @@
             "avg_ann_5yr": null,
             "mgmt_fee": null,
             "total_assets": 0.68
+          }
+        ],
+        "lifecycle": [
+          {
+            "fund_id": "13909",
+            "name": "מור פנסיה מקיפה - מסלול לבני 50 ומטה",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": 10.67,
+            "trailing_3yr": 55.05,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 15.74,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.19,
+            "total_assets": 7497.86
+          },
+          {
+            "fund_id": "9654",
+            "name": "כלל פנסיה לבני 50 ומטה",
+            "corp": "כלל פנסיה וגמל בע\"מ",
+            "ytd": 9.5,
+            "trailing_3yr": 51.39,
+            "trailing_5yr": 62.67,
+            "avg_ann_3yr": 14.82,
+            "avg_ann_5yr": 10.22,
+            "mgmt_fee": 0.14,
+            "total_assets": 42394.27
+          },
+          {
+            "fund_id": "13910",
+            "name": "מור פנסיה מקיפה - מסלול לבני 50 עד 60",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": 9.39,
+            "trailing_3yr": 48.01,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 13.96,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.19,
+            "total_assets": 3592.43
+          },
+          {
+            "fund_id": "9655",
+            "name": "כלל פנסיה לבני 50-60",
+            "corp": "כלל פנסיה וגמל בע\"מ",
+            "ytd": 8.86,
+            "trailing_3yr": 46.09,
+            "trailing_5yr": 56.28,
+            "avg_ann_3yr": 13.47,
+            "avg_ann_5yr": 9.34,
+            "mgmt_fee": 0.14,
+            "total_assets": 22249.72
+          },
+          {
+            "fund_id": "9823",
+            "name": "הראל פנסיה - גילאי 50 ומטה",
+            "corp": "הראל פנסיה וגמל בע\"מ",
+            "ytd": 8.83,
+            "trailing_3yr": 45.21,
+            "trailing_5yr": 56.4,
+            "avg_ann_3yr": 13.24,
+            "avg_ann_5yr": 9.36,
+            "mgmt_fee": 0.16,
+            "total_assets": 43687.81
+          },
+          {
+            "fund_id": "2184",
+            "name": "מנורה מבטחים פנסיה - מסלול לבני 50 ומטה",
+            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
+            "ytd": 8.44,
+            "trailing_3yr": 50.28,
+            "trailing_5yr": 64.33,
+            "avg_ann_3yr": 14.54,
+            "avg_ann_5yr": 10.44,
+            "mgmt_fee": 0.15,
+            "total_assets": 66103.1
+          },
+          {
+            "fund_id": "2155",
+            "name": "מיטב פנסיה מקיפה לבני 50 ומטה",
+            "corp": "מיטב גמל ופנסיה בע\"מ",
+            "ytd": 8.33,
+            "trailing_3yr": 50.36,
+            "trailing_5yr": 61.78,
+            "avg_ann_3yr": 14.56,
+            "avg_ann_5yr": 10.1,
+            "mgmt_fee": 0.11,
+            "total_assets": 31916.84
+          },
+          {
+            "fund_id": "8801",
+            "name": "מגדל מקפת אישית לבני 50 ומטה",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": 8.15,
+            "trailing_3yr": 47.66,
+            "trailing_5yr": 58.83,
+            "avg_ann_3yr": 13.87,
+            "avg_ann_5yr": 9.69,
+            "mgmt_fee": 0.14,
+            "total_assets": 40502.84
+          },
+          {
+            "fund_id": "9757",
+            "name": "אלטשולר שחם פנסיה מקיפה מסלול לבני 50 ומטה",
+            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
+            "ytd": 7.83,
+            "trailing_3yr": 47.06,
+            "trailing_5yr": 50.56,
+            "avg_ann_3yr": 13.72,
+            "avg_ann_5yr": 8.53,
+            "mgmt_fee": 0.15,
+            "total_assets": 17668.59
+          },
+          {
+            "fund_id": "9827",
+            "name": "הראל פנסיה - גילאי 50 עד 60",
+            "corp": "הראל פנסיה וגמל בע\"מ",
+            "ytd": 7.64,
+            "trailing_3yr": 39.74,
+            "trailing_5yr": 50.62,
+            "avg_ann_3yr": 11.8,
+            "avg_ann_5yr": 8.54,
+            "mgmt_fee": 0.16,
+            "total_assets": 15565.4
+          },
+          {
+            "fund_id": "14037",
+            "name": "אינפיניטי מקיפה  מסלול לבני 50 ומטה",
+            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
+            "ytd": 7.62,
+            "trailing_3yr": 48.38,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 14.06,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.18,
+            "total_assets": 1276.1
+          },
+          {
+            "fund_id": "2015",
+            "name": "מנורה מבטחים פנסיה - מסלול לבני 50-60",
+            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
+            "ytd": 7.53,
+            "trailing_3yr": 43.5,
+            "trailing_5yr": 56.79,
+            "avg_ann_3yr": 12.79,
+            "avg_ann_5yr": 9.41,
+            "mgmt_fee": 0.15,
+            "total_assets": 37586.32
+          },
+          {
+            "fund_id": "9967",
+            "name": "מיטב פנסיה מקיפה לבני 50 עד 60",
+            "corp": "מיטב גמל ופנסיה בע\"מ",
+            "ytd": 7.51,
+            "trailing_3yr": 45.23,
+            "trailing_5yr": 57.67,
+            "avg_ann_3yr": 13.24,
+            "avg_ann_5yr": 9.53,
+            "mgmt_fee": 0.11,
+            "total_assets": 14400.59
+          },
+          {
+            "fund_id": "9974",
+            "name": "הפניקס פנסיה מקיפה  - מסלול לבני 50 ומטה",
+            "corp": "הפניקס פנסיה וגמל בע\"מ",
+            "ytd": 7.48,
+            "trailing_3yr": 50.92,
+            "trailing_5yr": 65.37,
+            "avg_ann_3yr": 14.7,
+            "avg_ann_5yr": 10.58,
+            "mgmt_fee": 0.14,
+            "total_assets": 60213.19
+          },
+          {
+            "fund_id": "14038",
+            "name": "אינפיניטי מקיפה מסלול לבני 50 עד 60",
+            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
+            "ytd": 7.44,
+            "trailing_3yr": 43.37,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 12.76,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.18,
+            "total_assets": 322.3
+          },
+          {
+            "fund_id": "8802",
+            "name": "מגדל מקפת אישית לבני 50 עד 60",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": 7.11,
+            "trailing_3yr": 42.21,
+            "trailing_5yr": 52.7,
+            "avg_ann_3yr": 12.45,
+            "avg_ann_5yr": 8.83,
+            "mgmt_fee": 0.14,
+            "total_assets": 18507.66
+          },
+          {
+            "fund_id": "9975",
+            "name": "הפניקס פנסיה מקיפה - מסלול לבני 50 עד 60",
+            "corp": "הפניקס פנסיה וגמל בע\"מ",
+            "ytd": 7.04,
+            "trailing_3yr": 46.49,
+            "trailing_5yr": 58.53,
+            "avg_ann_3yr": 13.57,
+            "avg_ann_5yr": 9.65,
+            "mgmt_fee": 0.14,
+            "total_assets": 16912.91
+          },
+          {
+            "fund_id": "13911",
+            "name": "מור פנסיה מקיפה - מסלול לבני 60 ומעלה",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": 7.04,
+            "trailing_3yr": 34.93,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 10.5,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.19,
+            "total_assets": 1264.24
+          },
+          {
+            "fund_id": "9758",
+            "name": "אלטשולר שחם פנסיה מקיפה מסלול לבני 50-60",
+            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
+            "ytd": 6.91,
+            "trailing_3yr": 42.57,
+            "trailing_5yr": 47.28,
+            "avg_ann_3yr": 12.55,
+            "avg_ann_5yr": 8.05,
+            "mgmt_fee": 0.15,
+            "total_assets": 5080.65
+          },
+          {
+            "fund_id": "9656",
+            "name": "כלל פנסיה לבני 60 ומעלה",
+            "corp": "כלל פנסיה וגמל בע\"מ",
+            "ytd": 6.87,
+            "trailing_3yr": 33.97,
+            "trailing_5yr": 43.01,
+            "avg_ann_3yr": 10.24,
+            "avg_ann_5yr": 7.42,
+            "mgmt_fee": 0.14,
+            "total_assets": 8772.79
+          },
+          {
+            "fund_id": "2013",
+            "name": "מנורה מבטחים פנסיה - מסלול לבני 60 ומעלה",
+            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
+            "ytd": 6.28,
+            "trailing_3yr": 32.51,
+            "trailing_5yr": 44.12,
+            "avg_ann_3yr": 9.84,
+            "avg_ann_5yr": 7.58,
+            "mgmt_fee": 0.15,
+            "total_assets": 19030.31
+          },
+          {
+            "fund_id": "9968",
+            "name": "מיטב פנסיה מקיפה לבני 60 ומעלה",
+            "corp": "מיטב גמל ופנסיה בע\"מ",
+            "ytd": 5.88,
+            "trailing_3yr": 34.67,
+            "trailing_5yr": 43.9,
+            "avg_ann_3yr": 10.43,
+            "avg_ann_5yr": 7.55,
+            "mgmt_fee": 0.11,
+            "total_assets": 6772.39
+          },
+          {
+            "fund_id": "9829",
+            "name": "הראל פנסיה - גילאי 60 ומעלה",
+            "corp": "הראל פנסיה וגמל בע\"מ",
+            "ytd": 5.82,
+            "trailing_3yr": 29.93,
+            "trailing_5yr": 37.1,
+            "avg_ann_3yr": 9.12,
+            "avg_ann_5yr": 6.51,
+            "mgmt_fee": 0.16,
+            "total_assets": 6883.83
+          },
+          {
+            "fund_id": "14039",
+            "name": "אינפיניטי מקיפה מסלול לבני 60 ומעלה",
+            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
+            "ytd": 5.7,
+            "trailing_3yr": 33.98,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 10.24,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.18,
+            "total_assets": 228.22
+          },
+          {
+            "fund_id": "8803",
+            "name": "מגדל מקפת אישית לבני 60 ומעלה",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": 5.52,
+            "trailing_3yr": 31.42,
+            "trailing_5yr": 39.37,
+            "avg_ann_3yr": 9.54,
+            "avg_ann_5yr": 6.86,
+            "mgmt_fee": 0.14,
+            "total_assets": 8447.52
+          },
+          {
+            "fund_id": "9976",
+            "name": "הפניקס פנסיה מקיפה - מסלול לבני 60 ומעלה",
+            "corp": "הפניקס פנסיה וגמל בע\"מ",
+            "ytd": 5.31,
+            "trailing_3yr": 33.39,
+            "trailing_5yr": 41.88,
+            "avg_ann_3yr": 10.08,
+            "avg_ann_5yr": 7.25,
+            "mgmt_fee": 0.14,
+            "total_assets": 7076.62
+          },
+          {
+            "fund_id": "9759",
+            "name": "אלטשולר שחם פנסיה מקיפה מסלול לבני 60 ומעלה",
+            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
+            "ytd": 4.81,
+            "trailing_3yr": 28.46,
+            "trailing_5yr": 35.38,
+            "avg_ann_3yr": 8.71,
+            "avg_ann_5yr": 6.25,
+            "mgmt_fee": 0.15,
+            "total_assets": 2484.97
           }
         ],
         "bonds": [
@@ -1707,18 +1528,6 @@
             "total_assets": 808.61
           },
           {
-            "fund_id": "15278",
-            "name": "הראל פנסיה עוקב מדדי אג\"ח",
-            "corp": "הראל פנסיה וגמל בע\"מ",
-            "ytd": -2.72,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.16,
-            "total_assets": 77.76
-          },
-          {
             "fund_id": "15359",
             "name": "מיטב פנסיה מקיפה אג\"ח סחיר",
             "corp": "מיטב גמל ופנסיה בע\"מ",
@@ -1729,45 +1538,21 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.11,
             "total_assets": 41.18
-          },
-          {
-            "fund_id": "15265",
-            "name": "מור פנסיה מקיפה עוקבי מדדים עוקב מדדי אג\"ח",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": -2.94,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.19,
-            "total_assets": 4.58
-          },
-          {
-            "fund_id": "15525",
-            "name": "מגדל מקפת אישית עוקב מדדי אג\"ח",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": -3.0,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.14,
-            "total_assets": 41.06
-          },
-          {
-            "fund_id": "9979",
-            "name": "הפניקס פנסיה מקיפה -מסלול עוקב מדדי אג\"ח",
-            "corp": "הפניקס פנסיה וגמל בע\"מ",
-            "ytd": -3.31,
-            "trailing_3yr": 1.11,
-            "trailing_5yr": 7.41,
-            "avg_ann_3yr": 0.37,
-            "avg_ann_5yr": 1.44,
-            "mgmt_fee": 0.14,
-            "total_assets": 53.05
           }
         ],
-        "flexible": [
+        "index": [
+          {
+            "fund_id": "15661",
+            "name": "מנורה מבטחים פנסיה עוקב מדדים למקבלי קצבה",
+            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
+            "ytd": 8.58,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.15,
+            "total_assets": 273.55
+          },
           {
             "fund_id": "14198",
             "name": "הראל  פנסיה- עוקב מדדים גמיש",
@@ -1805,6 +1590,102 @@
             "total_assets": 53.06
           },
           {
+            "fund_id": "12147",
+            "name": "מגדל מקפת אישית עוקב מדדים למקבלי קצבה",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": 6.62,
+            "trailing_3yr": 40.46,
+            "trailing_5yr": 58.2,
+            "avg_ann_3yr": 11.99,
+            "avg_ann_5yr": 9.61,
+            "mgmt_fee": 0.14,
+            "total_assets": 352.1
+          },
+          {
+            "fund_id": "15666",
+            "name": "מיטב פנסיה מקיפה עוקב מדדים למקבלי קצבה",
+            "corp": "מיטב גמל ופנסיה בע\"מ",
+            "ytd": 6.52,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.11,
+            "total_assets": 169.01
+          },
+          {
+            "fund_id": "14054",
+            "name": "אינפיניטי מקיפה עוקב מדד S1;P 500",
+            "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
+            "ytd": 5.65,
+            "trailing_3yr": 34.99,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 10.52,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.18,
+            "total_assets": 73.88
+          },
+          {
+            "fund_id": "13347",
+            "name": "כלל פנסיה עוקב מדד s1;p 500",
+            "corp": "כלל פנסיה וגמל בע\"מ",
+            "ytd": 5.54,
+            "trailing_3yr": 34.29,
+            "trailing_5yr": 62.05,
+            "avg_ann_3yr": 10.33,
+            "avg_ann_5yr": 10.14,
+            "mgmt_fee": 0.14,
+            "total_assets": 16952.37
+          },
+          {
+            "fund_id": "13887",
+            "name": "מנורה מבטחים פנסיה עוקב מדד S1;P500",
+            "corp": "מנורה מבטחים פנסיה וגמל בע\"מ",
+            "ytd": 5.54,
+            "trailing_3yr": 34.49,
+            "trailing_5yr": null,
+            "avg_ann_3yr": 10.38,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.15,
+            "total_assets": 16919.08
+          },
+          {
+            "fund_id": "13260",
+            "name": "מיטב פנסיה מקיפה עוקב מדד S1;P500",
+            "corp": "מיטב גמל ופנסיה בע\"מ",
+            "ytd": 5.47,
+            "trailing_3yr": 35.02,
+            "trailing_5yr": 63.77,
+            "avg_ann_3yr": 10.53,
+            "avg_ann_5yr": 10.37,
+            "mgmt_fee": 0.11,
+            "total_assets": 8990.21
+          },
+          {
+            "fund_id": "13572",
+            "name": "מגדל מקפת אישית עוקב מדד S1;P500",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": 5.46,
+            "trailing_3yr": 34.93,
+            "trailing_5yr": 63.42,
+            "avg_ann_3yr": 10.5,
+            "avg_ann_5yr": 10.32,
+            "mgmt_fee": 0.14,
+            "total_assets": 22215.69
+          },
+          {
+            "fund_id": "13415",
+            "name": "הראל פנסיה עוקב מדד s1;p 500",
+            "corp": "הראל פנסיה וגמל בע\"מ",
+            "ytd": 5.41,
+            "trailing_3yr": 34.1,
+            "trailing_5yr": 63.18,
+            "avg_ann_3yr": 10.27,
+            "avg_ann_5yr": 10.29,
+            "mgmt_fee": 0.16,
+            "total_assets": 32348.97
+          },
+          {
             "fund_id": "14260",
             "name": "מיטב פנסיה מקיפה עוקב מדדים גמיש",
             "corp": "מיטב גמל ופנסיה בע\"מ",
@@ -1817,6 +1698,30 @@
             "total_assets": 193.89
           },
           {
+            "fund_id": "15266",
+            "name": "מור פנסיה מקיפה  עוקבי מדדים עוקב מדד s1;p 500",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": 5.36,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.19,
+            "total_assets": 546.17
+          },
+          {
+            "fund_id": "13335",
+            "name": "הפניקס פנסיה מקיפה עוקב מדד S1;P500",
+            "corp": "הפניקס פנסיה וגמל בע\"מ",
+            "ytd": 5.35,
+            "trailing_3yr": 34.25,
+            "trailing_5yr": 63.61,
+            "avg_ann_3yr": 10.32,
+            "avg_ann_5yr": 10.35,
+            "mgmt_fee": 0.14,
+            "total_assets": 20375.16
+          },
+          {
             "fund_id": "14334",
             "name": "אינפיניטי פנסיה מקיפה עוקב מדדים גמיש",
             "corp": "אינפיניטי השתלמות, גמל ופנסיה בע\"מ",
@@ -1827,6 +1732,30 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.18,
             "total_assets": 4.34
+          },
+          {
+            "fund_id": "14850",
+            "name": "אלטשולר שחם פנסיה מקיפה עוקב מדד S1;P500",
+            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
+            "ytd": 5.07,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.15,
+            "total_assets": 2069.57
+          },
+          {
+            "fund_id": "15267",
+            "name": "מור פנסיה מקיפה עוקבי מדדים עוקב מדדים - למקבלי קצבה",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": 4.51,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.19,
+            "total_assets": 27.49
           },
           {
             "fund_id": "14286",
@@ -1875,12 +1804,83 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.14,
             "total_assets": 259.68
+          },
+          {
+            "fund_id": "15278",
+            "name": "הראל פנסיה עוקב מדדי אג\"ח",
+            "corp": "הראל פנסיה וגמל בע\"מ",
+            "ytd": -2.72,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.16,
+            "total_assets": 77.76
+          },
+          {
+            "fund_id": "15265",
+            "name": "מור פנסיה מקיפה עוקבי מדדים עוקב מדדי אג\"ח",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": -2.94,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.19,
+            "total_assets": 4.58
+          },
+          {
+            "fund_id": "15525",
+            "name": "מגדל מקפת אישית עוקב מדדי אג\"ח",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": -3.0,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.14,
+            "total_assets": 41.06
+          },
+          {
+            "fund_id": "9979",
+            "name": "הפניקס פנסיה מקיפה -מסלול עוקב מדדי אג\"ח",
+            "corp": "הפניקס פנסיה וגמל בע\"מ",
+            "ytd": -3.31,
+            "trailing_3yr": 1.11,
+            "trailing_5yr": 7.41,
+            "avg_ann_3yr": 0.37,
+            "avg_ann_5yr": 1.44,
+            "mgmt_fee": 0.14,
+            "total_assets": 53.05
+          },
+          {
+            "fund_id": "15813",
+            "name": "כלל פנסיה עוקב מדדים למקבלי קצבה",
+            "corp": "כלל פנסיה וגמל בע\"מ",
+            "ytd": null,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.14,
+            "total_assets": 25.47
+          },
+          {
+            "fund_id": "15840",
+            "name": "אלטשולר שחם פנסיה מקיפה עוקב מדדים למקבלי קצבה",
+            "corp": "אלטשולר שחם גמל ופנסיה בע\"מ",
+            "ytd": null,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": null,
+            "total_assets": 12.42
           }
         ]
       }
     },
-    "a30dcbea-a1d2-482c-ae29-8f781f5025fb|קרנות השתלמות": {
-      "resource_id": "a30dcbea-a1d2-482c-ae29-8f781f5025fb",
+    "קרנות השתלמות": {
       "fund_class": "קרנות השתלמות",
       "period": "202608",
       "categories": {
@@ -2738,42 +2738,6 @@
             "avg_ann_5yr": null,
             "mgmt_fee": 0.57,
             "total_assets": 23.16
-          },
-          {
-            "fund_id": "15298",
-            "name": "הראל השתלמות עוקב מדדי אג\"ח",
-            "corp": "הראל פנסיה וגמל בע\"מ",
-            "ytd": -5.38,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.52,
-            "total_assets": 33.93
-          },
-          {
-            "fund_id": "15242",
-            "name": "מור קרן השתלמות לשכירים ולעצמאים  עוקבי מדדים עוקב מדדי אג\"ח",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": -5.62,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.7,
-            "total_assets": 43.87
-          },
-          {
-            "fund_id": "15450",
-            "name": "מגדל השתלמות עוקב מדדי אג\"ח",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": -5.79,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.48,
-            "total_assets": 14.8
           },
           {
             "fund_id": "15985",
@@ -4388,7 +4352,7 @@
             "total_assets": 8.15
           }
         ],
-        "flexible": [
+        "index": [
           {
             "fund_id": "15297",
             "name": "הראל השתלמות עוקב מדדים - גמיש",
@@ -4520,6 +4484,42 @@
             "avg_ann_5yr": 1.52,
             "mgmt_fee": 0.54,
             "total_assets": 303.04
+          },
+          {
+            "fund_id": "15298",
+            "name": "הראל השתלמות עוקב מדדי אג\"ח",
+            "corp": "הראל פנסיה וגמל בע\"מ",
+            "ytd": -5.38,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.52,
+            "total_assets": 33.93
+          },
+          {
+            "fund_id": "15242",
+            "name": "מור קרן השתלמות לשכירים ולעצמאים  עוקבי מדדים עוקב מדדי אג\"ח",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": -5.62,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.7,
+            "total_assets": 43.87
+          },
+          {
+            "fund_id": "15450",
+            "name": "מגדל השתלמות עוקב מדדי אג\"ח",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": -5.79,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.48,
+            "total_assets": 14.8
           },
           {
             "fund_id": "15694",
@@ -4814,8 +4814,7 @@
         ]
       }
     },
-    "a30dcbea-a1d2-482c-ae29-8f781f5025fb|קופת גמל להשקעה": {
-      "resource_id": "a30dcbea-a1d2-482c-ae29-8f781f5025fb",
+    "קופת גמל להשקעה": {
       "fund_class": "קופת גמל להשקעה",
       "period": "202608",
       "categories": {
@@ -5953,42 +5952,6 @@
             "total_assets": 8.55
           },
           {
-            "fund_id": "15260",
-            "name": "מור גמל להשקעה - עוקב מדדי אג\"ח",
-            "corp": "מור גמל ופנסיה בע\"מ",
-            "ytd": -5.45,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.67,
-            "total_assets": 21.42
-          },
-          {
-            "fund_id": "15285",
-            "name": "הראל גמל להשקעה עוקב מדדי אג\"ח",
-            "corp": "הראל פנסיה וגמל בע\"מ",
-            "ytd": -5.53,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.57,
-            "total_assets": 13.62
-          },
-          {
-            "fund_id": "15457",
-            "name": "מגדל גמל להשקעה עוקב מדדי אג\"ח",
-            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
-            "ytd": -5.88,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.64,
-            "total_assets": 4.08
-          },
-          {
             "fund_id": "15472",
             "name": "מיטב גמל להשקעה אג\"ח ממשלות",
             "corp": "מיטב גמל ופנסיה בע\"מ",
@@ -6399,7 +6362,7 @@
             "total_assets": 0.22
           }
         ],
-        "flexible": [
+        "index": [
           {
             "fund_id": "15284",
             "name": "הראל גמל להשקעה עוקב מדדים - גמיש",
@@ -6435,6 +6398,18 @@
             "avg_ann_5yr": 7.04,
             "mgmt_fee": 0.5,
             "total_assets": 24.95
+          },
+          {
+            "fund_id": "15203",
+            "name": "יחד רופאים קופת גמל להשקעה - מסלול עוקב מדד 500 S&P",
+            "corp": "יחד רופאים - חברה לניהול קופות גמל בע\"מ",
+            "ytd": 5.66,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.39,
+            "total_assets": 2.94
           },
           {
             "fund_id": "15315",
@@ -6533,6 +6508,42 @@
             "total_assets": 43.01
           },
           {
+            "fund_id": "15260",
+            "name": "מור גמל להשקעה - עוקב מדדי אג\"ח",
+            "corp": "מור גמל ופנסיה בע\"מ",
+            "ytd": -5.45,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.67,
+            "total_assets": 21.42
+          },
+          {
+            "fund_id": "15285",
+            "name": "הראל גמל להשקעה עוקב מדדי אג\"ח",
+            "corp": "הראל פנסיה וגמל בע\"מ",
+            "ytd": -5.53,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.57,
+            "total_assets": 13.62
+          },
+          {
+            "fund_id": "15457",
+            "name": "מגדל גמל להשקעה עוקב מדדי אג\"ח",
+            "corp": "מגדל מקפת קרנות פנסיה וקופות גמל בע\"מ",
+            "ytd": -5.88,
+            "trailing_3yr": null,
+            "trailing_5yr": null,
+            "avg_ann_3yr": null,
+            "avg_ann_5yr": null,
+            "mgmt_fee": 0.64,
+            "total_assets": 4.08
+          },
+          {
             "fund_id": "15978",
             "name": "איילון קופת גמל להשקעה עוקב מדדים - גמיש",
             "corp": "איילון קופות גמל בע\"מ",
@@ -6605,18 +6616,6 @@
             "avg_ann_5yr": 10.86,
             "mgmt_fee": 0.57,
             "total_assets": 948.08
-          },
-          {
-            "fund_id": "15203",
-            "name": "יחד רופאים קופת גמל להשקעה - מסלול עוקב מדד 500 S&P",
-            "corp": "יחד רופאים - חברה לניהול קופות גמל בע\"מ",
-            "ytd": 5.66,
-            "trailing_3yr": null,
-            "trailing_5yr": null,
-            "avg_ann_3yr": null,
-            "avg_ann_5yr": null,
-            "mgmt_fee": 0.39,
-            "total_assets": 2.94
           },
           {
             "fund_id": "13250",
