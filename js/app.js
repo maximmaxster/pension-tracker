@@ -221,6 +221,7 @@ function buildFundCard(key, fundData) {
     <hr class="section-divider" />
     <div class="section-label">תשואות ארוכות טווח</div>
     ${buildTrailingTable(fundData)}
+    ${buildComparisonTable(fundData, _compData)}
   </div>`;
 }
 
@@ -326,8 +327,97 @@ function buildAnnualSummaryContent(data) {
   return html;
 }
 
+// ── Market comparison ───────────────────────────────────────────────
+const CATEGORY_LABELS = {
+  sp500:     "S&P 500",
+  stocks:    "מסלול מניות",
+  general:   "מסלול כללי",
+  index:     "עוקב מדדים",
+  flexible:  "מסלול גמיש",
+  bonds:     "מסלול שמרני / אג\"ח",
+  world:     "מסלול עולמי",
+  lifecycle: "מסלול גיל חיים",
+  other:     "אחר",
+};
+
+function findUserCategory(compBlock, userFundId) {
+  if (!compBlock?.categories) return null;
+  for (const [cat, entries] of Object.entries(compBlock.categories)) {
+    if (entries.some(e => e.fund_id === userFundId)) return cat;
+  }
+  return null;
+}
+
+function buildComparisonTable(fundData, compData) {
+  const { fund_class, fund_id: userFundId } = fundData;
+  if (!compData || !fund_class) return "";
+
+  const compBlock = compData.by_class?.[fund_class];
+  if (!compBlock || compBlock.error) return "";
+
+  // מצא באיזו קטגוריה המשתמש
+  const userCat = findUserCategory(compBlock, userFundId);
+  if (!userCat) return "";
+
+  const entries = compBlock.categories[userCat] || [];
+  const catLabel = CATEGORY_LABELS[userCat] || userCat;
+  const period   = compBlock.period || "";
+  const periodLbl = period ? periodLabel(period) : "";
+
+  // הוסף דירוג
+  const ranked = entries.map((e, i) => ({ ...e, rank: i + 1 }));
+  const userRank = ranked.find(e => e.fund_id === userFundId)?.rank;
+  const totalFunds = ranked.length;
+
+  const rows = ranked.map(e => {
+    const isUser = e.fund_id === userFundId;
+    const rankLabel = e.rank <= 3
+      ? ["🥇", "🥈", "🥉"][e.rank - 1]
+      : String(e.rank);
+    const corpShort = (e.corp || "").replace(/\s*(בע"מ|בע"מ\.?|ופנסיה|וגמל|גמל ופנסיה)\s*/gi, "").trim();
+    return `<tr class="${isUser ? "user-track" : ""}">
+      <td class="comp-rank">${rankLabel}</td>
+      <td style="max-width:240px;overflow:hidden;text-overflow:ellipsis">
+        ${isUser ? '<span class="comp-you-badge">שלי</span>' : ""}
+        ${esc(corpShort)}
+      </td>
+      <td style="max-width:180px;overflow:hidden;text-overflow:ellipsis;color:var(--text-muted);font-size:12px">${esc(e.name)}</td>
+      ${pctCell(e.ytd)}
+      ${pctCell(e.avg_ann_3yr)}
+      ${pctCell(e.avg_ann_5yr)}
+      <td class="na" style="font-size:12px">${e.mgmt_fee != null ? e.mgmt_fee + "%" : "—"}</td>
+    </tr>`;
+  }).join("");
+
+  const rankNote = userRank
+    ? `<span class="comp-rank-note">דירוג שלך: <strong>${userRank}</strong> מתוך ${totalFunds}</span>`
+    : "";
+
+  return `<hr class="section-divider" />
+  <div class="section-label">
+    השוואה לשוק — ${esc(catLabel)}
+    <span class="comp-period">נתונים עד ${esc(periodLbl)}</span>
+    ${rankNote}
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr>
+        <th>#</th>
+        <th>חברה מנהלת</th>
+        <th>מסלול</th>
+        <th>מתחילת שנה</th>
+        <th>3Y שנתי</th>
+        <th>5Y שנתי</th>
+        <th>דמי ניהול</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
 // ── Tab logic ───────────────────────────────────────────────────────
 let _globalData = null;
+let _compData   = null;
 
 function showTab(key) {
   document.querySelectorAll(".tab").forEach(btn => {
@@ -374,6 +464,12 @@ async function main() {
   }
 
   _globalData = data;
+
+  // Load comparison data (non-blocking)
+  try {
+    const cr = await fetch(`data/comparison_data.json?t=${Date.now()}`);
+    if (cr.ok) _compData = await cr.json();
+  } catch (_) { /* comparison optional */ }
 
   // Header meta
   if (data.fetched_at) {
