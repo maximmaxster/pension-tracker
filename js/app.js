@@ -403,7 +403,7 @@ async function main() {
     const btn = document.createElement("button");
     btn.className = "tab tab-annual";
     btn.dataset.tab = "annual_summary";
-    btn.textContent = `סיכום שנתי (${completeYears.join(", ")})`;
+    btn.textContent = "סיכום שנתי";
     tabsEl.appendChild(btn);
   }
 
