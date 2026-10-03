@@ -224,16 +224,120 @@ function buildFundCard(key, fundData) {
   </div>`;
 }
 
+// ── Annual summary ──────────────────────────────────────────────────
+function getCompleteYears(data) {
+  const currentYear = String(new Date().getFullYear());
+  const yearsSet = new Set();
+  for (const fd of Object.values(data.funds || {})) {
+    for (const p of (fd.periods || [])) {
+      const y = p.slice(0, 4);
+      if (y < currentYear) yearsSet.add(y);
+    }
+  }
+  return [...yearsSet].sort().reverse(); // newest first
+}
+
+function buildAnnualSummaryContent(data) {
+  const currentYear = String(new Date().getFullYear());
+  const completeYears = getCompleteYears(data); // past years, newest first
+
+  // All years with data: past (complete) + current year, chronological for columns
+  const allYearsSet = new Set(completeYears);
+  for (const fd of Object.values(data.funds || {})) {
+    for (const p of (fd.periods || [])) allYearsSet.add(p.slice(0, 4));
+  }
+  const allYears = [...allYearsSet].sort(); // oldest → newest for columns
+
+  if (allYears.length === 0) {
+    return `<div class="error-card" style="margin:32px auto;max-width:500px">
+      אין נתונים להצגה.
+    </div>`;
+  }
+
+  // Build column headers: past years show plain year, current year shows "2026 (עד חודש)"
+  function yearColHeader(year) {
+    if (year !== currentYear) return esc(year);
+    // Find latest period across all funds for current year
+    let latestP = "";
+    for (const fd of Object.values(data.funds || {})) {
+      for (const p of (fd.periods || [])) {
+        if (p.startsWith(year) && p > latestP) latestP = p;
+      }
+    }
+    const suffix = latestP ? ` (עד ${esc(periodLabel(latestP))})` : "";
+    return `${esc(year)}${suffix}`;
+  }
+
+  let html = "";
+
+  for (const [, fundData] of Object.entries(data.funds || {})) {
+    if (fundData.error) continue;
+    const { label, managing_corp, tracks_meta, tracks_monthly, fund_id: userFundId } = fundData;
+
+    const trackIds = Object.keys(tracks_meta || {}).sort((a, b) => {
+      if (a === userFundId) return -1;
+      if (b === userFundId) return 1;
+      return (tracks_meta[a] || "").localeCompare(tracks_meta[b] || "", "he");
+    });
+
+    const yearHeaders = allYears.map((y, i) => {
+      const isCurrentYr = y === currentYear;
+      return `<th class="${isCurrentYr ? "last-col" : ""}">${yearColHeader(y)}</th>`;
+    }).join("");
+
+    const rows = trackIds.map(fid => {
+      const isUser = fid === userFundId;
+      const monthly = tracks_monthly?.[fid] || {};
+
+      const cells = allYears.map(year => {
+        const isCurrentYr = year === currentYear;
+        // Find last period for this track in this year → ytd_yield = annual return
+        const trackPeriods = Object.keys(monthly)
+          .filter(p => p.startsWith(year)).sort();
+        const lastP = trackPeriods[trackPeriods.length - 1];
+        const val = lastP ? (monthly[lastP]?.ytd_yield ?? null) : null;
+        return pctCell(val, isCurrentYr ? "last-col" : "");
+      }).join("");
+
+      return `<tr class="${isUser ? "user-track" : ""}">
+        <td style="max-width:260px;overflow:hidden;text-overflow:ellipsis">
+          <span class="fund-code">${esc(fid)}</span> ${esc(tracks_meta[fid])}
+        </td>
+        ${cells}
+      </tr>`;
+    }).join("");
+
+    html += `<div class="annual-fund-card">
+      <div class="annual-fund-header">
+        <span class="annual-fund-name">${esc(label)}</span>
+        <span class="annual-fund-corp">${esc(managing_corp)}</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th>מסלול</th>${yearHeaders}
+          </tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    </div>`;
+  }
+
+  return html;
+}
+
 // ── Tab logic ───────────────────────────────────────────────────────
 let _globalData = null;
 
 function showTab(key) {
-  // Update button states
   document.querySelectorAll(".tab").forEach(btn => {
     btn.classList.toggle("active", btn.dataset.tab === key);
   });
-  // Render the selected fund card
   const app = document.getElementById("app");
+  if (key === "annual_summary") {
+    app.innerHTML = buildAnnualSummaryContent(_globalData);
+    return;
+  }
   const fd = _globalData?.funds?.[key];
   if (!fd) {
     app.innerHTML = `<div class="error-card">לא נמצאו נתונים ל-${esc(key)}</div>`;
@@ -292,9 +396,21 @@ async function main() {
 
   initTheme();
 
-  // Wire up tab buttons
-  document.querySelectorAll(".tab").forEach(btn => {
-    btn.addEventListener("click", () => showTab(btn.dataset.tab));
+  // Add annual summary tab if there are complete past years
+  const completeYears = getCompleteYears(data);
+  if (completeYears.length > 0) {
+    const tabsEl = document.querySelector(".tabs");
+    const btn = document.createElement("button");
+    btn.className = "tab tab-annual";
+    btn.dataset.tab = "annual_summary";
+    btn.textContent = `סיכום שנתי (${completeYears.join(", ")})`;
+    tabsEl.appendChild(btn);
+  }
+
+  // Wire up tab buttons (includes dynamically added ones)
+  document.querySelector(".tabs").addEventListener("click", e => {
+    const btn = e.target.closest(".tab");
+    if (btn) showTab(btn.dataset.tab);
   });
 
   // Show first tab by default

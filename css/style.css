@@ -529,3 +529,40 @@ tbody tr:hover td.last-col {
   /* user-track-badge — מוסתר אם ארוך */
   .user-track-badge { font-size: 11px; padding: 1px 7px; }
 }
+
+/* ── Annual Summary ───────────────────────────────────────────── */
+.tab-annual {
+  border-color: var(--accent2) !important;
+}
+.tab-annual.active {
+  background: linear-gradient(135deg, rgba(124,92,191,.18), rgba(79,126,248,.12)) !important;
+  color: var(--text) !important;
+}
+
+.annual-fund-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 28px;
+}
+
+.annual-fund-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 14px 24px;
+  background: linear-gradient(90deg, rgba(124,92,191,.12), rgba(79,126,248,.07));
+  border-bottom: 1px solid var(--border);
+}
+
+.annual-fund-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.annual-fund-corp {
+  font-size: 12px;
+  color: var(--text-muted);
+}
