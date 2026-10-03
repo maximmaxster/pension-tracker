@@ -6,6 +6,7 @@ Pension Tracker — fetch_data.py
 
 import json
 import sys
+import time
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -56,6 +57,7 @@ PENSYANET_HIST = ["a66926f3-e396-4984-a4db-75486751c2f7",   # 1999–2022
                   "4694d5a7-5284-4f3d-a2cb-5887f43fb55e"]   # 2023
 
 CKAN_SEARCH = "https://data.gov.il/api/3/action/datastore_search"
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
 OUTPUT_FILE = Path(__file__).parent / "data" / "pension_data.json"
 
@@ -77,7 +79,21 @@ def ckan_search(resource_id: str, filters: dict, limit: int = PAGE_SIZE) -> list
             "limit":       limit,
             "offset":      offset,
         }
-        resp = requests.get(CKAN_SEARCH, params=params, timeout=30)
+        for attempt in range(4):
+            try:
+                resp = requests.get(CKAN_SEARCH, params=params,
+                                    headers=HEADERS, timeout=30)
+                if resp.status_code == 403:
+                    wait = 15 * (attempt + 1)
+                    print(f"    ⏳ 403 — ממתין {wait}ש׳ לפני ניסיון {attempt+2}...")
+                    time.sleep(wait)
+                    continue
+                resp.raise_for_status()
+                break
+            except requests.exceptions.RequestException as e:
+                if attempt == 3:
+                    raise
+                time.sleep(10 * (attempt + 1))
         resp.raise_for_status()
         data = resp.json()
         if not data.get("success"):
@@ -299,7 +315,7 @@ def _pct(val) -> float | None:
 def fetch_last_modified(resource_id: str) -> str:
     """בודק מתי עודכן המשאב לאחרונה."""
     url = f"https://data.gov.il/api/3/action/resource_show?id={resource_id}"
-    r = requests.get(url, timeout=15).json()
+    r = requests.get(url, headers=HEADERS, timeout=15).json()
     return r["result"].get("last_modified", "")
 
 
@@ -314,7 +330,9 @@ def main():
         "funds": {},
     }
 
-    for key, user_fund in USER_FUNDS.items():
+    for i, (key, user_fund) in enumerate(USER_FUNDS.items()):
+        if i > 0:
+            time.sleep(5)   # הפסקה בין קופות — מניעת rate limiting
         try:
             output["funds"][key] = build_fund_data(user_fund)
         except Exception as e:
