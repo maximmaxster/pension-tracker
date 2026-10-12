@@ -366,23 +366,31 @@ def git_push():
     repo_dir = Path(__file__).parent
     date_str = datetime.now().strftime("%d/%m/%Y %H:%M")
 
-    # pull תחילה כדי למנוע conflicts
-    subprocess.run(
-        ["git", "-C", str(repo_dir), "pull", "--rebase", "-X", "theirs", "origin", "main"],
-        capture_output=True, text=True
-    )
+    # pull תחילה — מנסה 3 פעמים אם נכשל
+    for attempt in range(3):
+        r = subprocess.run(
+            ["git", "-C", str(repo_dir), "pull", "--rebase", "-X", "theirs", "origin", "main"],
+            capture_output=True, text=True, encoding="utf-8"
+        )
+        if r.returncode == 0:
+            break
+        print(f"  git pull attempt {attempt+1} failed: {r.stderr.strip()[:120]}")
+        if attempt == 2:
+            print("  git: pull נכשל — מדלג על push")
+            return
 
     cmds = [
         ["git", "-C", str(repo_dir), "add", "data/pension_data.json"],
         ["git", "-C", str(repo_dir), "commit", "-m", f"sync: עדכון נתונים — {date_str}"],
-        ["git", "-C", str(repo_dir), "push"],
+        ["git", "-C", str(repo_dir), "push", "origin", "main"],
     ]
     for cmd in cmds:
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+        label = " ".join(cmd[3:])
         if result.returncode != 0 and "nothing to commit" not in result.stdout + result.stderr:
-            print(f"  git: {' '.join(cmd[3:])} — {result.stderr.strip() or result.stdout.strip()}")
+            print(f"  git: {label} — {(result.stderr or result.stdout).strip()[:200]}")
         else:
-            print(f"  git: {' '.join(cmd[3:])} — OK")
+            print(f"  git: {label} — OK")
 
 
 if __name__ == "__main__":
