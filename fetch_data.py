@@ -10,6 +10,7 @@ import time
 import requests
 from datetime import datetime
 from pathlib import Path
+from ckan_client import CKAN_SEARCH, HEADERS, PAGE_SIZE, ckan_search
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -56,54 +57,10 @@ GEMELNET_HIST  = ["91c849ed-ddc4-472b-bd09-0f5486cea35c",   # 1999–2022
 PENSYANET_HIST = ["a66926f3-e396-4984-a4db-75486751c2f7",   # 1999–2022
                   "4694d5a7-5284-4f3d-a2cb-5887f43fb55e"]   # 2023
 
-CKAN_SEARCH = "https://data.gov.il/api/3/action/datastore_search"
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-
 OUTPUT_FILE = Path(__file__).parent / "data" / "pension_data.json"
 
 CURRENT_YEAR = datetime.now().year
 START_PERIOD = f"{CURRENT_YEAR}01"   # 202601
-
-
-PAGE_SIZE = 1000  # CKAN max per request
-
-
-def ckan_search(resource_id: str, filters: dict, limit: int = PAGE_SIZE) -> list[dict]:
-    """מושך נתונים מ-CKAN datastore_search עם pagination אוטומטי."""
-    records = []
-    offset = 0
-    while True:
-        params = {
-            "resource_id": resource_id,
-            "filters":     json.dumps(filters, ensure_ascii=False),
-            "limit":       limit,
-            "offset":      offset,
-        }
-        for attempt in range(4):
-            try:
-                resp = requests.get(CKAN_SEARCH, params=params,
-                                    headers=HEADERS, timeout=30)
-                if resp.status_code == 403:
-                    wait = 15 * (attempt + 1)
-                    print(f"    ⏳ 403 — ממתין {wait}ש׳ לפני ניסיון {attempt+2}...")
-                    time.sleep(wait)
-                    continue
-                resp.raise_for_status()
-                break
-            except requests.exceptions.RequestException as e:
-                if attempt == 3:
-                    raise
-                time.sleep(10 * (attempt + 1))
-        resp.raise_for_status()
-        data = resp.json()
-        if not data.get("success"):
-            raise RuntimeError(f"CKAN error: {data.get('error')}")
-        batch = data["result"]["records"]
-        records.extend(batch)
-        if len(batch) < limit:
-            break
-        offset += limit
-    return records
 
 
 def get_managing_corp(resource_id: str, fund_id: str) -> tuple[str, str]:
@@ -315,8 +272,12 @@ def _pct(val) -> float | None:
 def fetch_last_modified(resource_id: str) -> str:
     """בודק מתי עודכן המשאב לאחרונה."""
     url = f"https://data.gov.il/api/3/action/resource_show?id={resource_id}"
-    r = requests.get(url, headers=HEADERS, timeout=15).json()
-    return r["result"].get("last_modified", "")
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        return r.json()["result"].get("last_modified", "")
+    except Exception:
+        return ""
 
 
 def main():
@@ -366,18 +327,22 @@ def git_push():
     repo_dir = Path(__file__).parent
     date_str = datetime.now().strftime("%d/%m/%Y %H:%M")
 
-    # pull תחילה — מנסה 3 פעמים אם נכשל
-    for attempt in range(3):
-        r = subprocess.run(
-            ["git", "-C", str(repo_dir), "pull", "--rebase", "-X", "theirs", "origin", "main"],
-            capture_output=True, text=True, encoding="utf-8"
-        )
-        if r.returncode == 0:
-            break
-        print(f"  git pull attempt {attempt+1} failed: {r.stderr.strip()[:120]}")
-        if attempt == 2:
-            print("  git: pull נכשל — מדלג על push")
-            return
+    # stash → pull → pop כדי למנוע כשל "unstaged changes"
+    subprocess.run(
+        ["git", "-C", str(repo_dir), "stash", "--include-untracked"],
+        capture_output=True, text=True, encoding="utf-8"
+    )
+    r = subprocess.run(
+        ["git", "-C", str(repo_dir), "pull", "--rebase", "-X", "theirs", "origin", "main"],
+        capture_output=True, text=True, encoding="utf-8"
+    )
+    subprocess.run(
+        ["git", "-C", str(repo_dir), "stash", "pop"],
+        capture_output=True, text=True, encoding="utf-8"
+    )
+    if r.returncode != 0:
+        print(f"  git: pull נכשל — {r.stderr.strip()[:200]}")
+        return
 
     cmds = [
         ["git", "-C", str(repo_dir), "add", "data/pension_data.json"],

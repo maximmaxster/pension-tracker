@@ -126,18 +126,19 @@ function buildTrailingTable(fundData) {
 
   const rows = trackIds.map(fid => {
     const isUser = fid === userFundId;
-    const rowCls = isUser ? "user-track" : "";
     const t = trailing[fid] || {};
     const trailing1yr = t.trailing_1yr ?? calcTrailingMonths(tracks_monthly, fid, 12);
+    const exposure = t.stock_exposure != null
+      ? `<td>${Number(t.stock_exposure).toFixed(0)}%</td>`
+      : `<td class="na">—</td>`;
 
-    return `<tr class="${rowCls}">
-      <td style="max-width:280px;overflow:hidden;text-overflow:ellipsis">
-        <span class="fund-code">${esc(fid)}</span> ${esc(tracks_meta[fid])}
-      </td>
+    return `<tr class="${isUser ? "user-track" : ""}">
+      ${trackNameCell(fid, tracks_meta[fid], isUser)}
       ${pctCell(trailing1yr)}
       ${pctCell(t.trailing_3yr)}
       ${pctCell(t.trailing_5yr)}
       ${pctCell(t.trailing_10yr)}
+      ${exposure}
     </tr>`;
   }).join("");
 
@@ -149,6 +150,7 @@ function buildTrailingTable(fundData) {
         <th>3 שנים</th>
         <th>5 שנים</th>
         <th>10 שנים</th>
+        <th>חשיפה מנייתית</th>
       </tr></thead>
       <tbody>${rows}</tbody>
     </table>
@@ -274,11 +276,7 @@ function buildAnnualSummaryContent(data) {
     if (fundData.error) continue;
     const { label, managing_corp, tracks_meta, tracks_monthly, fund_id: userFundId } = fundData;
 
-    const trackIds = Object.keys(tracks_meta || {}).sort((a, b) => {
-      if (a === userFundId) return -1;
-      if (b === userFundId) return 1;
-      return (tracks_meta[a] || "").localeCompare(tracks_meta[b] || "", "he");
-    });
+    const trackIds = getVisibleTrackIds(fundData);
 
     const yearHeaders = allYears.map((y, i) => {
       const isCurrentYr = y === currentYear;
@@ -300,9 +298,7 @@ function buildAnnualSummaryContent(data) {
       }).join("");
 
       return `<tr class="${isUser ? "user-track" : ""}">
-        <td style="max-width:260px;overflow:hidden;text-overflow:ellipsis">
-          <span class="fund-code">${esc(fid)}</span> ${esc(tracks_meta[fid])}
-        </td>
+        ${trackNameCell(fid, tracks_meta[fid], isUser)}
         ${cells}
       </tr>`;
     }).join("");
@@ -326,8 +322,75 @@ function buildAnnualSummaryContent(data) {
   return html;
 }
 
+// ── Comparison view ─────────────────────────────────────────────────
+const COMP_CATEGORY_LABELS = {
+  sp500: "S&P 500", stocks: "מסלול מניות", general: "מסלול כללי",
+  index: "עוקב מדדים", flexible: "מסלול גמיש", bonds: "מסלול שמרני / אג\"ח",
+  world: "מסלול עולמי", lifecycle: "מסלול גיל חיים", other: "אחר",
+};
+
+function buildComparisonContent(compData, globalData) {
+  const userTrackIds = new Set();
+  for (const fd of Object.values(globalData.funds || {})) {
+    if (fd.fund_id) userTrackIds.add(String(fd.fund_id));
+    for (const id of (fd.visible_tracks || [])) userTrackIds.add(String(id));
+  }
+
+  let html = `<div style="padding:8px 0 16px;color:var(--text-muted);font-size:.85rem">
+    נתונים נכון ל: ${esc(compData.period || "")} · שורות מסומנות ב-✦ הן המסלולים שלך
+  </div>`;
+
+  for (const [className, classData] of Object.entries(compData.by_class || {})) {
+    if (classData.error) continue;
+    const { categories } = classData;
+    let classHtml = "";
+
+    for (const [cat, tracks] of Object.entries(categories || {})) {
+      if (!tracks?.length) continue;
+      const catLabel = COMP_CATEGORY_LABELS[cat] || cat;
+
+      const rows = tracks.map((t, i) => {
+        const isUser = userTrackIds.has(String(t.fund_id));
+        return `<tr class="${isUser ? "user-track" : ""}">
+          <td class="na" style="text-align:center;min-width:28px">${i + 1}</td>
+          <td style="max-width:260px;overflow:hidden;text-overflow:ellipsis">
+            ${isUser ? '<span class="fund-code">✦</span> ' : ""}${esc(t.name)}
+          </td>
+          <td>${esc(t.corp)}</td>
+          ${pctCell(t.ytd)}
+          ${pctCell(t.trailing_3yr)}
+          ${pctCell(t.trailing_5yr)}
+        </tr>`;
+      }).join("");
+
+      classHtml += `<div class="section-label">${esc(catLabel)}</div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr>
+              <th>#</th><th>מסלול</th><th>חברה</th>
+              <th>YTD</th><th>3 שנים</th><th>5 שנים</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+        </div>`;
+    }
+
+    if (classHtml) {
+      html += `<div class="annual-fund-card">
+        <div class="annual-fund-header">
+          <span class="annual-fund-name">${esc(className)}</span>
+        </div>
+        ${classHtml}
+      </div>`;
+    }
+  }
+
+  return html || `<div class="error-card">אין נתוני השוואה זמינים</div>`;
+}
+
 // ── Tab logic ───────────────────────────────────────────────────────
 let _globalData = null;
+let _compData = null;
 
 function showTab(key) {
   document.querySelectorAll(".tab").forEach(btn => {
@@ -336,6 +399,12 @@ function showTab(key) {
   const app = document.getElementById("app");
   if (key === "annual_summary") {
     app.innerHTML = buildAnnualSummaryContent(_globalData);
+    return;
+  }
+  if (key === "market_comparison") {
+    app.innerHTML = _compData
+      ? buildComparisonContent(_compData, _globalData)
+      : `<div class="error-card">נתוני השוואה לא זמינים</div>`;
     return;
   }
   const fd = _globalData?.funds?.[key];
@@ -375,6 +444,12 @@ async function main() {
 
   _globalData = data;
 
+  // Load comparison data (best-effort — tab hidden if unavailable)
+  try {
+    const cr = await fetch(`data/comparison_data.json?t=${Date.now()}`);
+    if (cr.ok) _compData = await cr.json();
+  } catch (_) { /* silent — comparison tab just won't appear */ }
+
   // Header meta
   if (data.fetched_at) {
     const d = new Date(data.fetched_at);
@@ -398,12 +473,21 @@ async function main() {
 
   // Add annual summary tab if there are complete past years
   const completeYears = getCompleteYears(data);
+  const tabsEl = document.querySelector(".tabs");
   if (completeYears.length > 0) {
-    const tabsEl = document.querySelector(".tabs");
     const btn = document.createElement("button");
     btn.className = "tab tab-annual";
     btn.dataset.tab = "annual_summary";
     btn.textContent = "סיכום שנתי";
+    tabsEl.appendChild(btn);
+  }
+
+  // Add market comparison tab if comparison data loaded
+  if (_compData) {
+    const btn = document.createElement("button");
+    btn.className = "tab tab-annual";
+    btn.dataset.tab = "market_comparison";
+    btn.textContent = "השוואת שוק";
     tabsEl.appendChild(btn);
   }
 

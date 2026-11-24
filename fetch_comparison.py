@@ -11,17 +11,12 @@ import time
 import requests
 from datetime import datetime
 from pathlib import Path
+from ckan_client import ckan_search
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 GEMELNET_RESOURCE  = "a30dcbea-a1d2-482c-ae29-8f781f5025fb"
 PENSYANET_RESOURCE = "6d47d6b5-cb08-488b-b333-f1e717b1e1bd"
-
-CKAN_SEARCH = "https://data.gov.il/api/3/action/datastore_search"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-}
 
 DATA_DIR    = Path(__file__).parent / "data"
 OUTPUT_FILE = DATA_DIR / "comparison_data.json"
@@ -59,40 +54,6 @@ def classify_track(name: str) -> str:
     return "other"
 
 
-def ckan_fetch(resource_id: str, filters: dict, limit: int = 1000) -> list[dict]:
-    records, offset = [], 0
-    while True:
-        params = {
-            "resource_id": resource_id,
-            "filters": json.dumps(filters, ensure_ascii=False),
-            "limit": limit,
-            "offset": offset,
-        }
-        for attempt in range(4):
-            try:
-                resp = requests.get(CKAN_SEARCH, params=params,
-                                    headers=HEADERS, timeout=30)
-                if resp.status_code == 403:
-                    wait = 15 * (attempt + 1)
-                    print(f"  ⏳ 403 — ממתין {wait}ש׳...")
-                    time.sleep(wait)
-                    continue
-                resp.raise_for_status()
-                break
-            except requests.exceptions.RequestException:
-                if attempt == 3:
-                    raise
-                time.sleep(10 * (attempt + 1))
-        resp.raise_for_status()
-        data = resp.json()
-        if not data.get("success"):
-            raise RuntimeError(f"CKAN error: {data.get('error')}")
-        batch = data["result"]["records"]
-        records.extend(batch)
-        if len(batch) < limit:
-            break
-        offset += limit
-    return records
 
 
 def _pct(val) -> float | None:
@@ -109,7 +70,7 @@ def fetch_fund_class_comparison(resource_id: str, fund_class: str,
     """מושך את כל המסלולים של כל החברות מאותה קטגוריה בפריודה האחרונה."""
     print(f"  שואל: {fund_class} | פריודה: {latest_period}")
 
-    rows = ckan_fetch(resource_id, {
+    rows = ckan_search(resource_id, {
         "FUND_CLASSIFICATION": fund_class,
         "REPORT_PERIOD": int(latest_period),
     })
