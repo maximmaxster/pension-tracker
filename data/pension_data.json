@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-10-30T03:00:01.514086",
-  "gemelnet_last_modified": "2026-10-29T05:00:16.217456",
-  "pensyanet_last_modified": "2026-10-29T05:00:32.394838",
+  "fetched_at": "2026-11-24T03:00:02.150204",
+  "gemelnet_last_modified": "2026-11-23T05:00:16.691700",
+  "pensyanet_last_modified": "2026-11-23T05:00:31.010740",
   "funds": {
     "menora_pension": {
       "fund_id": "2063",
@@ -41,7 +41,8 @@
         "202606",
         "202607",
         "202608",
-        "202609"
+        "202609",
+        "202610"
       ],
       "tracks_meta": {
         "2009": "מנורה מבטחים פנסיה - כללי",
@@ -268,6 +269,12 @@
             "monthly_yield": 0.55,
             "ytd_yield": 8.04,
             "total_assets": 110789.51,
+            "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.73,
+            "ytd_yield": 7.25,
+            "total_assets": 107949.25,
             "management_fee": 0.15
           }
         },
@@ -614,6 +621,12 @@
             "monthly_yield": 0.33,
             "ytd_yield": 6.63,
             "total_assets": 19277,
+            "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.36,
+            "ytd_yield": 6.24,
+            "total_assets": 19104.89,
             "management_fee": 0.15
           }
         },
@@ -997,6 +1010,12 @@
             "ytd_yield": 8.1,
             "total_assets": 38069.32,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.62,
+            "ytd_yield": 7.43,
+            "total_assets": 37666.77,
+            "management_fee": 0.15
           }
         },
         "2016": {
@@ -1379,6 +1398,12 @@
             "ytd_yield": 9.91,
             "total_assets": 23823.18,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -1.01,
+            "ytd_yield": 8.8,
+            "total_assets": 23926.17,
+            "management_fee": 0.15
           }
         },
         "2064": {
@@ -1616,6 +1641,12 @@
             "monthly_yield": -0.34,
             "ytd_yield": 6.08,
             "total_assets": 2721.48,
+            "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": 0.06,
+            "ytd_yield": 6.15,
+            "total_assets": 2689.43,
             "management_fee": 0.15
           }
         },
@@ -1999,6 +2030,12 @@
             "ytd_yield": 9.1,
             "total_assets": 66215.88,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.79,
+            "ytd_yield": 8.24,
+            "total_assets": 64815.19,
+            "management_fee": 0.15
           }
         },
         "2212": {
@@ -2199,6 +2236,12 @@
             "ytd_yield": 3.64,
             "total_assets": 4711.64,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.26,
+            "ytd_yield": 3.37,
+            "total_assets": 4641.21,
+            "management_fee": 0.15
           }
         },
         "8561": {
@@ -2398,6 +2441,12 @@
             "monthly_yield": 0.7,
             "ytd_yield": 4.63,
             "total_assets": 359.69,
+            "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.3,
+            "ytd_yield": 4.32,
+            "total_assets": 356.62,
             "management_fee": 0.15
           }
         },
@@ -2781,6 +2830,12 @@
             "ytd_yield": 6.35,
             "total_assets": 34677.44,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.22,
+            "ytd_yield": 6.12,
+            "total_assets": 34864.9,
+            "management_fee": 0.15
           }
         },
         "13303": {
@@ -3163,6 +3218,12 @@
             "ytd_yield": 4.17,
             "total_assets": 384.46,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.11,
+            "ytd_yield": 4.06,
+            "total_assets": 402.88,
+            "management_fee": 0.15
           }
         },
         "13350": {
@@ -3362,6 +3423,12 @@
             "monthly_yield": 0.61,
             "ytd_yield": 12.37,
             "total_assets": 6971.23,
+            "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": 0.16,
+            "ytd_yield": 12.55,
+            "total_assets": 7016.19,
             "management_fee": 0.15
           }
         },
@@ -3563,6 +3630,12 @@
             "ytd_yield": 7.51,
             "total_assets": 17202.75,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": 1.78,
+            "ytd_yield": 9.42,
+            "total_assets": 17263.73,
+            "management_fee": 0.15
           }
         },
         "14277": {
@@ -3762,6 +3835,12 @@
             "monthly_yield": 0.95,
             "ytd_yield": 6.52,
             "total_assets": 451.42,
+            "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": 1.0,
+            "ytd_yield": 7.58,
+            "total_assets": 447.42,
             "management_fee": 0.15
           }
         },
@@ -3963,6 +4042,12 @@
             "ytd_yield": 7.34,
             "total_assets": 626.67,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -0.03,
+            "ytd_yield": 7.31,
+            "total_assets": 623.13,
+            "management_fee": 0.15
           }
         },
         "14348": {
@@ -4163,6 +4248,12 @@
             "ytd_yield": 5.5,
             "total_assets": 20.27,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -1.09,
+            "ytd_yield": 4.35,
+            "total_assets": 18.9,
+            "management_fee": 0.15
           }
         },
         "15342": {
@@ -4327,6 +4418,12 @@
             "ytd_yield": 3.44,
             "total_assets": 792.54,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": 0.2,
+            "ytd_yield": 3.65,
+            "total_assets": 779.05,
+            "management_fee": 0.15
           }
         },
         "15661": {
@@ -4401,6 +4498,12 @@
             "ytd_yield": 9.42,
             "total_assets": 318.99,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": 0.06,
+            "ytd_yield": 9.49,
+            "total_assets": 387.46,
+            "management_fee": 0.15
           }
         },
         "15783": {
@@ -4451,22 +4554,28 @@
             "ytd_yield": null,
             "total_assets": 298.89,
             "management_fee": 0.15
+          },
+          "202610": {
+            "monthly_yield": -1.25,
+            "ytd_yield": null,
+            "total_assets": 295.7,
+            "management_fee": 0.15
           }
         }
       },
       "trailing": {
         "2009": {
-          "period": "202609",
-          "ytd_yield": 8.04,
-          "trailing_1yr": 12.25,
-          "trailing_3yr": 45.69,
-          "trailing_5yr": 58.63,
-          "trailing_10yr": 130.1,
-          "avg_annual_3yr": 13.36,
-          "avg_annual_5yr": 9.67,
-          "sharpe_ratio": 1.38,
+          "period": "202610",
+          "ytd_yield": 7.25,
+          "trailing_1yr": 10.15,
+          "trailing_3yr": 48.07,
+          "trailing_5yr": 54.01,
+          "trailing_10yr": 128.01,
+          "avg_annual_3yr": 13.98,
+          "avg_annual_5yr": 9.02,
+          "sharpe_ratio": 1.24,
           "management_fee": 0.15,
-          "stock_exposure": 51.3
+          "stock_exposure": 50.4
         },
         "2012": {
           "period": "202512",
@@ -4474,7 +4583,7 @@
           "trailing_1yr": 11.31,
           "trailing_3yr": 31.09,
           "trailing_5yr": 41.2,
-          "trailing_10yr": 73.36,
+          "trailing_10yr": 72.77,
           "avg_annual_3yr": 9.44,
           "avg_annual_5yr": 7.14,
           "sharpe_ratio": 1.8,
@@ -4482,17 +4591,17 @@
           "stock_exposure": 25.9
         },
         "2013": {
-          "period": "202609",
-          "ytd_yield": 6.63,
-          "trailing_1yr": 9.52,
-          "trailing_3yr": 33.4,
-          "trailing_5yr": 44.56,
-          "trailing_10yr": 99.82,
-          "avg_annual_3yr": 10.08,
-          "avg_annual_5yr": 7.65,
-          "sharpe_ratio": 1.49,
+          "period": "202610",
+          "ytd_yield": 6.24,
+          "trailing_1yr": 8.29,
+          "trailing_3yr": 34.69,
+          "trailing_5yr": 41.78,
+          "trailing_10yr": 98.74,
+          "avg_annual_3yr": 10.44,
+          "avg_annual_5yr": 7.23,
+          "sharpe_ratio": 1.35,
           "management_fee": 0.15,
-          "stock_exposure": 32.2
+          "stock_exposure": 31.8
         },
         "2014": {
           "period": "202606",
@@ -4500,7 +4609,7 @@
           "trailing_1yr": 13.47,
           "trailing_3yr": 39.7,
           "trailing_5yr": 51.35,
-          "trailing_10yr": 113.51,
+          "trailing_10yr": 113.4,
           "avg_annual_3yr": 11.79,
           "avg_annual_5yr": 8.64,
           "sharpe_ratio": 1.53,
@@ -4508,17 +4617,17 @@
           "stock_exposure": 42.8
         },
         "2015": {
-          "period": "202609",
-          "ytd_yield": 8.1,
-          "trailing_1yr": 12.27,
-          "trailing_3yr": 45.05,
-          "trailing_5yr": 57.9,
-          "trailing_10yr": 135.79,
-          "avg_annual_3yr": 13.2,
-          "avg_annual_5yr": 9.57,
-          "sharpe_ratio": 1.47,
+          "period": "202610",
+          "ytd_yield": 7.43,
+          "trailing_1yr": 10.4,
+          "trailing_3yr": 46.88,
+          "trailing_5yr": 53.67,
+          "trailing_10yr": 134.63,
+          "avg_annual_3yr": 13.67,
+          "avg_annual_5yr": 8.97,
+          "sharpe_ratio": 1.33,
           "management_fee": 0.15,
-          "stock_exposure": 50.2
+          "stock_exposure": 49.6
         },
         "2016": {
           "period": "202606",
@@ -4526,7 +4635,7 @@
           "trailing_1yr": 16.47,
           "trailing_3yr": 47.2,
           "trailing_5yr": 61.26,
-          "trailing_10yr": 136.33,
+          "trailing_10yr": 136.66,
           "avg_annual_3yr": 13.75,
           "avg_annual_5yr": 10.03,
           "sharpe_ratio": 1.56,
@@ -4534,17 +4643,17 @@
           "stock_exposure": 54.8
         },
         "2063": {
-          "period": "202609",
-          "ytd_yield": 9.91,
-          "trailing_1yr": 15.46,
-          "trailing_3yr": 62.91,
-          "trailing_5yr": 76.56,
-          "trailing_10yr": 178.56,
-          "avg_annual_3yr": 17.67,
-          "avg_annual_5yr": 12.04,
-          "sharpe_ratio": 1.31,
+          "period": "202610",
+          "ytd_yield": 8.8,
+          "trailing_1yr": 12.55,
+          "trailing_3yr": 66.83,
+          "trailing_5yr": 69.09,
+          "trailing_10yr": 176.44,
+          "avg_annual_3yr": 18.6,
+          "avg_annual_5yr": 11.08,
+          "sharpe_ratio": 1.18,
           "management_fee": 0.15,
-          "stock_exposure": 73.6
+          "stock_exposure": 73.1
         },
         "2064": {
           "period": "202406",
@@ -4552,7 +4661,7 @@
           "trailing_1yr": null,
           "trailing_3yr": 9.81,
           "trailing_5yr": 14.44,
-          "trailing_10yr": 25.19,
+          "trailing_10yr": 24.87,
           "avg_annual_3yr": 3.17,
           "avg_annual_5yr": 2.73,
           "sharpe_ratio": 0.5,
@@ -4560,17 +4669,17 @@
           "stock_exposure": 0.0
         },
         "2182": {
-          "period": "202609",
-          "ytd_yield": 6.08,
-          "trailing_1yr": 9.24,
-          "trailing_3yr": 38.73,
-          "trailing_5yr": 41.36,
-          "trailing_10yr": 87.58,
-          "avg_annual_3yr": 11.53,
-          "avg_annual_5yr": 7.17,
-          "sharpe_ratio": 0.89,
+          "period": "202610",
+          "ytd_yield": 6.15,
+          "trailing_1yr": 7.96,
+          "trailing_3yr": 42.83,
+          "trailing_5yr": 39.59,
+          "trailing_10yr": 87.75,
+          "avg_annual_3yr": 12.62,
+          "avg_annual_5yr": 6.9,
+          "sharpe_ratio": 0.84,
           "management_fee": 0.15,
-          "stock_exposure": 50.9
+          "stock_exposure": 31.4
         },
         "2183": {
           "period": "202606",
@@ -4578,7 +4687,7 @@
           "trailing_1yr": 16.93,
           "trailing_3yr": 48.93,
           "trailing_5yr": 61.99,
-          "trailing_10yr": 138.33,
+          "trailing_10yr": 138.74,
           "avg_annual_3yr": 14.2,
           "avg_annual_5yr": 10.13,
           "sharpe_ratio": 1.54,
@@ -4586,41 +4695,41 @@
           "stock_exposure": 57.0
         },
         "2184": {
-          "period": "202609",
-          "ytd_yield": 9.1,
-          "trailing_1yr": 13.92,
-          "trailing_3yr": 52.28,
-          "trailing_5yr": 66.06,
-          "trailing_10yr": 148.64,
-          "avg_annual_3yr": 15.05,
-          "avg_annual_5yr": 10.68,
-          "sharpe_ratio": 1.44,
+          "period": "202610",
+          "ytd_yield": 8.24,
+          "trailing_1yr": 11.65,
+          "trailing_3yr": 54.54,
+          "trailing_5yr": 60.51,
+          "trailing_10yr": 147.17,
+          "avg_annual_3yr": 15.61,
+          "avg_annual_5yr": 9.93,
+          "sharpe_ratio": 1.3,
           "management_fee": 0.15,
-          "stock_exposure": 59.2
+          "stock_exposure": 58.7
         },
         "2212": {
-          "period": "202609",
-          "ytd_yield": 3.64,
-          "trailing_1yr": 4.49,
-          "trailing_3yr": 17.31,
-          "trailing_5yr": 24.7,
-          "trailing_10yr": 56.86,
-          "avg_annual_3yr": 5.47,
-          "avg_annual_5yr": 4.51,
-          "sharpe_ratio": 0.37,
+          "period": "202610",
+          "ytd_yield": 3.37,
+          "trailing_1yr": 3.81,
+          "trailing_3yr": 21.79,
+          "trailing_5yr": 22.34,
+          "trailing_10yr": 56.88,
+          "avg_annual_3yr": 6.79,
+          "avg_annual_5yr": 4.12,
+          "sharpe_ratio": 0.27,
           "management_fee": 0.15,
           "stock_exposure": 0.0
         },
         "8561": {
-          "period": "202609",
-          "ytd_yield": 4.63,
-          "trailing_1yr": 5.38,
-          "trailing_3yr": 22.31,
-          "trailing_5yr": 40.61,
-          "trailing_10yr": 79.93,
-          "avg_annual_3yr": 6.94,
-          "avg_annual_5yr": 7.05,
-          "sharpe_ratio": 2.19,
+          "period": "202610",
+          "ytd_yield": 4.32,
+          "trailing_1yr": 4.89,
+          "trailing_3yr": 22.09,
+          "trailing_5yr": 39.11,
+          "trailing_10yr": 79.14,
+          "avg_annual_3yr": 6.88,
+          "avg_annual_5yr": 6.82,
+          "sharpe_ratio": 1.89,
           "management_fee": 0.15,
           "stock_exposure": 0.0
         },
@@ -4630,7 +4739,7 @@
           "trailing_1yr": 18.11,
           "trailing_3yr": 52.38,
           "trailing_5yr": 64.5,
-          "trailing_10yr": 141.68,
+          "trailing_10yr": 142.26,
           "avg_annual_3yr": 15.07,
           "avg_annual_5yr": 10.47,
           "sharpe_ratio": 1.52,
@@ -4638,17 +4747,17 @@
           "stock_exposure": 59.1
         },
         "12155": {
-          "period": "202609",
-          "ytd_yield": 6.35,
-          "trailing_1yr": 8.37,
-          "trailing_3yr": 31.47,
-          "trailing_5yr": 49.27,
-          "trailing_10yr": 81.18,
-          "avg_annual_3yr": 9.55,
-          "avg_annual_5yr": 8.34,
-          "sharpe_ratio": 2.42,
+          "period": "202610",
+          "ytd_yield": 6.12,
+          "trailing_1yr": 7.79,
+          "trailing_3yr": 32.02,
+          "trailing_5yr": 47.54,
+          "trailing_10yr": 80.78,
+          "avg_annual_3yr": 9.7,
+          "avg_annual_5yr": 8.09,
+          "sharpe_ratio": 2.2,
           "management_fee": 0.15,
-          "stock_exposure": 18.6
+          "stock_exposure": 18.0
         },
         "13303": {
           "period": "202606",
@@ -4664,87 +4773,87 @@
           "stock_exposure": 61.4
         },
         "13349": {
-          "period": "202609",
-          "ytd_yield": 4.17,
-          "trailing_1yr": 5.88,
-          "trailing_3yr": 24.37,
-          "trailing_5yr": 37.62,
-          "trailing_10yr": 44.48,
-          "avg_annual_3yr": 7.54,
-          "avg_annual_5yr": 6.59,
-          "sharpe_ratio": 0.98,
+          "period": "202610",
+          "ytd_yield": 4.06,
+          "trailing_1yr": 5.06,
+          "trailing_3yr": 21.86,
+          "trailing_5yr": 37.66,
+          "trailing_10yr": 44.32,
+          "avg_annual_3yr": 6.81,
+          "avg_annual_5yr": 6.6,
+          "sharpe_ratio": 0.93,
           "management_fee": 0.15,
-          "stock_exposure": 17.5
+          "stock_exposure": 17.6
         },
         "13350": {
-          "period": "202609",
-          "ytd_yield": 12.37,
-          "trailing_1yr": 14.13,
-          "trailing_3yr": 43.03,
-          "trailing_5yr": 59.97,
-          "trailing_10yr": 73.52,
-          "avg_annual_3yr": 12.67,
-          "avg_annual_5yr": 9.85,
-          "sharpe_ratio": 1.21,
+          "period": "202610",
+          "ytd_yield": 12.55,
+          "trailing_1yr": 13.65,
+          "trailing_3yr": 42.62,
+          "trailing_5yr": 58.15,
+          "trailing_10yr": 73.8,
+          "avg_annual_3yr": 12.56,
+          "avg_annual_5yr": 9.6,
+          "sharpe_ratio": 1.16,
           "management_fee": 0.15,
-          "stock_exposure": 73.2
+          "stock_exposure": 73.0
         },
         "13887": {
-          "period": "202609",
-          "ytd_yield": 7.51,
-          "trailing_1yr": 7.3,
-          "trailing_3yr": 41.27,
+          "period": "202610",
+          "ytd_yield": 9.42,
+          "trailing_1yr": 8.43,
+          "trailing_3yr": 41.41,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 12.21,
+          "avg_annual_3yr": 12.24,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.15,
-          "stock_exposure": 73.8
+          "stock_exposure": 73.6
         },
         "14277": {
-          "period": "202609",
-          "ytd_yield": 6.52,
-          "trailing_1yr": 6.71,
-          "trailing_3yr": 32.76,
+          "period": "202610",
+          "ytd_yield": 7.58,
+          "trailing_1yr": 7.66,
+          "trailing_3yr": 36.91,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 9.91,
+          "avg_annual_3yr": 11.04,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.15,
-          "stock_exposure": 67.5
+          "stock_exposure": 67.8
         },
         "14278": {
-          "period": "202609",
-          "ytd_yield": 7.34,
-          "trailing_1yr": 10.5,
-          "trailing_3yr": 41.86,
+          "period": "202610",
+          "ytd_yield": 7.31,
+          "trailing_1yr": 9.26,
+          "trailing_3yr": 44.67,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 12.36,
+          "avg_annual_3yr": 13.1,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.15,
-          "stock_exposure": 51.2
+          "stock_exposure": 50.7
         },
         "14348": {
-          "period": "202609",
-          "ytd_yield": 5.5,
-          "trailing_1yr": 3.63,
-          "trailing_3yr": 14.89,
+          "period": "202610",
+          "ytd_yield": 4.35,
+          "trailing_1yr": 2.52,
+          "trailing_3yr": 16.19,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 4.74,
+          "avg_annual_3yr": 5.13,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.15,
-          "stock_exposure": 64.8
+          "stock_exposure": 67.7
         },
         "15342": {
-          "period": "202609",
-          "ytd_yield": 3.44,
-          "trailing_1yr": 4.52,
+          "period": "202610",
+          "ytd_yield": 3.65,
+          "trailing_1yr": 4.21,
           "trailing_3yr": null,
           "trailing_5yr": null,
           "trailing_10yr": null,
@@ -4755,9 +4864,9 @@
           "stock_exposure": 0.0
         },
         "15661": {
-          "period": "202609",
-          "ytd_yield": 9.42,
-          "trailing_1yr": 10.22,
+          "period": "202610",
+          "ytd_yield": 9.49,
+          "trailing_1yr": 10.29,
           "trailing_3yr": null,
           "trailing_5yr": null,
           "trailing_10yr": null,
@@ -4768,7 +4877,7 @@
           "stock_exposure": 38.7
         },
         "15783": {
-          "period": "202609",
+          "period": "202610",
           "ytd_yield": null,
           "trailing_1yr": null,
           "trailing_3yr": null,
@@ -4778,7 +4887,7 @@
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.15,
-          "stock_exposure": 72.4
+          "stock_exposure": 71.0
         }
       },
       "visible_tracks": [
@@ -4828,7 +4937,8 @@
         "202606",
         "202607",
         "202608",
-        "202609"
+        "202609",
+        "202610"
       ],
       "tracks_meta": {
         "962": "אנליסט השתלמות כללי",
@@ -5042,6 +5152,12 @@
             "ytd_yield": 6.05,
             "total_assets": 22309.92,
             "management_fee": 0.62
+          },
+          "202610": {
+            "monthly_yield": -0.27,
+            "ytd_yield": 5.76,
+            "total_assets": 22155.83,
+            "management_fee": 0.62
           }
         },
         "963": {
@@ -5241,6 +5357,12 @@
             "monthly_yield": 0.81,
             "ytd_yield": 11.14,
             "total_assets": 17582.87,
+            "management_fee": 0.63
+          },
+          "202610": {
+            "monthly_yield": -0.94,
+            "ytd_yield": 10.1,
+            "total_assets": 17298.83,
             "management_fee": 0.63
           }
         },
@@ -5442,6 +5564,12 @@
             "ytd_yield": 2.84,
             "total_assets": 242.87,
             "management_fee": 0.61
+          },
+          "202610": {
+            "monthly_yield": 0.22,
+            "ytd_yield": 3.07,
+            "total_assets": 248.17,
+            "management_fee": 0.61
           }
         },
         "973": {
@@ -5642,6 +5770,12 @@
             "ytd_yield": 2.93,
             "total_assets": 64.81,
             "management_fee": 0.58
+          },
+          "202610": {
+            "monthly_yield": 0.2,
+            "ytd_yield": 3.14,
+            "total_assets": 66.68,
+            "management_fee": 0.58
           }
         },
         "1535": {
@@ -5841,6 +5975,12 @@
             "monthly_yield": 0.31,
             "ytd_yield": 3.03,
             "total_assets": 104.13,
+            "management_fee": 0.58
+          },
+          "202610": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 3.32,
+            "total_assets": 111.14,
             "management_fee": 0.58
           }
         },
@@ -6080,6 +6220,12 @@
             "ytd_yield": 4.06,
             "total_assets": 549.14,
             "management_fee": 0.5
+          },
+          "202610": {
+            "monthly_yield": 0.18,
+            "ytd_yield": 4.25,
+            "total_assets": 561.76,
+            "management_fee": 0.5
           }
         },
         "8779": {
@@ -6279,6 +6425,12 @@
             "monthly_yield": 0.86,
             "ytd_yield": -0.48,
             "total_assets": 562.68,
+            "management_fee": 0.62
+          },
+          "202610": {
+            "monthly_yield": 2.61,
+            "ytd_yield": 2.12,
+            "total_assets": 551.78,
             "management_fee": 0.62
           }
         },
@@ -6480,6 +6632,12 @@
             "ytd_yield": 7.79,
             "total_assets": 1483.1,
             "management_fee": 0.62
+          },
+          "202610": {
+            "monthly_yield": 2.38,
+            "ytd_yield": 10.36,
+            "total_assets": 1504.8,
+            "management_fee": 0.62
           }
         },
         "15311": {
@@ -6649,6 +6807,12 @@
             "monthly_yield": -0.8,
             "ytd_yield": 4.1,
             "total_assets": 1498.72,
+            "management_fee": 0.61
+          },
+          "202610": {
+            "monthly_yield": -1.91,
+            "ytd_yield": 2.11,
+            "total_assets": 1416.98,
             "management_fee": 0.61
           }
         },
@@ -6820,72 +6984,78 @@
             "ytd_yield": 23.07,
             "total_assets": 423.19,
             "management_fee": 0.62
+          },
+          "202610": {
+            "monthly_yield": -3.27,
+            "ytd_yield": 19.05,
+            "total_assets": 434.36,
+            "management_fee": 0.62
           }
         }
       },
       "trailing": {
         "962": {
-          "period": "202609",
-          "ytd_yield": 6.05,
-          "trailing_1yr": 9.12,
-          "trailing_3yr": 44.8,
-          "trailing_5yr": 51.11,
-          "trailing_10yr": 111.36,
-          "avg_annual_3yr": 13.13,
-          "avg_annual_5yr": 8.61,
-          "sharpe_ratio": 1.07,
+          "period": "202610",
+          "ytd_yield": 5.76,
+          "trailing_1yr": 7.55,
+          "trailing_3yr": 48.53,
+          "trailing_5yr": 46.5,
+          "trailing_10yr": 110.18,
+          "avg_annual_3yr": 14.1,
+          "avg_annual_5yr": 7.94,
+          "sharpe_ratio": 0.98,
           "management_fee": 0.62,
-          "stock_exposure": 50.3
+          "stock_exposure": 50.7
         },
         "963": {
-          "period": "202609",
-          "ytd_yield": 11.14,
-          "trailing_1yr": 15.6,
-          "trailing_3yr": 77.31,
-          "trailing_5yr": 82.93,
-          "trailing_10yr": 249.84,
-          "avg_annual_3yr": 21.04,
-          "avg_annual_5yr": 12.84,
-          "sharpe_ratio": 1,
+          "period": "202610",
+          "ytd_yield": 10.1,
+          "trailing_1yr": 12.19,
+          "trailing_3yr": 81.51,
+          "trailing_5yr": 72.1,
+          "trailing_10yr": 247.28,
+          "avg_annual_3yr": 21.98,
+          "avg_annual_5yr": 11.47,
+          "sharpe_ratio": 0.91,
           "management_fee": 0.63,
-          "stock_exposure": 100.4
+          "stock_exposure": 100.7
         },
         "972": {
-          "period": "202609",
-          "ytd_yield": 2.84,
-          "trailing_1yr": 4.54,
-          "trailing_3yr": 17.09,
-          "trailing_5yr": 13.78,
+          "period": "202610",
+          "ytd_yield": 3.07,
+          "trailing_1yr": 3.93,
+          "trailing_3yr": 18.99,
+          "trailing_5yr": 13.74,
           "trailing_10yr": 29.86,
-          "avg_annual_3yr": 5.4,
-          "avg_annual_5yr": 2.62,
-          "sharpe_ratio": -0.03,
+          "avg_annual_3yr": 5.97,
+          "avg_annual_5yr": 2.61,
+          "sharpe_ratio": -0.05,
           "management_fee": 0.61,
           "stock_exposure": 1.2
         },
         "973": {
-          "period": "202609",
-          "ytd_yield": 2.93,
-          "trailing_1yr": 4.57,
-          "trailing_3yr": 15.39,
-          "trailing_5yr": 10.19,
-          "trailing_10yr": 20.43,
-          "avg_annual_3yr": 4.89,
-          "avg_annual_5yr": 1.96,
-          "sharpe_ratio": -0.27,
+          "period": "202610",
+          "ytd_yield": 3.14,
+          "trailing_1yr": 3.85,
+          "trailing_3yr": 17.03,
+          "trailing_5yr": 10.23,
+          "trailing_10yr": 20.66,
+          "avg_annual_3yr": 5.38,
+          "avg_annual_5yr": 1.97,
+          "sharpe_ratio": -0.28,
           "management_fee": 0.58,
           "stock_exposure": 0.0
         },
         "1535": {
-          "period": "202609",
-          "ytd_yield": 3.03,
-          "trailing_1yr": 4.14,
-          "trailing_3yr": 13.63,
-          "trailing_5yr": 17.01,
-          "trailing_10yr": 18.53,
-          "avg_annual_3yr": 4.35,
-          "avg_annual_5yr": 3.19,
-          "sharpe_ratio": -0.16,
+          "period": "202610",
+          "ytd_yield": 3.32,
+          "trailing_1yr": 4.06,
+          "trailing_3yr": 13.36,
+          "trailing_5yr": 17.33,
+          "trailing_10yr": 18.84,
+          "avg_annual_3yr": 4.27,
+          "avg_annual_5yr": 3.25,
+          "sharpe_ratio": -0.13,
           "management_fee": 0.58,
           "stock_exposure": 0.0
         },
@@ -6895,7 +7065,7 @@
           "trailing_1yr": null,
           "trailing_3yr": 3.37,
           "trailing_5yr": 10.91,
-          "trailing_10yr": 20.76,
+          "trailing_10yr": 20.49,
           "avg_annual_3yr": 1.11,
           "avg_annual_5yr": 2.09,
           "sharpe_ratio": 0.04,
@@ -6903,48 +7073,48 @@
           "stock_exposure": 9.2
         },
         "8679": {
-          "period": "202609",
-          "ytd_yield": 4.06,
-          "trailing_1yr": 6.17,
-          "trailing_3yr": 27.72,
-          "trailing_5yr": 25.89,
-          "trailing_10yr": 54.8,
-          "avg_annual_3yr": 8.5,
-          "avg_annual_5yr": 4.71,
-          "sharpe_ratio": 0.65,
+          "period": "202610",
+          "ytd_yield": 4.25,
+          "trailing_1yr": 5.21,
+          "trailing_3yr": 29.98,
+          "trailing_5yr": 24.6,
+          "trailing_10yr": 54.73,
+          "avg_annual_3yr": 9.13,
+          "avg_annual_5yr": 4.5,
+          "sharpe_ratio": 0.6,
           "management_fee": 0.5,
-          "stock_exposure": 22.1
+          "stock_exposure": 21.5
         },
         "8779": {
-          "period": "202609",
-          "ytd_yield": -0.48,
-          "trailing_1yr": -2.23,
-          "trailing_3yr": 11.07,
-          "trailing_5yr": 24.96,
-          "trailing_10yr": 57.19,
-          "avg_annual_3yr": 3.56,
-          "avg_annual_5yr": 4.56,
-          "sharpe_ratio": 0.06,
+          "period": "202610",
+          "ytd_yield": 2.12,
+          "trailing_1yr": 0.66,
+          "trailing_3yr": 10.89,
+          "trailing_5yr": 27.66,
+          "trailing_10yr": 59.11,
+          "avg_annual_3yr": 3.51,
+          "avg_annual_5yr": 5.01,
+          "sharpe_ratio": 0.17,
           "management_fee": 0.62,
           "stock_exposure": 47.6
         },
         "13853": {
-          "period": "202609",
-          "ytd_yield": 7.79,
-          "trailing_1yr": 7.15,
-          "trailing_3yr": 45.91,
+          "period": "202610",
+          "ytd_yield": 10.36,
+          "trailing_1yr": 8.56,
+          "trailing_3yr": 46.55,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 13.42,
+          "avg_annual_3yr": 13.59,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.62,
-          "stock_exposure": 100.7
+          "stock_exposure": 100.4
         },
         "15311": {
-          "period": "202609",
-          "ytd_yield": 4.1,
-          "trailing_1yr": 16.44,
+          "period": "202610",
+          "ytd_yield": 2.11,
+          "trailing_1yr": 10.02,
           "trailing_3yr": null,
           "trailing_5yr": null,
           "trailing_10yr": null,
@@ -6952,12 +7122,12 @@
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.61,
-          "stock_exposure": 100.5
+          "stock_exposure": 100.6
         },
         "15312": {
-          "period": "202609",
-          "ytd_yield": 23.07,
-          "trailing_1yr": 23.06,
+          "period": "202610",
+          "ytd_yield": 19.05,
+          "trailing_1yr": 14.76,
           "trailing_3yr": null,
           "trailing_5yr": null,
           "trailing_10yr": null,
@@ -6965,7 +7135,7 @@
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.62,
-          "stock_exposure": 98.9
+          "stock_exposure": 98.7
         }
       },
       "visible_tracks": [
@@ -7014,7 +7184,8 @@
         "202606",
         "202607",
         "202608",
-        "202609"
+        "202609",
+        "202610"
       ],
       "tracks_meta": {
         "14077": "עמ\"י קופת גמל להשקעה- מסלול כללי",
@@ -7221,6 +7392,12 @@
             "ytd_yield": 6.14,
             "total_assets": 37.9,
             "management_fee": 0.39
+          },
+          "202610": {
+            "monthly_yield": -0.51,
+            "ytd_yield": 5.6,
+            "total_assets": 38.29,
+            "management_fee": 0.39
           }
         },
         "14078": {
@@ -7420,6 +7597,12 @@
             "monthly_yield": 0.22,
             "ytd_yield": 4.1,
             "total_assets": 4.54,
+            "management_fee": 0.39
+          },
+          "202610": {
+            "monthly_yield": 0.01,
+            "ytd_yield": 4.11,
+            "total_assets": 4.55,
             "management_fee": 0.39
           }
         },
@@ -7621,6 +7804,12 @@
             "ytd_yield": 9.87,
             "total_assets": 20.3,
             "management_fee": 0.39
+          },
+          "202610": {
+            "monthly_yield": -1.16,
+            "ytd_yield": 8.59,
+            "total_assets": 20.67,
+            "management_fee": 0.39
           }
         },
         "15394": {
@@ -7785,53 +7974,59 @@
             "ytd_yield": 7.9,
             "total_assets": 6.21,
             "management_fee": 0.39
+          },
+          "202610": {
+            "monthly_yield": 2.22,
+            "ytd_yield": 10.3,
+            "total_assets": 6.35,
+            "management_fee": 0.39
           }
         }
       },
       "trailing": {
         "14077": {
-          "period": "202609",
-          "ytd_yield": 6.14,
-          "trailing_1yr": 9.58,
-          "trailing_3yr": 42.1,
+          "period": "202610",
+          "ytd_yield": 5.6,
+          "trailing_1yr": 7.41,
+          "trailing_3yr": 44.2,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 12.43,
+          "avg_annual_3yr": 12.98,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.39,
-          "stock_exposure": 50.8
+          "stock_exposure": 49.8
         },
         "14078": {
-          "period": "202609",
-          "ytd_yield": 4.1,
-          "trailing_1yr": 6.43,
-          "trailing_3yr": 25.53,
+          "period": "202610",
+          "ytd_yield": 4.11,
+          "trailing_1yr": 5.19,
+          "trailing_3yr": 26.98,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 7.87,
+          "avg_annual_3yr": 8.29,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.39,
           "stock_exposure": 24.0
         },
         "14079": {
-          "period": "202609",
-          "ytd_yield": 9.87,
-          "trailing_1yr": 16.34,
-          "trailing_3yr": 73.38,
+          "period": "202610",
+          "ytd_yield": 8.59,
+          "trailing_1yr": 12.3,
+          "trailing_3yr": 78.92,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 20.13,
+          "avg_annual_3yr": 21.4,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.39,
-          "stock_exposure": 98.1
+          "stock_exposure": 98.9
         },
         "15394": {
-          "period": "202609",
-          "ytd_yield": 7.9,
-          "trailing_1yr": 7.8,
+          "period": "202610",
+          "ytd_yield": 10.3,
+          "trailing_1yr": 8.54,
           "trailing_3yr": null,
           "trailing_5yr": null,
           "trailing_10yr": null,
@@ -7839,7 +8034,7 @@
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.39,
-          "stock_exposure": 99.4
+          "stock_exposure": 99.8
         }
       },
       "visible_tracks": null
@@ -7882,7 +8077,8 @@
         "202606",
         "202607",
         "202608",
-        "202609"
+        "202609",
+        "202610"
       ],
       "tracks_meta": {
         "7834": "אנליסט מסלולית - קופת גמל להשקעה כללי",
@@ -8094,6 +8290,12 @@
             "ytd_yield": 6.39,
             "total_assets": 4308.94,
             "management_fee": 0.62
+          },
+          "202610": {
+            "monthly_yield": -0.32,
+            "ytd_yield": 6.05,
+            "total_assets": 4281.22,
+            "management_fee": 0.62
           }
         },
         "7836": {
@@ -8293,6 +8495,12 @@
             "monthly_yield": 0.77,
             "ytd_yield": 11.04,
             "total_assets": 6593.41,
+            "management_fee": 0.61
+          },
+          "202610": {
+            "monthly_yield": -0.98,
+            "ytd_yield": 9.95,
+            "total_assets": 6523.96,
             "management_fee": 0.61
           }
         },
@@ -8494,6 +8702,12 @@
             "ytd_yield": 2.75,
             "total_assets": 98.48,
             "management_fee": 0.61
+          },
+          "202610": {
+            "monthly_yield": 0.15,
+            "ytd_yield": 2.9,
+            "total_assets": 104.88,
+            "management_fee": 0.61
           }
         },
         "7839": {
@@ -8693,6 +8907,12 @@
             "monthly_yield": 0.32,
             "ytd_yield": 3.05,
             "total_assets": 46.12,
+            "management_fee": 0.58
+          },
+          "202610": {
+            "monthly_yield": 0.28,
+            "ytd_yield": 3.34,
+            "total_assets": 48.97,
             "management_fee": 0.58
           }
         },
@@ -8894,6 +9114,12 @@
             "ytd_yield": -0.4,
             "total_assets": 144.1,
             "management_fee": 0.61
+          },
+          "202610": {
+            "monthly_yield": 2.32,
+            "ytd_yield": 1.91,
+            "total_assets": 143.2,
+            "management_fee": 0.61
           }
         },
         "7843": {
@@ -9093,6 +9319,12 @@
             "monthly_yield": -0.82,
             "ytd_yield": 4.12,
             "total_assets": 1024.87,
+            "management_fee": 0.61
+          },
+          "202610": {
+            "monthly_yield": -1.87,
+            "ytd_yield": 2.17,
+            "total_assets": 967.87,
             "management_fee": 0.61
           }
         },
@@ -9294,6 +9526,12 @@
             "ytd_yield": 4.49,
             "total_assets": 209.16,
             "management_fee": 0.61
+          },
+          "202610": {
+            "monthly_yield": 0.17,
+            "ytd_yield": 4.66,
+            "total_assets": 216.46,
+            "management_fee": 0.61
           }
         },
         "13854": {
@@ -9494,6 +9732,12 @@
             "ytd_yield": 7.77,
             "total_assets": 1057.96,
             "management_fee": 0.56
+          },
+          "202610": {
+            "monthly_yield": 2.36,
+            "ytd_yield": 10.32,
+            "total_assets": 1080.6,
+            "management_fee": 0.56
           }
         },
         "15309": {
@@ -9664,118 +9908,124 @@
             "ytd_yield": 23.0,
             "total_assets": 236.49,
             "management_fee": 0.6
+          },
+          "202610": {
+            "monthly_yield": -3.22,
+            "ytd_yield": 19.03,
+            "total_assets": 248.85,
+            "management_fee": 0.6
           }
         }
       },
       "trailing": {
         "7834": {
-          "period": "202609",
-          "ytd_yield": 6.39,
-          "trailing_1yr": 9.64,
-          "trailing_3yr": 43.21,
-          "trailing_5yr": 47.84,
+          "period": "202610",
+          "ytd_yield": 6.05,
+          "trailing_1yr": 7.77,
+          "trailing_3yr": 46.32,
+          "trailing_5yr": 43.56,
           "trailing_10yr": null,
-          "avg_annual_3yr": 12.72,
-          "avg_annual_5yr": 8.13,
-          "sharpe_ratio": 0.98,
+          "avg_annual_3yr": 13.53,
+          "avg_annual_5yr": 7.5,
+          "sharpe_ratio": 0.89,
           "management_fee": 0.62,
-          "stock_exposure": 51.4
+          "stock_exposure": 51.6
         },
         "7836": {
-          "period": "202609",
-          "ytd_yield": 11.04,
-          "trailing_1yr": 15.51,
-          "trailing_3yr": 76.7,
-          "trailing_5yr": 82.06,
+          "period": "202610",
+          "ytd_yield": 9.95,
+          "trailing_1yr": 12.04,
+          "trailing_3yr": 81.83,
+          "trailing_5yr": 71.02,
           "trailing_10yr": null,
-          "avg_annual_3yr": 20.9,
-          "avg_annual_5yr": 12.73,
-          "sharpe_ratio": 0.99,
+          "avg_annual_3yr": 22.05,
+          "avg_annual_5yr": 11.33,
+          "sharpe_ratio": 0.89,
           "management_fee": 0.61,
           "stock_exposure": 100.3
         },
         "7837": {
-          "period": "202609",
-          "ytd_yield": 2.75,
-          "trailing_1yr": 4.44,
-          "trailing_3yr": 17.12,
-          "trailing_5yr": 13.16,
+          "period": "202610",
+          "ytd_yield": 2.9,
+          "trailing_1yr": 3.68,
+          "trailing_3yr": 18.88,
+          "trailing_5yr": 13.04,
           "trailing_10yr": null,
-          "avg_annual_3yr": 5.41,
-          "avg_annual_5yr": 2.5,
-          "sharpe_ratio": -0.06,
+          "avg_annual_3yr": 5.93,
+          "avg_annual_5yr": 2.48,
+          "sharpe_ratio": -0.09,
           "management_fee": 0.61,
           "stock_exposure": 0.8
         },
         "7839": {
-          "period": "202609",
-          "ytd_yield": 3.05,
-          "trailing_1yr": 4.16,
-          "trailing_3yr": 13.73,
-          "trailing_5yr": 17.25,
+          "period": "202610",
+          "ytd_yield": 3.34,
+          "trailing_1yr": 4.08,
+          "trailing_3yr": 13.47,
+          "trailing_5yr": 17.57,
           "trailing_10yr": null,
-          "avg_annual_3yr": 4.38,
-          "avg_annual_5yr": 3.23,
-          "sharpe_ratio": -0.03,
+          "avg_annual_3yr": 4.3,
+          "avg_annual_5yr": 3.29,
+          "sharpe_ratio": 0,
           "management_fee": 0.58,
           "stock_exposure": 0.0
         },
         "7842": {
-          "period": "202609",
-          "ytd_yield": -0.4,
-          "trailing_1yr": -2.17,
-          "trailing_3yr": 11.31,
-          "trailing_5yr": 24.49,
+          "period": "202610",
+          "ytd_yield": 1.91,
+          "trailing_1yr": 0.43,
+          "trailing_3yr": 10.76,
+          "trailing_5yr": 26.57,
           "trailing_10yr": null,
-          "avg_annual_3yr": 3.64,
-          "avg_annual_5yr": 4.48,
-          "sharpe_ratio": 0.06,
+          "avg_annual_3yr": 3.47,
+          "avg_annual_5yr": 4.83,
+          "sharpe_ratio": 0.15,
           "management_fee": 0.61,
-          "stock_exposure": 46.3
+          "stock_exposure": 46.6
         },
         "7843": {
-          "period": "202609",
-          "ytd_yield": 4.12,
-          "trailing_1yr": 16.46,
-          "trailing_3yr": 101.92,
-          "trailing_5yr": 104.4,
+          "period": "202610",
+          "ytd_yield": 2.17,
+          "trailing_1yr": 10.08,
+          "trailing_3yr": 102.45,
+          "trailing_5yr": 97.21,
           "trailing_10yr": null,
-          "avg_annual_3yr": 26.39,
-          "avg_annual_5yr": 15.37,
-          "sharpe_ratio": 1.11,
+          "avg_annual_3yr": 26.5,
+          "avg_annual_5yr": 14.55,
+          "sharpe_ratio": 1.02,
           "management_fee": 0.61,
-          "stock_exposure": 100.2
+          "stock_exposure": 100.6
         },
         "7986": {
-          "period": "202609",
-          "ytd_yield": 4.49,
-          "trailing_1yr": 6.81,
-          "trailing_3yr": 28.48,
-          "trailing_5yr": 26.14,
+          "period": "202610",
+          "ytd_yield": 4.66,
+          "trailing_1yr": 5.81,
+          "trailing_3yr": 30.75,
+          "trailing_5yr": 24.85,
           "trailing_10yr": null,
-          "avg_annual_3yr": 8.71,
-          "avg_annual_5yr": 4.75,
-          "sharpe_ratio": 0.67,
+          "avg_annual_3yr": 9.35,
+          "avg_annual_5yr": 4.54,
+          "sharpe_ratio": 0.62,
           "management_fee": 0.61,
-          "stock_exposure": 22.1
+          "stock_exposure": 21.3
         },
         "13854": {
-          "period": "202609",
-          "ytd_yield": 7.77,
-          "trailing_1yr": 7.13,
-          "trailing_3yr": 45.98,
+          "period": "202610",
+          "ytd_yield": 10.32,
+          "trailing_1yr": 8.51,
+          "trailing_3yr": 46.57,
           "trailing_5yr": null,
           "trailing_10yr": null,
-          "avg_annual_3yr": 13.44,
+          "avg_annual_3yr": 13.59,
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.56,
-          "stock_exposure": 100.1
+          "stock_exposure": 100.0
         },
         "15309": {
-          "period": "202609",
-          "ytd_yield": 23.0,
-          "trailing_1yr": 23.0,
+          "period": "202610",
+          "ytd_yield": 19.03,
+          "trailing_1yr": 14.76,
           "trailing_3yr": null,
           "trailing_5yr": null,
           "trailing_10yr": null,
@@ -9783,7 +10033,7 @@
           "avg_annual_5yr": null,
           "sharpe_ratio": null,
           "management_fee": 0.6,
-          "stock_exposure": 98.5
+          "stock_exposure": 98.2
         }
       },
       "visible_tracks": [
